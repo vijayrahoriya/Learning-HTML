@@ -1,0 +1,358 @@
+.header{
+    background: rgb(93, 89, 89);
+    margin: 0;
+}
+.header .line{
+    display: flex;
+    background: orangered;
+    color: #fff;
+    padding: 20px;
+}
+.header li{
+    padding: 0 10px;
+}
+.navbar-brand{
+    padding: 0 ;
+}
+.header p{
+    font-size: .5rem;
+}
+.navbar{
+    margin: 0;
+    padding: 0;
+}
+.header .left{
+    margin: 0 10px;
+    color: #fff;
+    padding: 10px 0;
+}
+.header .line i{
+    font-size: 2rem;
+}
+.header .right h2{
+    margin: 0;
+}
+.header .navbar .active .nav-link b{
+    color: orangered;
+}
+.navbar .collapse{
+    padding: 20px 0;
+}
+.navbar .form-inline{
+    padding: 20px 0;
+}
+.navbar .form-inline a{
+    color: #777;
+}
+.navbar .form-inline i{
+    margin: 0 5px;
+}
+.banner{
+    background: url('../image/naturebig.webp') no-repeat 0 0;
+    background-position: center;
+    background-size: cover;
+    height: 70vh;
+}
+
+.banner{
+    display: flex;
+    align-items: flex-end;
+}
+.banner .big{
+    display: flex;
+    justify-content: center;
+}
+.banner .box{
+    width: 75%;
+    background: orangered;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+.section{
+    margin: 80px 0;
+    text-align: center;
+}
+.section h2{
+    margin-bottom: 30px;
+}
+.section .first i{
+    color: #fff;
+    background: gray;
+    padding: 15px 15px;
+    border-radius: 5rem;
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+.section p{
+    color: #777;
+}
+.section h4{
+    margin-bottom: 20px;
+}
+.section .first button{
+    background: none;
+    border: 2px solid orangered;
+    padding: 10px 20px;
+    border-radius: .25rem;
+    margin: 10px 0;
+}
+.section .first a{
+    color: orangered;
+}
+.section .second button{
+    background: none;
+    border: 2px solid gray;
+    padding: 10px 20px;
+    border-radius: .25rem;
+    margin: 10px 0;
+}
+.section .second a{
+    color: #666;
+}
+.section .second i{
+    font-size: 2rem;
+    color: #fff;
+    background: orangered;
+    padding: 15px 19px;
+    border-radius: 5rem;
+    margin-bottom: 15px;
+}
+.advice{
+    background: #dfdfdf;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+.advice h2{
+    margin-bottom: 20px;
+}
+.advice .box{
+    background: #fff;
+    padding: 15px;
+    margin-top: 30px;
+    border-radius: .25rem;
+}
+.advice h4{
+    margin-top: 20px;
+    color: orangered
+}
+.advice .right{
+    color: orangered;
+    border:2px solid orangered;
+    border-radius: 5rem;
+    padding: 5px;
+    
+}
+.advice i{
+    color: gray;
+    border: 2px solid gray;
+    border-radius: 5rem;
+    padding: 5px;
+    
+}
+.info{
+    display: flex;
+}
+.info .right{
+    width: 50%;
+    background: gray;
+    padding: 40px 100px;
+    color: #fff;
+}
+.info h3{
+    margin-bottom: 20px;
+}
+.info .left{
+    width: 50%;
+    background: orangered;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+}
+.info .line{
+    display: flex;
+    
+}
+.info .line .right2{
+    margin-left: 15px;
+}
+.info .left .box2{
+    width: 50%;
+}
+.info button{
+    padding: 10px 20px;
+    background: transparent;
+    border: 2px solid #fff;
+    border-radius: .25rem;
+    margin: 15px 0;
+}
+.info a{
+    color: #fff;
+    font-weight: 700;
+}
+.middle{
+    margin: 50px 0;
+}
+.middle i{
+    margin: 0 60px;
+    font-size: 2rem;
+    color: #000;
+}
+.contact{
+    position: relative;
+    padding-top: 80px;
+    padding-bottom: 30px;
+    background: rgb(63, 62, 62);
+    height: 400px;
+}
+.contact::before{
+    background: url('../image/building.jpg') no-repeat 0 0;
+    background-position: center;
+    background-size: cover;
+    content: "";
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: .5;
+    
+    
+}
+.contact h3{
+    color: orangered;
+    text-align: center;
+    margin-bottom: 27px;
+}
+::placeholder{
+    color: #fff;
+    z-index: 1;
+}
+.contact input{
+    background: transparent;
+    border: 2px solid rgb(194, 188, 188);
+    padding: 10px;
+    width: 90%;
+    margin-bottom: 15px;
+    outline: none;
+    z-index: -2;
+}
+.contact textarea{
+    width: 100%;
+    background: transparent;
+    color: #fff;
+    padding: 10px;
+    border: 2px solid rgb(194, 188, 188);
+}
+.contact button{
+    background: orangered;
+    padding: 8px 30px;
+    border: none;
+}
+.contact .buttons{
+    text-align: right;
+    color: #fff;
+}
+.buttons a{
+    color: #fff;
+}
+.last{
+    background: gray;
+    padding: 90px 0;
+    color: #fff;
+}
+.last .line{
+    display: flex;
+    align-items: center;
+}
+.last .map{
+    padding: 20px 25px;
+    color: #fff;
+    background: orangered;
+    border-radius: 5rem;
+    font-size: 2rem;
+    outline: double;
+    margin: 0 10px;
+}
+.last .phone{
+    padding: 20px 25px;
+    color: #fff;
+    background: orangered;
+    border-radius: 5rem;
+    font-size: 2rem;
+    outline: double;
+    margin: 0 10px;
+}
+.last i{
+    padding: 20px;
+    color: #fff;
+    background: orangered;
+    border-radius: 5rem;
+    font-size: 2rem;
+    outline: double;
+    margin: 0 10px;
+}
+.footer{
+    background: darkgray;
+    color: #fff;
+    height: 400px;
+    padding-top: 40px;
+}
+.footer em{
+    font-size: 1rem;
+}
+.footer a{
+    margin-top: 10px;
+}
+.footer img{
+    display: inline-block;
+    width: 100%;
+    height: 200px;
+}
+.footer i{
+    margin: 0 10px;
+    margin-bottom: 10px;
+    color: orangered
+}
+@media(max-width: 768px){
+    .header .navbar{
+        text-align: right;
+    }
+    .section{
+        text-align: center;
+    }
+    .advice{
+        text-align: center;
+    }
+    .info{
+        display: block;
+    }
+    .info .left{
+        width: 100%;
+    }
+    .info .right{
+        width: 100%;
+    }
+    .middle{
+        text-align: center;
+    }
+    .last{
+        text-align: center;
+    }
+    .last .line{
+        margin: 10px 0;
+    }
+    .footer{
+        text-align: center;
+    }
+}
+@media(max-width: 580px){
+    .contact{
+        height: 630px;
+    }
+    .contact::before{
+        height: 630px;
+    }
+}

@@ -1,0 +1,322 @@
+.header-slide{
+    background: skyblue;
+    color: #FFF;
+    text-align: right;
+}
+.header-slide i{
+    color: orange;
+    margin: 0 10px;
+}
+.header{
+    background: url('../image/phone.jpg') no-repeat 0 0;
+    background-position: center;
+    background-size: cover;
+    padding: 40px 0;
+}
+::placeholder{
+    color: #fff;
+    z-index: 1;
+}
+.navbar H4{
+    font-size: 2rem;
+    margin: 0;
+}
+.navbar H4 i{
+    font-size: 2rem;
+    margin-right: 10px;
+    color: orange;
+}
+.navbar .first{
+    color: skyblue;
+}
+.navbar .second{
+    color: orange;
+}
+.navbar li{
+    padding: 0 5px;
+}
+.header .text{
+    text-align: center;
+    margin-top: 250px;
+    margin-bottom: 150px;
+    color: #fff;
+}
+.header .text .btn1{
+    background: skyblue;
+    padding: 15px 30px;
+    border: none;
+    border-radius: .25rem;
+    margin-right: 10px;
+    outline: none;
+}
+.text .buttons{
+    margin-top: 80px;
+}
+.header .text .btn2{
+    background: orange;
+    padding: 15px 30px;
+    outline: none;
+    border: none;
+    border-radius: .25rem;
+}
+.header .text a{
+    color: #FFF;
+    font-weight: 700;
+}
+.section{
+    margin: 70px 0;
+}
+.big{
+    display: flex;
+    justify-content: center;
+}
+.big .box{
+    width: 50%;
+}
+.section .para{
+    color: orange;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.section h5{
+    display: inline-block;
+}
+.section p{
+    color: #777;
+}
+.why{
+    background: rgb(249, 182, 58);
+    padding: 90px 0;
+    text-align: center;
+}
+.why .text{
+    display: flex;
+    justify-content: center;
+}
+.why .text .box{
+    width: 75%;
+    margin: 20px 0;
+}
+.why .icons{
+    margin: 15px 0
+}
+.icons i{
+    font-size: 3rem;
+    font-weight: 700;
+}
+.why .icons h4{
+    margin: 20px 0;
+}
+.section-slide{
+    padding: 40px 0;
+    background: rgb(227, 223, 223);
+}
+.section-slide .heading{
+    text-align: center;
+    margin: 30px;
+}
+.section-slide .photo{
+    text-align: center;
+    margin: 20px 0;
+}
+.section-slide .photo h4{
+    margin: 20px 0;
+}
+.section-slide .photo button{
+    background:  rgb(55, 162, 205);
+    padding: 15px 30px;
+    margin-top: 25px;
+    border: none;
+    border-radius: .25rem;
+    outline: none;
+}
+.section-slide .photo button:active{
+    background: skyblue;
+}
+.section-slide .photo a{
+    color: #fff;
+}
+.section-slide .photo img{
+    display: inline-block;
+    object-fit: cover;
+    object-position: center;
+    height: 200px;
+}
+.boxes{
+    display: flex;
+    justify-content: space-between;
+}
+.section .first{
+    display: flex;;
+}
+.section .first .left{
+    margin-right: 10px;
+    font-size: 5rem;
+    padding: 10px 0;
+    color: blueviolet
+}
+.section .first .right p{
+    color: blueviolet;
+    margin: 0;
+}
+.boxes .second{
+    height: 100px;
+}
+.boxes .second h2{
+    font-size: 3rem;
+    margin: 0;
+}
+.boxes .third{
+    color: blue;
+}
+.boxes .third h1{
+    font-size: 4rem;
+    margin: 0;
+}
+.boxes .second{
+    background: gray;
+    color: #FFF;
+    padding: 5px 30px;
+}
+.late{
+    background: darkgray;
+    padding: 100px 0;
+    color: #fff;
+}
+.late hr{
+    margin-bottom: 30px;
+    width: 100%;
+    background: blue;
+}
+.late h1{
+    font-size: 3rem;
+    letter-spacing: 7px;
+}
+.footer{
+    color: #fff;
+    padding-top: 80px;
+    padding-bottom: 100px;
+    text-align: center;
+    position: relative;
+}
+.footer .clone{
+    font-size: 7rem;
+    color: orange;
+}
+.footer h4{
+    margin: 20px 0;
+}
+.inputs{
+    color: rgb(247, 238, 238)
+}
+.footer input{
+    width: 100%;
+    margin: 10px 0;
+    border: 2px solid #fff;
+    padding: 10px 10px;
+    background: transparent;
+    color: #fff;
+    outline: none;
+}
+.footer button{
+    background: skyblue;
+    padding: 10px 30px;
+    border: none;
+    outline: none;
+}
+.footer .text{
+    margin-bottom: 30px;
+}
+.footer button a{
+    color: #FFF;
+}
+.footer .line{
+    display: flex;
+}
+.footer .line i{
+    color: skyblue;
+    font-size: 2rem;
+}
+.footer .line .right{
+    margin-left: 20px;
+}
+.footer::before{
+    background: url('../image/theater.jpg') no-repeat 0 0;
+    background-position: center;
+    background-size: cover;
+    content: "";
+    width: 100%;
+    height: 600px;
+    top: 0;
+    left: 0;
+    position: absolute;
+    opacity: .6;
+    z-index: -1;
+}
+.inputs{
+    text-align: left;
+}
+.footer-slide{
+    background: rgb(61, 57, 57);
+    color: #fff;
+    padding: 40px 0;
+    margin-top: 30px;
+}
+.footer-slide p{
+    margin: 0;
+    color: #777;
+}
+.footer-slide h4{
+    margin-bottom: 20px;
+}
+.footer-slide i{
+    color: #fff;
+    background: rgb(102, 102, 236);
+    padding: 10px 10px;
+    border-radius: 5rem;
+    margin-right: 8px;
+}
+.footer-slide .insta{
+    color: #FFF;
+    background: orangered;
+    padding: q0px 10px;
+    border-radius: 5rem;
+}
+@media(max-width: 768px){
+    .header-slide{
+        text-align: center;
+    }
+    .header .navbar{
+        text-align: right;
+    }
+    .header{
+        text-align: center;
+    }
+    .buttons{
+        text-align: center;
+    }
+    .section{
+        text-align: center;
+    }
+    .late h1{
+        text-align: center;
+    }
+    .footer-slide{
+        text-align: center;
+        margin-top: 70px;
+    }
+    .section .boxes .first{
+        justify-content: center;
+       }
+    .section .boxes{
+        display: block;
+       }
+       .footer::before{
+        height: 1000px;
+       }
+}
+@media(max-width: 580px){
+   
+   
+   
+}

@@ -1,0 +1,191 @@
+.header{
+    background-color: blue;
+    color: white;
+    padding: 10px 0;
+}
+.bar{
+    list-style: none;
+    margin-top: 10px;
+}
+.header em{
+    color: orange;
+}
+.logo{
+    text-align: right;
+}
+.search{
+    width: 80%;
+    margin-top: 10px;
+    border-radius: .25rem;
+    border: white;
+    padding: 5px 15px;
+    margin-right: 0;
+}
+.game a{
+    color: black;
+    left: 20%
+}
+.game i:hover{
+    color: black;
+}
+.game i{
+    padding: 9px 15px;
+    background-color: white;
+    border: white;
+    border-radius: .25rem;
+}
+.last{
+    text-align: left;
+}
+.bar li{
+    display: inline-block;
+    padding-right: 15px;
+}
+
+a:hover{
+    color: white;
+}
+.bar select{
+    background-color: blue;
+    border: 1px solid blue;
+    color: white
+}
+li a{
+    color: white;
+}
+.bar button{
+    background-color: white;
+    border-radius: .25rem;
+    border: 1px solid white;
+    margin-right: 15px;
+    padding: 5px 15px;
+}
+.top button a{
+    color: black;
+}
+.section{
+    padding-left: 10px;
+
+}
+.box{
+    margin: 20px 0; 
+    display: flex;
+    justify-content: space-between;
+}
+.box a{
+    color: black
+}
+.box a:hover{
+    color: black;
+}
+.carousel-item img{
+    height: 400px;
+
+}
+hr{
+    margin: 10px 0;
+}
+.ton{
+    border: 10px solid darkgray;
+}
+.tom{
+    display: flex;
+}
+.left{
+    width: 70%;
+    height: 500px;
+    padding: 10px 15px;
+    border: 10px solid darkgray;
+}
+.time{
+    margin-top: 10px;
+}
+.button{
+    text-align: center;
+}
+.left button{
+    border-radius: .25rem;
+    background-color: blue;
+    text-align: center;
+    border: none;
+    padding: 5px 5px;
+}
+.left button a{
+    color: white;
+}
+.right{
+    width: 30%;
+    border: 10px solid darkgray;
+}
+.banner{
+    background: url('../image/post-4.jpg') no-repeat 0 0;
+    text-align: right;
+    padding: 50px 0;
+}
+.banner button{
+    background-color: orange;
+    border-radius: .25rem;
+}
+.honer{
+    text-align: left;
+    padding: 20px 0;
+    width: 33%;
+    background: url('../image/post-2.jpg') no-repeat 0 0;
+
+}
+.jon{
+    display: flex;
+    border: 10px solid darkgray;
+    justify-content: space-between;
+
+}
+.honer button{
+    background-color: orange;
+    border-radius: .25rem;
+}
+.honer a{
+    color: black
+}
+.footer{
+    margin: 20px 0
+}
+@media (max-width: 768px){
+    .header{
+        text-align: center;
+    }
+    .logo{
+        text-align: center;
+    }
+    .game{
+        text-align: center;
+    }
+    .last{
+        text-align: center;
+    }
+    .section{
+        text-align: center;
+    }
+    .tom{
+        text-align: center;
+        height: 660px;;
+    }
+    .box{
+        text-align: center;
+    }
+    .left{
+        border: 0;
+        text-align: center;
+    }
+    .right{
+        border: 0;
+    }
+    .banner{
+        text-align: right;
+    }
+    .jon{
+        text-align: center;
+    }
+    .footer{
+        text-align: center;
+    }
+}

@@ -1,0 +1,116 @@
+.logo{
+    padding-top: 10px;
+}
+.bar{
+    list-style: none;
+    margin-top: 20px;
+    text-align: center;
+}
+.bar li{
+    padding-right: 20px;
+    display: inline-block;
+}
+.bar li a{
+    color: black
+}
+.game{
+    text-align: right;
+}
+.signup{
+    background-color: brown;
+    margin-top: 20px;
+    border-radius: 10%
+}
+.signup a{
+    color: white;
+}
+.banner{
+    margin-top: 10px;
+    background: url('../image/post-3.jpg') no-repeat 0 0;
+}
+.hut{
+    padding: 60px 0;
+}
+.hut button{
+    background-color: brown;
+    border-radius: 10%;
+}
+.hut button a{
+    color: white;
+}
+.section{
+    background-color: aqua;
+    color: black;
+    padding-top: 20px;
+}
+.kite{
+    background-color: #2e3260;
+    padding: 20px 0;
+    color: white;
+    margin-top: 20px;
+    border-top-left-radius: 13%;
+}
+.kite a:before{
+    content: "\f101";
+    padding-right: 5px;
+    font-family: fontAwesome;
+}
+.last{
+    margin: 50px 0;
+}
+.last a:before{
+    content: "\f101";
+    padding-right: 5px;
+    font-family: fontAwesome;
+
+}
+.footer button{
+    background-color: brown;
+    border-radius: 10%;
+}
+.footer{
+    background-color: aquamarine;
+    margin: 30px 0;
+    text-align: center;
+    padding: 40px 0;
+}
+.footer a{
+    color: white;
+}
+.footer a:after{
+    content: "\f101";
+    padding-left: 5px;
+    font-family: fontAwesome;
+}
+@media (max-width: 768px){
+    .header{
+        text-align: center;
+    }
+    h1, h2, h3{
+        text-align: center;
+    }
+    .game{
+        text-align: center;
+    }
+    .hut{
+        text-align: center;
+    }
+    .section{
+        text-align: center;
+    }
+    .kite{
+        text-align: center;
+    }
+    .last{
+        text-align: center;
+    }
+    .footer{
+        text-align: center;
+    }
+    .search{
+        margin-top: 10px;
+    }
+    .kite img{
+        margin-top: 10px;
+    }
+}

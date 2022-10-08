@@ -1,0 +1,116 @@
+.header-slide{
+    padding: 20px 0;
+}
+.header-slide h2{
+    color: orangered
+}
+.header{
+    color: white;
+    padding: 10px 0;
+    background-color: rgb(33, 33, 86);
+}
+.bar{
+    list-style: none;
+    text-align: left;
+}
+.bar li{
+    display: inline-block;
+    padding-right: 15px;
+    cursor: pointer;
+}
+.banner{
+    position: absolute;
+    text-align: right;
+    bottom: 0;
+    right: 0;
+}
+.banner em{
+    color: orangered;
+}
+.text{
+    color: white
+}
+.desktop{
+    display: block;
+}
+.mobile{
+    display: none;
+}
+.section{
+    margin: 50px 0;
+    text-align: center;
+}
+.latest{
+    margin: 30px 0;
+}
+.section-slide{
+    background-color: rgb(33, 33, 86);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+.section-slide h1{
+    color: orangered;
+}
+.icon{
+    font-size: 5rem;
+    text-align: center;
+    color: orange;
+    margin: 20px 0;
+}
+.main{
+    text-align: center;
+    padding: 50px 0;
+    color: white;
+    background-color: rgb(33, 33, 86);
+}
+.box{
+    width: 50%;
+    margin: 10px 0;
+    background-color: rgb(33, 33, 86);
+    color: white;
+    border: rgb(33, 33, 86);
+    border-bottom: 1px solid white;
+}
+.main select{
+    width: 48%;
+    background-color: rgb(33, 33, 86);
+    color: white;
+    border: rgb(33, 33, 86);
+    border-bottom: 1px solid white;
+}
+.email{
+    width: 100%;
+    text-align: left;
+    Margin: 10px 0;
+    background-color: rgb(33, 33, 86);
+    color: white;
+    
+    
+}
+textarea{
+    border: rgb(33, 33, 86);
+    width: 100%;
+    background-color: rgb(33, 33, 86);
+    color: white;
+    border-bottom: 1px solid white;
+}
+@media(max-width: 768px){
+    .header-slide{
+        text-align: center;
+    }
+    .header{
+        text-align: center;
+    }
+    .banner{
+        position: relative;
+        top: 0;
+        text-align: center;
+    }
+    .desktop{
+        display: none;
+    }
+    .mobile{
+        display: block;
+    }
+}

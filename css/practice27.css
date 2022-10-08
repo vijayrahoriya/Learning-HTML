@@ -1,0 +1,104 @@
+.big-box{
+    background-color: black;
+}
+.header{
+    background: url('../image/cafe2.jpg') no-repeat 0 0;
+}
+.game{
+    margin: 90px 0;
+    color: white;
+}
+.game button{
+    background-color: orange;
+}
+.game button a{
+    color: white;
+}
+.game label{
+    margin-right: 148px;
+}
+.ton{
+    display: flex;
+    margin-top: 90px;
+    position: absolute;
+    right: 0;
+}
+.ton img{
+    margin-right: 10px;
+    width: 300px;
+}
+.ton button{
+    background-color: black;
+}
+.ton button a{
+    color: white;
+}
+.text{
+    padding: 80px 0;
+    background-color: white;
+}
+.latest{
+    background-color: gray;
+    color: white;
+    margin: 150px 0;
+}
+.info{
+    border: 3px solid rgb(45, 12, 12);
+}
+.info a{
+    color: black
+}
+.new{
+    border: 3px solid rgb(45, 12, 12);;
+}
+.new button{
+    background-color: skyblue;
+}
+.new a{
+    color: black
+}
+.last{
+    background-color: orange;
+    margin-top: 300px;
+    position: absolute;
+    border-radius: 13%;
+    text-align: center;
+}
+.last a{
+    color: black;
+}
+.mode{
+    background-color: black;
+    color: white;
+    padding-top: 30px;
+    position: absolute;
+    right: 0;
+    margin-top: 150px;
+}
+@media (max-width: 768px){
+    h1, h2, h3, h4, h5{
+        text-align: center;
+    }
+    .ton{
+        position: relative;
+        display: flex;
+        text-align: center;
+    }
+    .game{
+        text-align: center;
+    }
+    .game button{
+        margin: 20px 0;
+    }
+    .last{
+        position: relative;
+        margin: 20px 0;
+    }
+    .mode{
+        position: relative;
+        margin: 20px 0;
+    }
+    .latest{
+        margin: 20px 0; 
+    }
+}

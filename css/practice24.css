@@ -1,0 +1,71 @@
+.header{
+    background-color: rgb(74, 74, 122);
+    color: white;
+    margin-top: 10px;
+    padding-top: 30px;
+    
+}
+.icons{
+    text-align: right;
+}
+.info{
+    background-color: white;
+    color: black;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+.info button{
+    background-color: aqua;
+    margin-top: 10px;
+}
+.info button a{
+    color: white;
+}
+.banner{
+    background: url('../image/medical.webp') no-repeat 0 0;
+}
+.top{
+    background-color: rgb(74, 74, 122);
+    color: white;
+}
+.gone{
+    text-align: right;
+    margin-top: 20px;
+}
+.bar{
+    list-style: none;
+    margin: 20px 0;
+}
+.bar li{
+    display: inline-block;
+    padding-right: 15px;
+}
+.bar li a{
+    color: white;
+}
+.last{
+    padding: 180px 0;
+}
+.last button{
+    background-color: aqua;
+}
+.last button a{
+    color: white;
+}
+.last .let{
+    background-color: black;
+}
+@media (max-width: 768px){
+    .header{
+        text-align: center;
+    }
+    .info{
+        text-align: center;
+    }
+    .banner{
+        text-align: center;
+    }
+    .gone{
+        text-align: center;
+    }
+}

@@ -1,0 +1,314 @@
+.header-slide{
+    padding: 10px;
+    border-bottom: 1px solid lightgray;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    background: #fff;
+}
+.navbar .nav-item .nav-link{
+    color: #000;
+    position: relative;
+}
+.navbar-brand h4{
+    color: blueviolet;
+    font-weight: 700;
+}
+.collapse{
+    justify-content: right;
+}
+.navbar li{
+    padding: 0 5px;
+}
+.nav-item .nav-link:hover{
+    transform: translateY(-3px);
+}
+.nav-item .nav-link::after{
+    content: "";
+    width: 0;
+    height: 1px;
+    background: blueviolet;
+    position: absolute;
+    left: 0;
+    bottom: 5px;
+}
+.nav-item .nav-link:hover::after{
+    width: 100%;
+}
+.btn{
+    background: blueviolet;
+    border: 2px solid blueviolet;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-right: 10px;
+    color: #fff;
+    transition: all .8s;
+    font-weight: 600;
+}
+.btn:hover{
+    background: none;
+    color: blueviolet;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    color: blueviolet;
+    padding: 15px 20px 15px 30px;
+    box-shadow: 0 5px 5px 0 lightgray;
+    position: fixed;
+    width: 100%;
+    margin-top: 80px;
+    z-index: 10;
+    background: #fff;
+}
+.header i{
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.header ul{
+    display: flex;
+    margin-bottom: 0;
+}
+.header li{
+    list-style: none;
+    padding: 0 15px;
+}
+.header a{
+    color: blueviolet;
+    text-decoration: none;
+    font-weight: 600;
+    position: relative;
+}
+.header li:hover{
+    transform: translateY(-3px);
+}
+.header a::after{
+    content: "";
+    width: 0;
+    height: 2px;
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    background-origin: 5px;
+    background: blueviolet;
+}
+.header a:hover::after{
+    width: 100%;
+}
+
+.section{
+    display: flex;
+    padding-top: 140px;
+}
+.section .left{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn2{
+    background: #000;
+    padding: 8px 10px;
+    border-radius: 6px;
+    border: 2px solid #000;
+    margin-right: 10px;
+    cursor: pointer;
+    color: #fff;
+    transition: all .5s;
+    margin-top: 15px;
+    font-size: .8rem;
+    font-weight: 600;
+}
+.btn2:hover{
+    background: none;
+    color: #000;
+}
+.btn-primary{
+    background: lightgray;
+    padding: 8px 10px;
+    border-radius: 6px;
+    border: 2px solid lightgray;
+    margin-right: 10px;
+    cursor: pointer;
+    color: #000;
+    transition: all .5s;
+    margin-top: 15px;
+    font-size: .8rem;
+    font-weight: 600;
+}
+.btn-primary:hover{
+    background: none;
+    color: #000;
+}
+.section span{
+    color: blueviolet;
+}
+.section p{
+    color: #777;
+    text-align: justify;
+    font-size: 1.1rem;
+}
+.section .box{
+    width: 85%;
+}
+.section .right{
+    width: 50%;
+}
+.section img{
+    min-height: 300px;
+    width: 90%;
+    transform: skew(-15deg, 0deg);
+}
+.heading{
+    text-align: center;
+    margin-top: 50px;
+}
+.courses .box{
+    margin: 50px 0;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px 0px lightgray;
+}
+.courses .bottom{
+    padding: 20px;
+}
+.courses img{
+    width: 100%;
+    height: 250px;
+    cursor: pointer;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.courses span{
+    color: #777;
+}
+.courses p{
+    color: gray;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+.courses .btn3{
+    background: blueviolet;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: 600;
+    border-radius: 5rem;
+    border: 2px solid blueviolet;
+    cursor: pointer;
+    transition: all .5s;
+}
+.courses .btn3:hover{
+    background: none;
+    color: blueviolet;
+}
+.testi .box{
+    background: lightgray;
+    padding: 30px;
+    border-radius: 6px;
+    margin: 50px 0;
+}
+.testi i{
+    color: #777;
+    margin-bottom: 15px;
+    font-size: 2rem;
+}
+.testi p{
+    color: #777;
+}
+.testi h5{
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+.last{
+    margin-left: 30px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 10px;
+}
+.footer .info{
+    display: flex;
+    place-items: center;
+}
+.footer .left-1{
+    display: flex;
+    margin-right: 10px;
+}
+.footer img{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.footer .right-1{
+    margin-left: 10px;
+    padding: 10px 30px;
+    border-left: 1px solid lightgray;
+}
+.footer .right-1 i{
+    margin: 0 10px;
+}
+.footer p{
+    color: #777;
+    margin-bottom: 0;
+}
+.footer .right{
+    text-align: right;
+}
+.footer .right i{
+    margin: 0 5px;
+    font-size: 1.5rem;
+    color: #777;
+    cursor: pointer;
+}
+
+@media(max-width: 768px){
+    .section h1{
+        font-size: 2rem;
+    }
+    .header-slide{
+        text-align: right;
+    }
+    .header .second{
+        display: none;
+    }
+    .section {
+        display: block;
+        padding-top: 200px;
+    }
+    .section .left{
+        width: 100%;
+        margin-top: 30px;
+    }
+    .section p{
+        text-align: center;
+    }
+    .section .right{
+        width: 100%;
+        margin-top: 30px;
+        display: none;
+    }
+    .section .box{
+        width: 100%;
+        text-align: center;
+    }
+    .heading{
+        margin-top: 100px;
+    }
+    .footer{
+        text-align: center;
+    }
+    .footer .right{
+        text-align: center;
+    }
+    .footer .info{
+        display: block;
+    }
+    .footer .left-1{
+        justify-content: center;
+    }
+}

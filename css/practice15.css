@@ -1,0 +1,112 @@
+.header{
+    background-color: rgb(38, 38, 78);
+    color: rgb(212, 157, 55);
+}
+.logo{
+    margin-top: 10px;
+}
+.bar{
+    list-style: none;
+    margin-top: 20px;
+}
+.bar li{
+    display: inline-block;
+    padding-right: 15px;
+}
+.bar li a{
+    color: rgb(212, 157, 55);
+}
+.section{
+    background-color: rgb(212, 157, 55);
+    margin: 30px 0;
+}
+.section .first{
+    background-color: white;
+    color: rgb(212, 157, 55);
+    text-align: center;
+    margin: 20px 0;
+}
+.section .second{
+    margin: 20px 0;
+    text-align: center;
+    color: rgb(212, 157, 55);
+    background-color: white;
+
+}
+.section .third{
+    margin: 20px 8px;
+    text-align: center;
+    color: rgb(212, 157, 55);
+    background-color: white;
+}
+.main{
+    color:rgb(212, 157, 55);
+    text-align: center;
+    background-color: white;
+}
+hr{
+    border: 2px solid;
+    margin: 20px 0;
+    color:rgb(212, 157, 55)
+}
+.hut{
+    margin: 20px 0;
+    text-align: center;
+}
+.slide{
+    background: url('../image/post-2.jpg') no-repeat 0 0;
+    padding: 50px 0;
+    text-align: right;
+}
+.medium{
+    background-color: rgb(212, 157, 55);
+    text-align: center;
+    padding: 20px 0;
+}
+.medium h2{
+    color: white;
+}
+.last{
+    margin: 30px 0;
+    padding-bottom: 40px;
+    text-align: center;
+}
+.company{
+    color: orange
+}
+.footer{
+    margin: 20px 0;
+    padding: 30px 0;
+    text-align: center;
+    background-color: rgb(38, 38, 78);
+    color: white;
+}
+@media (max-width: 768px){
+    .header{
+        text-align: center;
+    }
+    .logo{
+        text-align: center;
+    }
+    .section{
+        text-align: center;
+    }
+    .main{
+        text-align: center;
+    }
+    .hut{
+        text-align: center;
+    }
+    .slide{
+        text-align: center;
+    }
+    .medium{
+        text-align: center;
+    }
+    .last{
+        text-align: center;
+    }
+    .footer{
+        text-align: center;
+    }
+}

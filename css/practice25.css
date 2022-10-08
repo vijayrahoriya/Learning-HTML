@@ -1,0 +1,168 @@
+.header-slide{
+    background-color: black;
+    color: white;
+    padding: 6px 0;
+}
+.header-slide a{
+    color: greenyellow;
+}
+.icon{
+    display: inline;
+}
+.icon a{
+    color: white
+}
+.top{
+    text-align: right;
+}
+.header{
+    background-color: rgb(99, 99, 246);
+    color: white;
+}
+.header a{
+    color: white;
+}
+.logo{
+    margin-top: 10px;
+}
+.bar{
+    list-style: none;
+    margin-top: 20px;
+    text-align: right;
+}
+.bar li{
+    display: inline-block;
+    padding-right: 15px;
+}
+.bar li a{
+    color: white
+}
+.bar i{
+    padding-left: 10px;
+}
+.text{
+    padding-top: 90px;
+}
+.box{
+    background-color: white;
+    color: black;
+    margin-top: 100px;
+    padding: 40px 20px;
+    text-align: center;
+    position: absolute;
+    right: 0;
+}
+.box img{
+    margin-bottom: 20px;
+}
+.box i{
+    padding: 10px 0;
+}
+.box button{
+    border: rgb(73, 200, 73);
+    margin: 20px 0;
+    background-color: rgb(73, 200, 73);
+}
+.box button a{
+    color: white;
+}
+.middle{
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 40px;
+    background-color: aliceblue;
+}
+.middle p{
+    display: inline-block;
+}
+.middle i{
+    color: white;
+    border-radius: 50%;
+    background-color:rgb(73, 200, 73)
+}
+.game button{
+    margin-top: 30px;
+    background-color: aliceblue;
+}
+.game button a{
+    color: black;
+}
+.big-box{
+    padding: 20px 0;
+    margin-top: 20px;
+    border: 2px solid black;
+}
+.big-box button{
+    border:rgb(73, 200, 73);
+    background-color: rgb(73, 200, 73);
+}
+.big-box button a{
+    color: white;
+}
+.point{
+    background-color: aliceblue;
+}
+.point p{
+    display: inline-block;
+}
+.last{
+    background-color: rgb(73, 200, 73);
+    color: white;
+    padding: 30px 0;
+    text-align: center;
+    margin: 20px 0;
+}
+.footer{
+    margin: 20px 0;
+}
+.footer h2{
+    display: inline-block;
+}
+.footer i{
+    color: orangered;
+    font-size: 2rem;
+}
+.links p a{
+    color: black;
+}
+.footer h4{
+    color: gray;
+}
+@media (max-width: 768px){
+    .header-slide{
+        text-align: center;
+    }
+    .top{
+        text-align: center;
+    }
+    .bar{
+        text-align: center;
+    }
+    .logo{
+        text-align: center;
+    }
+    .header{
+        text-align: center;
+    }
+    .text{
+        text-align: center;
+    }
+    .box{
+        text-align: center;
+        position: relative;
+    }
+    
+    .middle{
+        text-align: center;
+    }
+    .game{
+        text-align: center;
+    }
+    
+    .footer{
+        text-align: center;
+    }
+    h1, h2, h3, h4, h5{
+        text-align: center;
+    }
+}

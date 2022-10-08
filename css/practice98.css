@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Pacifico&display=swap');
+.header{
+    background: yellowgreen;
+    padding: 5px 0;
+}
+.navbar{
+    margin: 0;
+    padding: 0;
+}
+.active .nav-link{
+    color: #fff;
+}
+.navbar .nav-item .nav-link{
+    color: #fff;
+}
+.navbar li{
+    padding-right: 10px;
+}
+.header-slide{
+    padding-top: 40px;
+    border-bottom: 1px solid gray;
+    box-shadow: 0 5px 5px 0 #aaa;
+}
+.header-slide h1{
+    color: yellowgreen;
+    margin: 0;
+    font-size: 3rem;
+    font-family: 'Dancing Script', cursive;
+font-family: 'Pacifico', cursive;
+}
+.header-slide button{
+    background: #000;
+    width: 60%;
+    padding: 10px 20px;
+    border: 2px solid rgb(190, 186, 186);
+}
+.header-slide p{
+    letter-spacing: 2px;
+    margin-left: 20px;
+    font-size: 1.3rem;
+}
+.header-slide .right{
+    text-align: right;
+}
+.header-slide a{
+    color: #fff;
+}
+.banner{
+    background: url('../image/post-2.jpg') no-repeat 0 0;
+    background-position: center;
+    background-size: cover;
+    padding: 120px 0;
+}
+.text{
+    display: flex;
+}
+.text .box{
+    width: 40%;
+}
+.text h4{
+    color: yellowgreen;
+    margin: 0;
+    margin-left: 30px;
+    font-size: 3rem;
+    font-family: 'Dancing Script', cursive;
+font-family: 'Pacifico', cursive;
+}
+.text h4 hr{
+    width: 50%;
+    display: inline-block;
+    height: 2px;
+    margin: 7px 0;
+    background: yellowgreen;
+}
+.text h1{
+    font-size: 5rem;
+    margin: 0;
+}
+.text h5 hr{
+    width: 10%;
+    height: 2px;
+    margin: 5px 0;
+    display: inline-block;
+    background: yellowgreen;
+}
+.text h5{
+    color: yellowgreen;
+    font-size: 2rem;
+    font-family: 'Dancing Script', cursive;
+font-family: 'Pacifico', cursive;
+}
+.but{
+    text-align: right;
+}
+.but button{
+    background: yellowgreen;
+    padding: 10px 10px;
+    border: none;
+    margin-top: 20px;
+    width: 40%;
+}
+.but b{
+    font-size: 1.2rem;
+}
+.but a{
+    color: #fff;
+    
+}
+.banner2{
+    background: url('../image/office.jpg') no-repeat 0 0;
+    background-position: center;
+    background-size: cover;
+    padding: 70px 0;
+    color: #fff;
+}
+.banner2 .box{
+    padding: 20px;
+    text-align: center;
+}
+.banner2 .box button{
+    background: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.banner2 .first{
+    background: yellowgreen;
+}
+.second{
+    background: rgb(82, 103, 42);
+}
+.third{
+    background: rgb(106, 143, 32);
+}
+.forth{
+    background: rgb(132, 189, 19);
+}
+.banner2 a{
+    color: #000;
+}
+.team{
+    margin: 70px 0;
+}
+.team .line{
+    display: flex;
+    margin: 10px 0;
+}
+.line p{
+    display: inline;
+}
+.line .left i{
+    padding: 10px;
+    font-size: 2rem;
+    border: none;
+    background: lightgray;
+    color: #fff;
+    border-radius: 50%;
+    font-weight: 700;
+}
+.line .right{
+    margin-left: 20px;
+}
+.line hr{
+    background: gray;
+    width: 100%;
+    height: 1px;
+    margin: 10px 0;
+}
+.line2{
+    display: flex;
+    color: lightgray;
+    align-items: center;
+}
+.line2 .hori{
+    width: 30%;
+    padding-bottom: 10px;
+}
+.line2 .hori hr{
+    width: 90%;
+    height: 1px;
+    background: lightgray;
+}
+.big{
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+.big .right{
+    margin-left: 10px;
+    width: 48%;
+}
+.big .left{
+    width: 48%;
+}
+.big h5{
+    margin: 10px 0;
+}
+.big img{
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.big p{
+    color: gray;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+.big a{
+    color: #000;
+    text-decoration: none;
+}
+.footer{
+    background: #000;
+    color: #fff;
+    padding: 50px 0;
+}
+.footer h3{
+    margin-bottom: 20px;
+}
+.line3{
+    display: flex;
+}
+.line3 input{
+    width: 90%;
+    padding: 10px;
+    border: none;
+    border-radius: .25rem;
+    margin-bottom: 10px;
+}
+.line3 .left{
+    width: 50%;
+}
+
+.line3 p{
+    margin-top: 20px;
+}
+.line3 textarea{
+    width: 100%;
+}
+.line4{
+    display: flex;
+}
+.buttons{
+    text-align: right;
+}
+.footer button{
+    background: yellowgreen;
+    padding: 10px 30px;
+    border: none;
+    margin-top: 10px;
+}
+.footer a{
+    color: #fff;
+}
+.last h3{
+    margin-bottom: 40px;
+}
+.face{
+    padding: 10px 15px;
+    background: lightgray;
+    color: #fff;
+}
+.Twitter{
+    padding: 10px 13px;
+    background: lightgray;
+    color: #fff;
+}
+.line4 .google{
+    padding: 10px;
+    background: lightgray;
+    color: #fff;
+}
+.line4 .right{
+    margin-left: 20px;
+}
+.footer hr{
+    width: 100%;
+    background: lightgray;
+    margin: 10px 0;
+}
+.footer-slide{
+    background: yellowgreen;
+    height: 5px;
+}
+@media(max-width: 768px){
+    .footer .line3{
+        display: block;
+    }
+    .footer .line3 .left{
+        width: 100%;
+    }
+    .header-slide .right{
+        margin: 10px 0;
+        text-align: center;
+    }
+}
+@media(max-width: 500px){
+    .big{
+        display: block;
+    }
+    .big .left{
+        width: 100%;
+    }
+    .big .right{
+        width: 100%;
+    }
+}

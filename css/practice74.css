@@ -1,0 +1,312 @@
+.header-slide{
+    background-color: rgb(58, 58, 163);
+    color: #fff;
+}
+.line{
+    display: flex;
+    justify-content: space-between;
+}
+.line .box{
+    cursor: pointer;
+    padding: 0 10px;
+    border-right: 1px solid #000;
+}
+.line .box i{
+    margin-right: 10px;
+}
+.icon i{
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+}
+.line .box em{
+    color: aqua;
+}
+.header-slide .icon{
+    text-align: right;
+}
+.collapse{
+    justify-content: right;
+}
+.header h1 em{
+    color: aqua;
+}
+.header li i{
+    border: 2px solid #000;
+    padding: 5px 5px;
+    border-radius: 5rem;
+}
+.d-block{
+    height: 500px;
+}
+.banner{
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    color: white;
+    
+    text-align: center;
+}
+.btn-prime{
+    background: aqua;
+    padding: 10px 30px;
+    border-radius: .25rem;
+    margin-top: 20px;
+    border: none;
+    margin-right: 10px;
+    margin-bottom: 15px;
+}
+/*.tony .carousel-control-prev-icon{
+    padding: 20px 20px;
+    font-size: 1rem;
+    border: 1px solid white;
+    color: #fff;
+}*/
+.banner a{
+    color: #fff;
+    text-decoration: none;
+}
+.btn{
+    background: transparent;
+    border: 1px solid #fff;
+    border-radius: .25rem;
+    padding: 8px 20px;
+}
+.holydays{
+    background: #555;
+    color: white;
+    padding: 5px 0;
+}
+.holydays h5{
+    color: #777;
+}
+.holydays .text0 h5{
+    display: inline-block;
+    margin: 0 10px;
+}
+.holydays .text0 input{
+    padding: 10px 10px;
+    margin-right: 10px;
+    width: 30%;
+    border-radius: .25rem;
+    outline: none;
+}
+.holydays .text0 .first{
+    position: absolute;
+    top: 45%;
+    right: 65%;
+    color: #000;
+}
+.holydays .text0 .second{
+    position: absolute;
+    top: 45%;
+    right: 25%;
+    color: #000;
+}
+.section{
+    margin-top: 80px;
+}
+.text{
+    text-align: center;
+    margin-bottom: 60px;
+}
+.img-section{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 70px;
+    justify-content: space-between;
+}
+.img-content{
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+}
+.img-content:hover{
+    transform: scale(1.5);
+    color: white;
+}
+.img-content img{
+    display: inline-block;
+    width: 230px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.img-content .text{
+    background: #777;
+    height: 50px;
+}
+.type{
+    background-color: gray;
+    color: #fff;
+    padding: 70px 0;
+}
+.type .icons{
+    text-align: center;
+}
+.type .icons i{
+    font-size: 2rem;
+    color: #fff;
+    padding: 30px 30px;
+    border: 3px solid #fff;
+    border-radius: 8rem;
+    margin-bottom: 10px;
+}
+.type .icons i:hover{
+    color: aqua;
+    border: 3px solid aqua;
+}
+.type .icons p:hover{
+    color: aqua;
+}
+.type p{
+    color: rgb(231, 226, 226);
+}
+.clients .text2{
+    text-align: center;
+    margin: 50px 0;
+}
+.slide-show .d-block{
+    opacity: 0;
+    height: 250px;
+}
+.slide-show .bat{
+    position: absolute;
+    width: 100%;
+    top: 1%;
+}
+.slide-show .bat p em{
+    color: aqua;
+}
+.bat .ton{
+    border-top: 4px solid aqua;
+}
+.footer{
+    background-color: gray;
+    color: #fff;
+    padding: 50px 0;
+}
+.footer h4{
+    color: aqua;
+    margin-bottom: 10px;
+}
+.footer em{
+    color: aqua;
+}
+.footer input{
+    padding: 10px 10px;
+    width: 50%;
+    margin-right: 10px;
+    margin-top: 10px;
+    border-radius: .25rem;
+    outline: none;
+}
+.footer .buttons button{
+    background: transparent;
+    border: 1px solid white;
+    padding: 5px 5px;
+    margin-bottom: 5px;
+    border-radius: .25rem;
+}
+.buttons a{
+    color: white;
+    text-decoration: none;
+}
+.big{
+    display: flex;
+}
+.right{
+    margin-left: 10px;
+}
+.footer .left img{
+    display: inline-block;
+    margin-top: 5px;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #fff;
+}
+.footer i{
+    font-size: 2rem;
+    color: #fff;
+    margin-right: 15px;
+}
+.footer hr{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    background: gray;
+    width: 100%;
+}
+.lists{
+    text-align: center;
+}
+.lists a{
+    color: #fff;
+    margin: 0 20px;
+    text-decoration: none;
+}
+@media(max-width: 768px){
+    .header{
+        text-align: right;
+    }
+    .btn-prime{
+        margin-bottom: 10px;
+    }
+    .img-section{
+        justify-content: center;
+    }
+    .header-slide .icon{
+        text-align: center;
+    }
+    .header-slide{
+        text-align: center;
+    }
+    .banner{
+        text-align: center;
+    }
+    .holydays{
+        text-align: center;
+    }
+    .img-content{
+        flex-wrap: wrap;
+    }
+    .type{
+        text-align: center;
+    }
+    .text{
+        text-align: center;
+    }
+    .clients{
+        text-align: center;
+    }
+    .footer{
+        text-align: center;
+    }
+    .big{
+        justify-content: center;
+    }
+    .slide-show .d-block{
+        height: 400px;
+    }
+    .img-content{
+        margin-right: 10px;
+    }
+    .holydays .text0 input{
+        width: 100%;
+    }
+
+    
+}
+@media(max-width: 500px){
+    .d-block{
+        height: 600px;
+    }
+    .holydays .text0 h5{
+        margin: 0 0;
+    }
+    .footer h4{
+        margin-top: 15px;
+    }
+    .slide-show .d-block{
+        height: 510px;
+    }
+}

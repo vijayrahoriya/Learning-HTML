@@ -1,0 +1,237 @@
+.header{
+    background: url('../image/tiger.webp') no-repeat 0 0;
+    color: white;
+    padding-bottom: 40px;
+}
+.collapse{
+    justify-content: end;
+}
+.header em{
+    color: orange;
+}
+.text{
+    padding: 90px 0;
+}
+.box{
+    border-left: 5px solid orange;
+    border-right: 5px solid orange;
+    border-top: 5px solid orange;
+    display: flex;
+    justify-content: center;
+    padding: 44px 0;
+    width: 32%;
+    letter-spacing: .3em;
+}
+.sbox{
+    display: flex;
+    border-top: 5px solid orange;
+    justify-content: end;
+}
+.small{
+    padding: 25px 25px;
+    color: orange;
+    width: 40%;
+    border-bottom: 5px solid orange;
+    border-left: 5px solid orange;
+    border-right: 5px solid orange;
+}
+.section{
+    margin: 15px 0;
+}
+.late{
+    padding: 15px 0;
+}
+.late p{
+    color: orange;
+}
+.arrow{
+    padding: 15px 0;
+    color: orange;
+    text-align: right;
+}
+.para em{
+    margin: 0 10px;
+    color: orange;
+    font-size: 2rem;
+    text-align: center;
+}
+.latest{
+    margin: 100px 0;
+}
+.down{
+    display: flex;
+    justify-content: end;
+}
+.let{
+    width: 75%;
+    border: 3px solid orange;
+    padding: 10px 10px;
+    padding-left: 55px;
+}
+.latest h5{
+    color: gray;
+    margin-bottom: 15px;
+}
+.latest h4{
+    margin: 14px 0;
+}
+.big{
+    color: gray;
+    display: flex;
+    justify-content: space-between;
+}
+.btn{
+    border-radius: .25rem;
+    padding: 13px 30px;
+    text-align: center;
+    margin: 15px 0;
+    border: 2px solid gray;
+}
+.btn a{
+    color: gray
+}
+.discover{
+    text-align: center;
+    margin: 10px 0;
+}
+.discover h6{
+    color: gray;
+}
+.huge{
+    margin: 25px 0;
+    color: gray;
+    display: flex;
+    justify-content: space-around;
+}
+.last{
+    border-radius: .25rem;
+    width: 19%;
+    background-color: darkgray;
+    padding: 20px 20px;
+    text-align: center;
+}
+.section-slide i{
+    font-size: 4rem;
+    margin: 15px 0;
+    color: black
+}
+.another{
+    text-align: right;
+}
+.jam{
+    color: gray;
+}
+.not{
+    text-align: center;
+    margin: 10px 0;
+}
+.news{
+    margin: 120px 0;
+}
+.news h4{
+    color: black
+}
+.top{
+    border: 3px solid orange;
+    padding: 10px 10px;
+}
+.top h4{
+    color: orange;
+}
+.bot{
+    padding: 15px 30px;
+    border: 3px solid orange;
+}
+.bot p{
+    display: flex;
+    align-items: center;
+}
+.boll i{
+    color: black;
+    float: left;
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+}
+.footer-slide{
+    background-color: palegoldenrod;
+    padding: 70px 0;
+    color: chocolate;
+}
+.footer-slide h4{
+    color: black;
+}
+.num{
+    text-align: center;
+}
+.footer{
+    background-color: rgb(70, 70, 184);
+    color: white;
+    text-align: center;
+}
+.footer h4{
+    margin-bottom: 15px;
+}
+.slide{
+    text-align: left;
+    padding: 70px 0;
+}
+.footer li{
+    float: left;
+}
+.boat{
+    font-size: 5rem;
+}
+.footer a{
+    color: white;
+}
+hr{
+    width: 100%;
+    background-color: white;
+    margin: 20px 0;
+}
+@media(max-width: 768px){
+    .text{
+        text-align: center;
+    }
+    .box{
+        width: 100%;
+    }
+    .header{
+        text-align: right;
+    }
+    .arrow{
+        text-align: center;
+    }
+    .huge{
+        display: block;
+    }
+    .last{
+        width: 100%;
+        margin: 10px 0;
+    }
+    .section{
+        text-align: center;
+    }
+    .section-slide{
+        text-align: center;
+    }
+    .footer{
+        text-align: center;
+    }
+    .slide{
+        text-align: center;
+    }
+    .slide p{
+        float:none
+    }
+    .footer-slide{
+        text-align: center;
+    }
+    .latest{
+        margin: 30px 0;
+    }
+    .news{
+        margin: 40px 0;
+    }
+}

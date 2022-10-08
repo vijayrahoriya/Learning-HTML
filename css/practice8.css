@@ -1,0 +1,85 @@
+.header{
+    margin-top: 20px;
+}
+.Search{
+    display: flex;
+    padding-top: 5px;
+}
+.Search h4{
+    padding: 0 10px;
+}
+.Search input{
+    margin-left: 20px
+}
+.header-slide{
+    background-color: green;
+    color: white;
+    margin: 30px 0;
+}
+.slide{
+    margin: 10px 0;
+    display: flex;
+}
+.slide select{
+    background-color: green;
+    color: white;
+    margin-right: 15px;
+}
+.slide h5:before{
+    content: "\f073";
+    font-family: fontAwesome;
+    padding-right: 5px;
+}
+.hut{
+    display: flex;
+    background-color: green;
+    color: white;
+}
+.text{
+    background-color: green;
+    color: white;
+    padding-top: 20px;
+}
+.text button{
+    background-color: green;
+}
+button a{
+    color: white;
+}
+.hori hr{
+    background-color: gray;
+    margin: 20px 0;
+}
+.section{
+    margin: 30px 0;
+}
+.section button a{
+    color: green;
+}
+@media (max-width: 768px){
+    h1, h2, h3, h4, h5{
+        text-align: center;
+    }
+    .Search{
+        text-align: center;
+        display: block;
+    }
+    .header-slide{
+        text-align: center;
+    }
+    .slide{
+        text-align: center;
+        display: block;
+    }
+    .hut{
+        text-align: center;
+        display: block;
+    }
+    .text{
+        text-align: center;
+    }
+    .foot{
+        text-align: center;
+    }
+
+}

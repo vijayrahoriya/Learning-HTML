@@ -1,0 +1,129 @@
+.header{
+    background-color: brown;
+    color: white;
+}
+.top{
+    background-color: black;
+    height: 20px;
+}
+.logo{
+    margin-top: 15px;
+}
+.bar{
+    list-style: none;
+    margin-top: 20px;
+}
+.bar li{
+    display: inline-block;
+    padding-right: 15px;
+}
+.bar li a{
+    color: white;
+}
+.bar i{
+    position: absolute;
+    left: 80%;
+    margin: 5px 2px;
+}
+.bar a{
+    color: black;
+}
+.section li a{
+    color: black
+}
+.section-slide{
+    text-align: center;
+}
+.section-slide a{
+    margin-right: 10px;
+}
+.section-slide i{
+    color: black
+}
+.banner{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    width: 100%;
+    Margin-top: 20px;
+    padding: 20px;
+}
+form input{
+    margin: 10px 0;
+    margin-right: 10px;
+}
+ form button{
+    width: 80%;
+    border-radius: 13%;
+    background-color: brown;
+}
+form{
+    width: 60%;
+    margin-right: 100px;
+    text-align: center;
+    background-color: palegoldenrod;
+}
+form a{
+    color: black
+}
+.text{
+    padding: 40px 0;
+    color: white
+}
+.text button{
+    border: white;
+    background-color: white;
+}
+.text button a{
+    color: black;
+}
+
+.desktop-from {
+    display: block;
+}
+
+.mobile-from {
+    display: none;
+}
+
+@media(max-width: 768px){
+    .top{
+        text-align: center;
+    }
+    .bar{
+        text-align: center;
+    }
+    .logo{
+        text-align: center;
+    }
+    .section{
+        text-align: center;
+    }
+    .section-slide{
+        text-align: center;
+    }
+    .banner{
+        text-align: center;
+        top: 0;
+        right: 0;
+    }
+    .text{
+        color: black;
+    }
+    form{
+        margin-right: 10px;
+    }
+    .banner-mobile{
+        position: relative;
+        text-align: center;
+    }
+
+    .desktop-from {
+        display: none;
+    }
+
+    .mobile-from {
+        display: block;
+        position: relative;
+    }
+}

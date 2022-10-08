@@ -1,0 +1,73 @@
+.banner{
+    background-color: black;
+    color: white;
+}
+.text h1{
+    margin-top: 60px;
+}
+.text button{
+    background-color: blue;
+    border-radius: 13%;
+    margin: 20px 0;
+}
+.text button a{
+    color: white;
+}
+.text .watchmore{
+    border-radius: 13%;
+    background-color: black;
+}
+.photo{
+    background: url('../image/cafe.jpg') no-repeat 0 0;
+    padding-bottom: 295px;
+
+}
+.bar{
+    list-style: none;
+    margin-top: 20px;
+}
+.bar li{
+    display: inline-block;
+    padding-right: 15px;
+}
+li a{
+    color: white;
+}
+.photo button{
+    background-color: rgb(232, 138, 153);
+}
+.photo button a{
+    color: white;
+}
+.big{
+    background-color: gray;
+    display: flex;
+    margin-top: 30px;
+}
+.game img{
+    border-radius: 50%;
+}
+.hut h3{
+    margin-left: 10px;
+}
+.section{
+    margin-top: 60px;
+    text-align: center; 
+}
+.section h2{
+    color:rgb(55, 108, 51)
+}
+.footer{
+    margin-top: 30px;
+}
+@media (max-width: 768px){
+    .banner{
+        text-align: center;
+    }
+    .logo{
+        text-align: center;
+    }
+    h1, h2, h3, h4, h5{
+        text-align: center;
+    }
+}

@@ -1,0 +1,479 @@
+html{
+    scroll-behavior: smooth;
+}
+.collapse{
+    justify-content: right;
+}
+
+.don{
+    color: #000;
+}
+.red{
+    background: red;
+}
+.yellow{
+    background: yellow;
+}
+.up{
+    width: 30px;
+    height: 30px;
+    background: orange;
+    position: fixed;
+    right: 40px;
+    bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+}
+.up i{
+    color: #fff;
+}
+.header{
+    padding: 20px 30px;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+.header.sticky{
+    background: cyan;
+    opacity: .8;
+    z-index: 10;
+}
+.header span{
+    font-size: 1.5rem;
+}
+.header li{
+    padding: 0 10px;
+}
+.navbar .nav-link b{
+    color: #fff;
+}
+.nav-link{
+    position: relative;
+}
+.nav-link::after{
+    content: "";
+    position: absolute;
+    left: 0 ;
+    bottom: 5px;
+    background: crimson;
+    border-radius: 6px;
+    width: 0;
+    height: 3px;
+    transition: all .7s;
+}
+.nav-link:hover::after{
+    width: 100%;
+}
+.first-show li{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+.first-show .carousel-indicators{
+    bottom: 20px;
+}
+.first-show{
+    position: relative;
+}
+.banner{
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+}
+.banner .first{
+    background: orange;
+    padding: 10px 30px;
+    border: 2px solid orange;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: all .5s;
+}
+.banner .first:hover{
+    background: none;
+}
+.banner .first a{
+    color: #fff;
+    text-decoration: none;
+}
+.banner .first:hover a{
+    color: orange;
+}
+.first-show img{
+    height: 100vh;
+}
+.banner .second{
+    background: #fff;
+    padding: 10px 30px;
+    border: 2px solid #fff;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-left: 10px;
+    transition: all .5s;
+}
+.banner hr{
+    width: 5%;
+    background: orange;
+    border-radius: 6px;
+    height: 3px;
+    margin: 20px auto;
+}
+.banner h1{
+    
+    font-size: 5rem;
+}
+.banner .second:hover{
+    background: none;
+}
+.banner .second a{
+    color: #000;
+    text-decoration: none;
+}
+.banner .second:hover a{
+    color: #fff;
+}
+.big{
+    position: absolute;
+    width: 95%;
+    background: #fff;
+    bottom: -50%;
+    left: 2%;
+}
+.section{
+    padding: 100px 0;
+}
+.top{
+    text-align: center;
+}
+.text{
+    text-align: right;
+}
+.icon{
+    background: url('../image/naturebanner.jpg') no-repeat 0 0;
+    background-position: center;
+    background-size: cover;
+    padding: 100px 0;
+    color: #fff;
+    text-align: center;
+    margin: 0 40px;
+    margin-top: 400px;
+   
+}
+.icons{
+    margin-top: 30px;
+}
+.para{
+    margin-top: 45px;
+    margin-bottom: 10px;
+}
+.icon h4{
+    margin-bottom: 40px;
+}
+.icon h3{
+    padding: 25px;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    display: inline;
+}
+.table{
+    text-align: center;
+    margin: 100px 0;
+}
+.table p{
+    color: #777;
+}
+.box{
+    border: 1px solid lightgray;
+    border-radius: 6px;
+    margin-top: 60px;
+}
+.one{
+    background: lightgray;
+    border-bottom: 3px solid #000;
+    text-align: center;
+    padding: 15px;
+}
+.mid{
+    border-bottom: 1px solid #000;
+    text-align: center;
+    padding: 10px;
+}
+.mid h1{
+    margin-bottom: 0;
+}
+
+.last{
+    padding: 20px;
+}
+.last button{
+    background: lightgray;
+    padding: 10px 30px;
+    cursor: pointer;
+    border: 2px solid lightgray;
+    transition: all .5s;
+    margin: 20px 0;
+}
+.last a{
+    color: #000;
+    text-decoration: none;
+}
+.last button:hover{
+    background: none;
+}
+.sun{
+    background: url('../image/theater600.jpg') no-repeat 0 0;
+    background-position: center;
+    background-size: cover;
+    padding: 100px 0;
+    color: #fff;
+    text-align: center;
+    margin: 0 40px;
+}
+.sun i{
+    padding: 20px;
+    background: rgb(186, 147, 74);
+    border-radius: 5rem;
+    margin-bottom: 10px;
+    font-size: 2rem;
+}
+.sun h5{
+    margin-bottom: 10px;
+}
+.sun .phone{
+    padding: 20px 22px;
+}
+.testi{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.testi p{
+    color: #777;
+}
+.testi .line{
+    display: flex;
+    margin: 50px 0;
+}
+.testi h5{
+    margin-bottom: 0;
+}
+.testi span{
+    font-size: .8rem;
+}
+.testi .left{
+    width: 20%;
+}
+.testi .right{
+    width: 80%;
+    padding-left: 20px;
+}
+.testi .right p{
+    margin-top: 10px;
+}
+.testi img{
+    width: 100%;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.second-show{
+    position: relative;
+}
+.second-show img{
+    height: 50vh;
+}
+.second-show li{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+.logo{
+    color: #fff;
+    position: absolute;
+    width: 100%;
+    top: 40%;
+    text-align: center;
+}
+.second-show .carousel-indicators{
+    bottom: 55px;
+}
+.logo i{
+    font-size: 3rem;
+}
+.second-show .carousel-control-prev-icon{
+    display: none;
+}
+.second-show .carousel-control-next-icon{
+    display: none;
+}
+.blog{
+    margin: 100px 0;
+}
+.blog p{
+    color: #777;
+}
+.blog .box2{
+    border-bottom: 2px solid gray;
+    margin-top: 50px;
+}
+.blog img{
+    height: 200px;
+    width: 100%;
+    transition: all .5s;
+}
+.blog img:hover{
+    transform: scale(1.1);
+}
+.blog .bot{
+    padding-top: 20px;
+}
+.bot span{
+    color: rgb(204, 152, 55);
+}
+.bot hr{
+    width: 15%;
+    height: 3px;
+    background: rgb(204, 152, 55);
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+.footer{
+    position: relative;
+    color: #fff;
+    background-color: #000;
+}
+.footer::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: .3;
+    background: url('../image/cafe4.webp') no-repeat 0 0;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+}
+
+.footer h3{
+    margin-bottom: 20px;
+}
+.footer h5{
+    margin: 15px 0;
+}
+.footer hr{
+    width: 100%;
+    height: 1px;
+    background: #fff;
+    margin: 10px 0;
+}
+.footer p{
+    margin-bottom: 8px;
+}
+.footer span{
+    color: #777;
+}
+.footer .pre{
+    margin-top: 15px;
+}
+.footer .late{
+    margin: 60px 0;
+}
+.footer img{
+    width: 75px;
+    height:75px;
+    margin: 5px 5px 0 0;
+}
+.footer-slide{
+    text-align: center;
+    color:rgb(186, 147, 74);
+    margin-bottom: 20px;
+}
+.footer i{
+    margin: 15px 10px 0 0;
+    cursor: pointer;
+    transition: all .7s;
+}
+.footer i:hover{
+    transform: translateY(-10px);
+    color: crimson;
+    text-decoration: underline;
+}
+.red{
+    background: red;
+}
+.pink{
+    background: pink;
+}
+.ball{
+    color: #000;
+}
+
+@media(max-width: 768px){
+    .header{
+        text-align: right;
+    }
+    .banner h1{
+        font-size: 3rem;
+    }
+    .big{
+        position: relative;    
+    }
+    .section{
+        position: relative;
+        text-align: center;
+        padding: 50px 0;
+    }
+    .section .text{
+        text-align: center;
+    }
+    .icon{
+        margin: 10px 40px;
+    }
+    .logo i{
+        margin-top: 10px;
+    }
+    
+}
+@media(max-width: 580px){
+    .banner h1{
+        font-size: 3rem;
+    }
+    .logo i{
+        margin-top: 10px;
+    }
+    .footer .late{
+        margin-top: 60px;
+    }
+    .testi .line{
+        display: block;
+        text-align: center;
+    }
+    .testi .left{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .testi img{
+        width: 50%;
+        margin: 0;
+        display: inline-block;
+    }
+    .testi .right{
+        width: 100%;
+    }
+    .blog{
+        text-align: center;
+    }
+    .logo{
+        top: 20%;
+    }
+    .logo i{
+        margin: 10px 0;
+    }
+    .footer{
+        text-align: center;
+    }
+}

@@ -1,0 +1,625 @@
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&family=Playfair+Display:wght@500&display=swap');
+.header{
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    padding: 20px 0;
+}
+.header .line{
+    display: flex;
+    justify-content: space-between;
+}
+.header .line i{
+    font-size: 2rem;
+    margin-right: 10px;
+}
+.header .collapse{
+    justify-content: right;
+}
+.navbar .nav-item .nav-link{
+    color: #fff;
+    position: relative;
+}
+.navbar .nav-item .nav-link:hover{
+    color: #FFF;
+}
+.navbar .nav-item .nav-link::after{
+    content: "";
+    width: 0%;
+    height: 3px;
+    background: crimson;
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    transition: all .5s;
+}
+.navbar .nav-item .nav-link:hover::after{
+    width: 100%;
+}
+.header li{
+    padding: 0 10px;
+}
+.banner{
+    background: url('../image/theater.jpg') no-repeat 0 0;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+}
+.banner h1{
+    margin-bottom: 10px;
+    font-size: 6rem;
+}
+.banner h5{
+    letter-spacing: 26px;
+}
+.moon{
+    background: crimson;
+    padding: 50px 0;
+    color: #fff;
+    text-align: center;
+}
+.moon h1{
+    margin-bottom: 90px;
+    margin-top: 100px;
+}
+.moon .icon{
+    margin: 30px 0;
+}
+.moon .bolt{
+    padding:  50px 58px;
+}
+.moon i{
+    padding: 50px;
+    font-size: 2rem;
+    background: rgb(253, 68, 105);
+    border: 1px solid rgb(253, 68, 105);
+    border-radius: 5rem;
+    margin-bottom: 15px;
+}
+.section{
+    display: flex;
+}
+.section .left{
+    background: #000;
+    width: 50%;
+    color: #fff;
+    padding: 150px 0;
+    padding-left: 100px;
+}
+.section .box{
+    background: #000;
+    padding: 0 10px;
+}
+.section span{
+    color: orangered;
+    margin-right: 10px;
+}
+.section h2{
+    margin-bottom: 15px;
+}
+.section i{
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+.section i:hover{
+    color: crimson;
+    border: 1px solid crimson;
+}
+.section .right{
+    width: 50%;
+}
+.section img{
+    height: 100%;
+    width: 100%;
+}
+.section .left2{
+    width: 50%;
+    background: lightgray;
+    padding: 100px 30px;
+}
+.section .left2 .box{
+    background: lightgray;
+}
+.modern{
+    margin: 150px 0;
+    text-align: center;
+}
+.modern p{
+    color: #777;
+}
+.modern hr{
+    width: 5%;
+    background: crimson;
+    height: 3px;
+    border-radius: 6px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+.modern .box{
+    border-radius: 6px;
+    margin-top: 80px;
+}
+.modern img{
+    width: 100%;
+    height: 300px;
+}
+.modern .bottom{
+    padding: 20px;
+    text-align: center;
+    background: #d3d3d380;  
+}
+.be{
+    background: url('../image/phone.jpg') no-repeat 0 0;
+    background-position: center;
+    background-size: cover;
+    padding: 100px 0;
+    color: #fff;
+}
+.be .ton{
+    text-align: center;
+}
+.be h1{
+    font-family: 'Playfair Display', serif;
+    line-height: 3.5rem;
+    font-size: 5rem;
+}
+.be span{
+    color: orangered;
+    margin: 0 10px;
+}
+.be h3{
+    margin-bottom: 10px;
+}
+.big{
+    display: flex;
+    align-items: center;
+}
+.be button{
+    background: none;
+    padding: 10px;
+    border: 2px solid #fff;
+    border-radius: 6px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.be button:hover{
+    background: crimson;
+    border: 2px solid crimson;
+}
+.be a{
+    color: #fff;
+    text-decoration: none;
+}
+.icons{
+    background: crimson;
+    padding: 70px 0;
+    color: #fff;
+}
+.icons .line{
+    display: flex;
+    justify-content: space-between;
+}
+.icons i{
+    margin-right: 20px;
+    font-size: 5rem;
+}
+.mobile{
+    background: #d3d3d357;
+    padding: 100px 0;
+}
+.photo{
+    text-align: center;
+}
+.mobile img{
+    width: 80%;
+    display: inline-block;
+    height: 500px;
+    margin-top: 40px;
+}
+.mobile span{
+    color: orangered;
+    margin: 0 15px;
+    font-weight: 700;
+}
+.mobile p{
+    color: #777;
+}
+.mobile .ton{
+    display: flex;
+    align-items: center;
+}
+.mobile .line{
+    background: lightgray;
+    margin: 10px 0;
+}
+.mobile .progress1{
+    background: crimson;
+    width: 80%;
+    color: #fff;
+    height: 30px;
+    display: flex;
+    align-items: baseline;
+    padding-left: 10px;
+    border-radius: 6px;
+}
+.blog h1{
+    margin-top: 40px;
+}
+.para{
+    margin-bottom: 30px;
+}
+button{
+    transition: all .5s;
+}
+.mobile .line p{
+    color: #fff;
+}
+.mobile .progress2{
+    background: crimson;
+    width: 60%;
+    color: #fff;
+    height: 30px;
+    display: flex;
+    align-items: baseline;
+    padding-left: 10px;
+    border-radius: 6px;
+}
+.mobile .progress3{
+    background: crimson;
+    width: 90%;
+    color: #fff;
+    height: 30px;
+    display: flex;
+    align-items: baseline;
+    padding-left: 10px;
+    border-radius: 6px;
+}
+.portfolio{
+    padding: 15px 0;
+}
+.portfolio h2{
+    margin-bottom: 0;
+}
+.portfolio p{
+    color: #777;
+    margin-bottom: 5px;
+}
+.portfolio span{
+    color: crimson;
+    font-weight: 900;
+    margin-right: 15px;
+}
+.portfolio a{
+    color: gray;
+    margin: 0 20px;
+    text-decoration: none;
+    font-weight: 700;
+}
+.photos{
+    display: flex;
+}
+.photos img{
+    height: 300px;
+    width: 100%;
+}
+.photos .first{
+    width: 33%;
+}
+.num{
+    background: #222;
+    color: #fff;
+    padding: 70px 0;
+    text-align: center;
+}
+.num h1{
+    font-size: 4rem;
+}
+.team-members{
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+.team-members hr{
+    width: 5%;
+    height: 3px;
+    background: crimson;
+    border-radius: 6px;
+
+}
+.team-members .text{
+    text-align: center;
+}
+.team-members .box{
+    position: relative;
+    margin: 60px 0;
+}
+.team-members img{
+    width: 100%;
+    height: 400px;
+}
+.team-members h5{
+    position: absolute;
+    left: 5%;
+    bottom: 5%;
+    color: #fff;
+}
+.team-members p{
+    position: absolute;
+    left: 5%;
+    bottom: 0%;
+    color: #fff;
+}
+
+
+@media (min-width: 768px) {
+
+    /* show 3 items */
+    .carousel-inner .active,
+    .carousel-inner .active + .carousel-item,
+    .carousel-inner .active + .carousel-item + .carousel-item,
+    .carousel-inner .active + .carousel-item + .carousel-item + .carousel-item  {
+        display: block;
+    }
+    
+    .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left),
+    .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item,
+    .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item + .carousel-item,
+    .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item + .carousel-item + .carousel-item {
+        transition: none;
+    }
+    
+    .carousel-inner .carousel-item-next,
+    .carousel-inner .carousel-item-prev {
+      position: relative;
+      transform: translate3d(0, 0, 0);
+    }
+    
+    .carousel-inner .active.carousel-item + .carousel-item + .carousel-item + .carousel-item + .carousel-item {
+        position: absolute;
+        top: 0;
+        right: -25%;
+        z-index: -1;
+        display: block;
+        visibility: visible;
+    }
+    
+    /* left or forward direction */
+    .active.carousel-item-left + .carousel-item-next.carousel-item-left,
+    .carousel-item-next.carousel-item-left + .carousel-item,
+    .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item,
+    .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item + .carousel-item,
+    .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item + .carousel-item + .carousel-item {
+        position: relative;
+        transform: translate3d(-100%, 0, 0);
+        visibility: visible;
+    }
+    
+    /* farthest right hidden item must be abso position for animations */
+    .carousel-inner .carousel-item-prev.carousel-item-right {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        display: block;
+        visibility: visible;
+    }
+    
+    /* right or prev direction */
+    .active.carousel-item-right + .carousel-item-prev.carousel-item-right,
+    .carousel-item-prev.carousel-item-right + .carousel-item,
+    .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item,
+    .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item + .carousel-item,
+    .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item + .carousel-item + .carousel-item {
+        position: relative;
+        transform: translate3d(50%, 0, 0);
+        visibility: visible;
+        display: block;
+        visibility: visible;
+    }
+
+}
+.carousel{
+    padding: 60px 0;;
+}
+.carousel-control-next{
+    right: -15%;
+}
+.carousel-control-prev{
+    left: -15%;
+}
+.show::before{
+    content: "";
+    width: 100%;
+    height: 70vh;
+    position: absolute;
+    background: url('../image/office.jpg') no-repeat 0 0;
+    background-position: center;
+    background-size: cover;
+    opacity: .3;
+}
+.show .carousel i{
+    font-size: 5rem;
+    color: #000;
+}
+.show hr{
+    background: gray;
+    width: 100%;
+    margin: 30px 0;
+}
+.show h5{
+    text-align: center;
+    margin-top: 10px;
+}
+.late i{
+    border: 1px solid gray;
+    border-radius: 6px;
+    padding: 10px;
+    color: gray;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.late i:hover{
+    border: 1px solid crimson;
+    color: crimson;
+}
+.blog{
+    margin: 200px 0;
+}
+.blog span{
+    color: crimson;
+    margin: 10px 10px;
+    font-weight: 900;
+
+}
+.blog .line span{
+    color: #fff;
+    height: 100%;
+    font-size: 2rem;
+}
+.blog .line h1{
+    margin: 0;
+    font-size: 5rem;
+}
+.blog .first{
+    background: url('../image/adventure.jpg') no-repeat 0 0;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 8px;
+}
+.blog .second{
+    background: url('../image/airoplane.webp') no-repeat 0 0;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 8px;
+}
+.blog .third{
+    background: url('../image/banner.jpg') no-repeat 0 0;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 8px;
+}
+.blog .fourth{
+    background: url('../image/boat6.webp') no-repeat 0 0;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 8px;
+}
+.blog .fifth{
+    background: url('../image/building.jpg') no-repeat 0 0;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 8px;
+}
+.blog .line{
+    display: flex;
+    
+    color: #fff;
+}
+.blog .left{
+    font-size: 4rem;
+    margin-right: 15px;
+}
+.blog .right{
+    display: flex;
+    align-items: center;
+}
+.blog .dat{
+    display: flex;
+    justify-content: space-between;
+}
+.blog p{
+    margin-bottom: 0;
+}
+.blog .text {
+    text-align: center;
+    margin-top: 15px;
+}
+.blog .text p{
+    letter-spacing: 5px;
+    font-weight: 700;
+}
+.contact{
+    background: url('../image/naturebig.webp') no-repeat 0 0;
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+}
+.contact span{
+    color: crimson;
+    margin: 0 10px;
+    font-weight: 900;
+}
+.contact h1{
+    margin: 50px 0;
+}
+.contact input{
+    width: 98%;
+    padding: 10px;
+    border: none;
+    border-bottom: 3px solid #777;
+    outline: none;
+    margin-bottom: 20px;
+    background: transparent;
+    font-weight: 700;
+}
+::placeholder{
+    color: lightgray
+}
+.contact textarea{
+    text-align: center;
+    padding: 10px;
+    border: none;
+    border-bottom: 3px solid #777;
+    resize: none;
+    background: transparent;
+    width: 100%;
+    font-weight: 700;
+}
+.contact button{
+    background: none;
+    padding: 10px 30px;
+    border-radius: 6px;
+    border: 2px solid #000;
+    cursor: pointer;
+    margin-top: 40px;
+}
+.contact button:hover{
+    background: crimson;
+    border: 2px solid crimson;
+}
+.contact button:hover a{
+    color: #fff;
+}
+.contact a{
+    color: #000;
+    text-decoration: none;
+}
+.bot{
+    text-align: center;
+}
+.footer{
+    background: lightgray;
+    color: gray;
+    padding: 20px 0;
+    margin-top: 100px;
+    place-items: center;
+}
+.footer p{
+    margin-bottom: 0;
+}
+.footer i{
+    margin:  0 10px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: all .5s;
+}
+.footer i:hover{
+    color: crimson;
+    transform: translateY(-8px);
+}

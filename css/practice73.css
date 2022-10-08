@@ -1,0 +1,397 @@
+.header{
+    background: url('../image/theater.jpg') no-repeat 0 0;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    height: 90vh;
+}
+::placeholder{
+    color: #fff;
+    z-index: 1;
+}
+.navbar{
+    margin-top: 5px;
+}
+.collapse{
+    justify-content: right;
+}
+.top{
+    display: flex;
+}
+.top h4{
+    margin-bottom: 0;
+}
+.right em{
+    color: #777;
+    font-size: 1rem;
+}
+.left i{
+    font-size: 3rem;
+    margin-right: 10px;
+}
+.text{
+    padding: 150px 0;
+    text-align: center;
+}
+.text h1{
+    font-size: 3rem;
+}
+.text em{
+    color: orangered
+}
+.bottom2{
+    margin-top: 60px;
+}
+.bottom2 input{
+    border: none;
+    padding: 10px 10px;
+    margin-right: 10px;
+    outline: none;
+    color: white;
+    background: transparent;
+    border-bottom: 2px solid white;
+}
+@media (min-width: 768px) {
+
+    /* show 3 items */
+    .carouselPrograms .carousel-inner .active,
+    .carouselPrograms .carousel-inner .active + .carousel-item,
+    .carouselPrograms .carousel-inner .active + .carousel-item + .carousel-item {
+        display: block;
+    }
+
+    .carouselPrograms .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left),
+    .carouselPrograms .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item,
+    .carouselPrograms .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item + .carousel-item {
+        transition: none;
+    }
+
+    .carouselPrograms .carousel-inner .carousel-item-next,
+    .carouselPrograms .carousel-inner .carousel-item-prev {
+        position: relative;
+        transform: translate3d(0, 0, 0);
+    }
+
+    .carouselPrograms .carousel-inner .active.carousel-item + .carousel-item + .carousel-item + .carousel-item {
+        position: absolute;
+        top: 0;
+        right: -33.333%;
+        z-index: -1;
+        display: block;
+        visibility: visible;
+    }
+
+    /* left or forward direction */
+    .carouselPrograms .active.carousel-item-left + .carousel-item-next.carousel-item-left,
+    .carouselPrograms .carousel-item-next.carousel-item-left + .carousel-item,
+    .carouselPrograms .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item,
+    .carouselPrograms .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item + .carousel-item {
+        position: relative;
+        transform: translate3d(-100%, 0, 0);
+        visibility: visible;
+    }
+
+    /* farthest right hidden item must be abso position for animations */
+    .carouselPrograms .carousel-inner .carousel-item-prev.carousel-item-right {
+        position: absolute;
+        top: 0;
+        left: 0%;
+        z-index: -1;
+        display: block;
+        visibility: visible;
+    }
+
+    /* right or prev direction */
+    .carouselPrograms .active.carousel-item-right + .carousel-item-prev.carousel-item-right,
+    .carouselPrograms .carousel-item-prev.carousel-item-right + .carousel-item,
+    .carouselPrograms .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item,
+    .carouselPrograms .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item + .carousel-item {
+        position: relative;
+        transform: translate3d(100%, 0, 0);
+        visibility: visible;
+        display: block;
+        visibility: visible;
+    }
+}
+.another{
+    margin: 20px 0;
+}
+.another a{
+    text-align: center;
+    color: black
+}
+.another img{
+    border-radius: 50%;
+    margin-bottom: 20px;
+    height: 200px;
+}
+.text a{
+    color: #fff;
+    background: orangered;
+    text-decoration: none;
+    padding: 15px 40px;
+    margin-left: 10px;
+}
+.text a i{
+    margin-left: 5px;
+}
+.heading{
+    color: orangered;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 100px;
+}
+#about h2{
+    margin-bottom: 100px;
+   
+}
+.game{
+    text-align: right;
+}
+.btn{
+    background-color: #fff;
+    padding: 10px 30px;
+    border: 1px solid blue;
+    margin-top: 50px;
+}
+.btn a{
+    color: #000;
+    text-decoration: none;
+}
+.rooms{
+    margin-top: 200px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.rooms h1{
+    color: orangered
+}
+.slide-show .d-block{
+    height: 500px;
+    opacity: .1;
+}
+.photo{
+    position: absolute;
+    width: 100%;
+}
+.box{
+    background: url('../image/theater600.jpg') no-repeat 0 0;
+    background-position: center;
+    background-size: cover;
+    width: 350px;
+    margin: 10px 10px;
+    color: #fff;
+    height: 480px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.box-text{
+    background: url('../image/theater600.jpg') no-repeat 0 0;
+    background-position: center;
+    background-size: cover;
+    width: 350px;
+    margin: 10px 10px;
+    color: #fff;
+    height: 480px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.space .hor{
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 220px;
+}
+.ton{
+    padding: 20px 0;
+}
+.ton i{
+    margin-bottom: 15px;
+}
+.ton h1{
+    color: orangered;
+    margin-bottom: 20px;
+}
+.space img{
+    display: inline-block;
+    width: 500px;
+    height: 650px;
+}
+.space .top3{
+    display: flex;
+    justify-content: space-between;
+}
+.bottom3{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.ton i{
+    color: darkgray;
+    font-size: 2rem;
+}
+.top3 .left2 h5{
+    color: orangered
+}
+.play{
+    margin: 150px 0;
+    background: url('../image/theater.jpg') no-repeat 0 0;
+    background-position: center;
+    background-size: cover;
+    padding: 200px 0;
+    text-align: center;
+}
+.play i{
+    padding: 20px 20px;
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 7rem;
+}
+.clients p{
+    margin-bottom: 50px;
+    text-align: center;
+}
+.clients em{
+    color: orangered
+}
+
+
+.topp{
+    display: flex;
+    margin-bottom: 10px;
+}
+.bottomo{
+    display: flex;
+}
+.left-img{
+    background: url('../image/theater600.jpg') no-repeat 0 0;
+    background-position: center;
+    background-size: cover;
+    width: 50%;
+    height: 150px;
+    color: #fff;
+    margin:0 10px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.right-img{
+    background: url('../image/theater600.jpg') no-repeat 0 0;
+    background-position: center;
+    background-size: cover;
+    width: 50%;
+    height: 150px;
+    margin: 0 10px;
+    color: #fff;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.first{
+    background: url('../image/theater600.jpg') no-repeat 0 0;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    height: 310px;
+    width: 100%;
+    text-align: center;
+    padding-top: 200px;
+}
+.big-box{
+    display: flex;
+    justify-content: center;
+    margin: 125px 0;
+}
+.box2{
+    width: 400px;
+    height: 300px;
+    border-radius: .25rem;
+    padding: 25px;
+    box-shadow: 5px 5px 5px 5px #aaa;
+    text-align: center;
+}
+.box2 i{
+    position: absolute;
+    top: 70%;
+    right: 38%;
+}
+.box2 input{
+    width: 100%;
+    padding: 10px 10px;
+    background: rgb(202, 200, 200);
+}
+.footer{
+    background: blue;
+    color: #fff;
+    padding: 50px 0;
+}
+.footer-slide{
+    margin-top: 40px;
+}
+.footer .icon{
+    text-align: right;
+}
+.footer-slide i{
+    color: #fff;
+    margin: 0 5px;
+}
+.footer a{
+    text-decoration: none;
+}
+@media(max-width: 768px){
+    .header{
+        text-align: right;
+    }
+    .ton h1{
+        text-align: center;
+    }
+    #about{
+        text-align: center;
+    }
+    .bottom2 input{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .first{
+        margin-bottom: 15px;
+    }
+    .ton{
+        text-align: center;
+    }
+    .space .top3{
+        display: block;
+        text-align: center;
+    }
+    .bottom3{
+        display: block;
+        text-align: center;
+    }
+    .footer{
+        text-align: center;
+    }
+    .footer .top{
+        margin: 10px 0;
+        justify-content: center;
+    }
+    .footer .icon{
+        text-align: center;
+    }
+}
+@media(max-width: 580px){
+    
+    .game{
+        text-align: center;
+    }
+    .btn{
+        margin: 10px 0;
+    }
+    #about{
+        text-align: center;
+    }
+    
+    
+    
+   
+}

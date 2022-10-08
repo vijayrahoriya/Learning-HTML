@@ -1,0 +1,164 @@
+
+.header{
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    background-color: wheat;
+    color: black;
+}
+.bar{
+    list-style: none;
+}
+button{
+    border-radius: 0.25rem;
+}
+.bar li{
+    display: inline-block;
+    padding-right: 15px;
+}
+.bar li a{
+    color: black
+}
+.icon h2{
+    display: inline-block;
+}
+.icon i{
+    font-size: 2rem;
+    color: greenyellow;
+}
+.right i{
+    color: black
+}
+.banner{
+    text-align: center;
+    padding: 60px 0;
+    position: absolute;
+    top: 20%;
+    left: 15%;
+}
+.banner button{
+    border: 1px solid orange;
+    background-color: orange;
+}
+.banner button a{
+    color: white;
+}
+
+.main{
+    margin: 10px 0;
+    text-align: center;
+}
+.main i{
+    background-color: blue;
+    padding: 10px 10px;
+    border-radius: 50%;
+    font-size: 2rem;
+    color: white;
+}
+.main-slide{
+    padding: 20px ;
+    background-color: rgb(94, 94, 187);
+}
+.main-slide h2{
+    margin: 40px 0;
+}
+.week{
+    text-align: right;
+}
+.main-slide button{
+    background-color: aqua;
+    margin: 20px 0;
+    border: 1px solid aqua;
+}
+.box{
+    width: 100%;
+    text-align: center;
+    padding: 100px 0;
+    
+    border: 5px solid white;
+    background-color: gray;
+}
+.section-slide{
+    margin: 20px 0;
+    text-align: center;
+}
+.section-slide h2{
+    color:aqua
+}
+.section-slide button{
+    border: 1px solid rgb(73, 73, 234);
+    background-color: rgb(73, 73, 234);
+}
+.section-slide a{
+    color: white;
+}
+hr{
+    margin: 20px 0;
+    background-color: gray;
+}
+.section-slide h5{
+    color: brown;
+}
+.section-slide img{
+    border-radius: 50%;
+}
+.footer{
+    margin: 20px 0;
+    padding: 30px 0;
+    background-color: gray;
+    color: white;
+}
+.footer h2{
+    color: brown
+}
+.desktop{
+    display: block;
+}
+.mobile{
+    display: none;
+}
+@media (max-width: 768px){
+    .header{
+        text-align: center;
+    }
+    .logo{
+        text-align: center;
+    }
+    .main{
+        text-align: center;
+    }
+    .banner{
+        position: relative;
+        top: 0;
+        left: 0;;
+    }
+    .main-slide{
+        text-align: center;
+    }
+    .main-slide .week{
+        text-align: center;
+    }
+    .section-slide{
+        text-align: center;
+    }
+    .footer{
+        text-align: center;
+    }
+    .desktop{
+        display: none;
+    }
+    .mobile{
+        display: block;
+    }
+    .box{
+        text-align: center;
+    }
+    .top{
+        text-align: center;
+    }
+    .slide{
+        position: relative;
+        top: 30%
+    }
+
+}

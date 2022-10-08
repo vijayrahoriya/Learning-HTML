@@ -1,0 +1,434 @@
+.top-line{
+    background: red;
+    height: 2px;
+    width: 100%;
+    animation: vijay 3s ease-in-out  forwards ;
+    
+}
+@keyframes vijay {
+    from{width: 0;}
+    to{width: 100%;}
+}
+.top{
+    margin: 150px 0;
+}
+.top .logo{
+    text-align: center;
+}
+.logo i{
+    font-size: 5rem;
+    color: skyblue;
+    margin-bottom: 20px;
+}
+.logo h1{
+    color: rgb(37, 126, 161);
+    font-weight: 700;
+    font-size: 3rem;
+}
+.logo h5{
+    color: darkblue;
+    font-size: 2rem;
+}
+.banner{
+    background: url('../image/banner.jpg') no-repeat 0 0;
+    background-position: center;
+    background-size: cover;
+    padding: 200px 0;
+    color: #fff;
+    position: relative;
+}
+.para{
+    font-size: 3rem;
+    margin: 0;
+}
+.section{
+    position: absolute;
+    top: 135%;
+    width: 100%;
+} 
+.info{
+    background: rgb(13, 13, 73);
+    padding: 40px 10px;
+    color: #fff;
+}
+.info .line{
+    display: flex;
+}
+.info .left{
+    width: 20%;
+    text-align: center;
+}
+.info .right p{
+    color: #777;
+    margin: 0;
+}
+.info i{
+    color: #777; 
+    
+}
+.inco h5{
+    margin-bottom: 10px;
+}
+.info button{
+    background: rgb(26, 148, 196);
+    padding: 10px;
+    width: 90%; 
+}
+.info a{
+    color: #fff;
+
+}
+.welcome{
+    margin-top: 150px;
+}
+.welcome .pare{
+    text-align: center;
+    color: #777;
+}
+.welcome h2{
+    text-align: center;
+    margin-bottom:50px;
+    font-weight: 750;
+}
+.welcome img{
+    height: 300px;
+    
+}
+.infor{
+    margin: 150px 0;
+}
+.pare2{
+    color: #777;
+}
+.infor i{
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+.infor .let{
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.image{
+    display: flex;
+}
+.image .left{
+    width: 50%;
+    background: rgb(6, 135, 186);
+    color: #fff;
+    padding: 150px 50px;
+}
+.image .left button{
+    background: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: .25rem;
+}
+.image .left a{
+    color: skyblue;
+}
+.image .left i{
+    margin-right: 5px;
+}
+.image .right{
+    width: 50%;
+}
+.image .slide li{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+}
+.get{
+    margin: 80px 0;
+    position: relative;
+}
+.get .text{
+    text-align: right;
+    margin-bottom: 20px;
+}
+.get .text h2{
+    font-weight: 750;
+}
+.get .text p{
+    color: #777;
+}
+.get .big{
+    background: lightgray;
+    padding: 60px;
+    margin-left: 50px;
+    display: flex;
+    border-radius: .25rem;
+    justify-content: right;
+    border-bottom: 3px solid rgb(11, 140, 192);
+}
+.get .box{
+    width: 60%;
+}
+.get .top2{
+    display: flex;
+}
+.get .left{
+    width: 50%;
+}
+.get .right{
+    width: 50%;
+    text-align: right;
+}
+.get .top2 input{
+    width: 99%;
+    padding: 10px;
+    border-radius: .25rem;
+    border: none;
+    margin-bottom: 10px;
+    
+}
+.get textarea{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: .25rem;
+    
+}
+.get .buttons{
+    text-align: right;
+}
+.get button{
+    background: rgb(7, 122, 168);
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    margin-left: 10px;
+    border-radius: .25rem
+}
+.get a{
+    color: #fff;
+}
+.get .buttons input{
+    width: 10%;
+    padding: 10px;
+    border: none;
+}
+.customer{
+    
+    padding: 20px 15px;
+    position: absolute;
+    width: 38%;
+    background: #fff;
+    border-radius: .25rem;
+    top: -15%;
+    box-shadow: 0 5px 5px 0 #aaa;
+    left: 0%;
+}
+.photo{
+    text-align: center;
+}
+.customer img{
+    width: 20%;
+    display: inline-block;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.customer p{
+    margin-bottom: 0;
+}
+.customer .late{
+    margin-top: 20px;
+}
+.customer em{
+    color:rgb(6, 135, 186);
+}
+.fact{
+    
+    background: rgb(8, 8, 65);
+    color: #fff;
+    height: 70vh;
+}
+.fact::before{
+    background: url('../image/office.jpg') no-repeat 0 0;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    position: absolute;
+    content: "";
+    opacity: .3;
+    height: 70vh;
+    padding: 80px 0;
+}
+.fact .true{
+    text-align: center;
+    margin-bottom: 40px;
+    padding-top: 80px;
+}
+.true p{
+    color: #777;
+}
+.fact .box{
+    background: #bcb4b4;
+    text-align: center;
+    padding: 40px;
+}
+.fact .box::before{
+    opacity: .5;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    content: "";
+    border-radius: .25rem;
+}
+.fact .box h2{
+    margin-bottom: 0;
+}
+.fact i{
+    color: #777;
+    margin-bottom: 15px;
+    font-size: 2rem;
+}
+.testi{
+    text-align: center;
+    margin: 80px 0;
+}
+.testi h2{
+    margin-bottom: 30px;
+    font-weight: 750;
+}
+.testi img{
+    width: 10%;
+    margin-bottom: 10px;
+}
+.testi .slide{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.testi .pare{
+    color: #777;
+}
+.testi .carousel-inner{
+    width: 60%;
+}
+.testi  p{
+    margin-bottom: 30px;
+}
+.testi li{
+    width: 10px;
+    height: 10px;
+    background: gray;
+    border-radius: 50%;
+}
+.testi .carousel-control-next-icon{
+    background: #000;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+.testi .carousel-control-prev-icon{
+    background: #000;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E")
+}
+.testi .carousel-indicators{
+    bottom: -40px;
+}
+.last{
+    background: rgb(26, 26, 32);
+    text-align: center;
+    height: 50vh;
+    color: #fff;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.last h2{
+    font-weight: 750;
+}
+.last::before{
+    background: url('../image/worldmap.PNG') no-repeat 0 0;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    position: absolute;
+    content: "";
+    opacity: .2;
+    height: 50vh;
+    left: 0;
+}
+.last .box{
+    padding: 100px 0;
+}
+.last button{
+    background: #fff;
+    padding: 10px 20px;
+    border: none;
+    margin-top: 20px;
+}
+.last a{
+    color: skyblue;
+}
+@media(max-width: 768px){
+    h1, h2, h3, h4{
+        text-align: center;
+    }
+    .pare{
+        text-align: center;
+    }
+    .get .text{
+        text-align: center;
+    }
+    .section{
+        position: relative;
+        margin-top: 20px;
+    }
+    .welcome .box{
+        margin: 15px 0;
+    }
+    .infor{
+        margin: 30px 0;
+        text-align: center;
+    }
+    .info button{
+        width: 100%;
+    }
+    .image{
+        display: block;
+        text-align: center;
+    }
+    .image .left{
+        width: 100%;
+    }
+    .image .right{
+        width: 100%;
+    }
+    .get .big{
+        display: block;
+        margin: 0;
+    }
+    .get .box{
+        width: 100%;
+    }
+    .fact{
+        height: 160vh;
+    }
+    .fact::before{
+        height: 160vh;
+    }
+    .fact .box{
+        margin: 15px 0;
+    }
+    .customer{
+        position: relative;
+        width: 100%;
+        margin-top: 20px;
+    }
+    .get .top2{
+        display: block;
+    }
+    .get .top2 input{
+        width: 100%;
+    }
+    .get .top2 .left{
+        width: 100%;
+    }
+    .get .top2 .right{
+        width: 100%;
+    }
+}
+@media(max-width: 300px){
+    .get .big{
+        padding: 25px;
+    }
+}

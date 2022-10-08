@@ -1,0 +1,96 @@
+.header-slide{
+    background-color: rgb(71, 71, 212);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.header-slide button{
+    background-color: rgb(71, 71, 212);
+}
+.header-slide button a{
+    color: white;
+}
+.header{
+    background-color: black;
+    color: white;
+}
+.logo{
+    margin-top: 15px;
+}
+.bar{
+    list-style: none;
+    margin-top: 20px;
+    text-align: right;
+}
+.bar li{
+    display: inline-block;
+    padding-right: 15px;
+}
+.bar li a{
+    color: white;
+}
+.bar button{
+    background-color: black;
+    border: 2px solid white;
+    margin-right: 5px;
+}
+.bar button a{
+    color: white;
+}
+.bar a{
+    color: white;
+}
+.banner{
+    background: url('../image/boat6.webp') no-repeat 0 0;
+    text-align: center;
+    padding: 150px 0;
+}
+.big{
+    display: flex;
+}
+.box{
+    background-color: white;
+    text-align: left;
+    
+    position: absolute;
+}
+.ton{
+    width: 75%
+   
+}
+.box button{
+    background-color: blue
+} 
+.box button a{
+    color: white;
+}
+
+.box h5 i{
+    font-size: .5rem;
+    color: brown;
+}
+
+.left{
+    display: flex;
+    width: 49%;
+}
+.iphone{
+    display: flex;
+    width: 240px;
+    border: 1px solid black;
+    margin-right: 8px;
+}
+.iphone i{
+    margin-left: 122px;
+    margin-top: 5px;
+}
+.galaxy{
+    width: 240px;
+    border: 1px solid black;
+}
+.galaxy i{
+    margin-left: 50px;
+}
+.right{
+    width: 49%;
+}

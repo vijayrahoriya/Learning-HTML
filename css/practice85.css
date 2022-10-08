@@ -1,0 +1,191 @@
+.header{
+    background-color: black;
+    color: white;
+    padding: 40px 0;
+    
+}
+.header .navbar a{
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    
+    place-items: center;
+    display: flex;
+    justify-content: center;
+    
+    color: #fff;
+}
+.navbar-nav{
+    display: flex;
+    flex: 1;
+}
+.navbar li{
+    font-size: 20px;
+    margin-right: 10px;
+    flex: 1;
+}
+.navbar li .nav-link:hover{
+    color: #304ffe;
+}
+.navbar li:hover{
+    border-top: 3px solid #304ffe;
+    color: #304ffe;
+}
+.navbar p{
+    margin: 0;
+    font-size: 15px;
+    color: rgb(169, 166, 166);
+}
+.header-slide{
+    background: #000;
+    color: #fff;
+    margin-top: 5px;
+}
+.info{
+    padding: 10px 0;
+}
+.heading{
+    display: flex;
+    align-items: center;
+}
+.heading p{
+    font-size: 3rem;
+}
+.info .buttons{
+    display: flex;
+    justify-content: space-between;
+}
+.info a{
+    color: #fff;
+    text-decoration: none;
+}
+.info button{
+    padding: 5px 30px;
+    background: #304ffe;
+    border-radius: .25rem;
+    border: none;
+}
+.info input{
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    color: #000;
+}
+.section{
+    background: lightgray;
+    padding: 30px 0;
+}
+.template h4{
+    text-align: center;
+    font-size: 3rem;
+    color: #777;
+}
+.template h4 B{
+    color: #000;
+}
+.banner{
+    background: url('../image/markus-spiske-fkEUEsX0KsM-unsplash.jpg') no-repeat 0 0;
+    background-position: center;
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    color: #fff;
+}
+.banner .links li{
+    cursor: pointer;
+    list-style: none;
+    font-size: 20px;
+    margin: 5px 0;
+}
+.banner .links p{
+    color: #777;
+    margin: 0;
+}
+.section .carousel-indicators{
+    margin-bottom: 70px;
+}
+.carousel-inner{
+    text-align: center;
+    margin-top: 20px;
+}
+.section-slide{
+    padding: 100px 0;
+}
+.icons{
+    display: flex;
+    color: #304ffe;
+}
+.icons .right{
+    margin-left: 10px;
+}
+.icons i{
+    font-size: 3rem;
+}
+.section-slide .para{
+    margin: 20px 0;
+}
+.section-slide button{
+    border: none;
+    margin-top: 10px;
+    padding: 10px 30px;
+    background: rgb(116, 113, 113);
+}
+.section-slide button a{
+    color: #fff;
+}
+.footer{
+    background: #000;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+.footer i{
+    background: skyblue;
+    color: #fff;
+    border-radius: 5rem;
+    padding: 20px 20px;
+    border: none;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+.footer h5{
+    margin-bottom: 20px;
+}
+.section-slide .chevron{
+    background: skyblue;
+    color: #Fff;
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+}
+@media(max-width: 768px){
+    .header{
+        text-align: center;
+    }
+    .banner{
+        text-align: center;
+    }
+    .header-slide{
+        text-align: center;
+    }
+    .section-slide{
+        text-align: center;
+    }
+    .section{
+        text-align: center;
+    }
+    .icons{
+        justify-content: center;
+    }
+    .footer{
+        text-align: center;
+    }
+    .section-slide button{
+        margin: 10px 0;
+    }
+    .chevron{
+        margin: 10px 0;
+    }
+}

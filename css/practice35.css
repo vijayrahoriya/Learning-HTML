@@ -1,0 +1,99 @@
+.header{
+    display: flex;
+   
+    height: 50px;
+    color: white;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    background-color: rgb(65, 59, 59);
+}
+.medium{
+    width: 60%;
+    text-align: center;
+}
+.last{
+    width: 20%;
+    text-align: right;
+}
+.bar{
+    list-style: none;
+    margin-top: 10px;
+}
+.bar li{
+    display: inline-block;
+    padding-right: 15px;
+}
+.bar li a{
+    color: white;
+}
+.last a{
+    color: white;
+}
+.banner{
+    position: absolute;
+    width: 80%;
+    top: 30%;
+    left: 15%;
+    height: 800px;
+    background-color: gray;
+    color: white;
+    padding: 200px 0;
+    text-align: right;
+}
+.banner button{
+    background-color: blue;
+    border-radius: 0.25rem;
+}
+.banner button a{
+    color: white;
+}
+.text .box{
+    width: 70%;
+    margin: auto;
+    margin-top: 300px;
+    background-color: white;
+    color: black;
+}
+.box{
+    width: 75%;
+}
+.desktop{
+    display: block;
+}
+.mobile{
+    display: none;
+}
+@media (max-width: 768px){
+    .header{
+        text-align: center;
+        height: 70px;
+    }
+    .logo{
+        text-align: center;
+    }
+    .medium{
+        text-align: center;
+    }
+    .last{
+        text-align: center;
+    }
+    .banner{
+        text-align: center;
+        position: relative;
+        width: 100%;
+        top: 0;
+        left: 0;
+    }
+    .desktop{
+        display: none;
+    }
+    .mobile{
+        display: block;
+    }
+    .box{
+        margin-top: 0px;
+    }
+
+
+}

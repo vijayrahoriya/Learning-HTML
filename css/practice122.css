@@ -1,0 +1,561 @@
+:root {
+    --bg: orangered;
+    --cl: gold;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.header {
+    background: #10353b;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    border-bottom: 2px solid yellowgreen;
+}
+
+.hori-1 {
+    width: 100%;
+    height: 2px;
+    background: yellowgreen;
+    margin: 0;
+}
+
+.collapse {
+    justify-content: right;
+}
+
+.navbar .nav-item .nav-link b {
+    color: #fff;
+}
+
+.nav-item .nav-link {
+    position: relative;
+}
+
+.nav-item .nav-link::after {
+    content: "";
+    width: 0;
+    height: 3px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: var(--bg);
+    transition: all .5s;
+}
+
+.nav-item .nav-link:hover::after {
+    width: 100%;
+}
+
+.navbar li {
+    padding: 0 10px;
+}
+
+.banner {
+    background: url('../image/phone.jpg') no-repeat 0 0;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 150px 0;
+    color: #fff;
+    padding-top: 200px;
+    text-align: center;
+
+
+}
+
+.banner span {
+    color: var(--cl);
+}
+
+.banner h1 {
+    margin-bottom: 60px;
+    font-size: 3.5rem;
+}
+
+.banner p {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.banner input {
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid #fff;
+    outline: none;
+    border-radius: .25rem;
+}
+
+.first {
+    background: var(--cl);
+    padding: 10px 30px;
+    border: 2px solid var(--cl);
+    border-radius: .25rem;
+    cursor: pointer;
+    transition: all .5s;
+    color: #fff;
+    font-weight: 700;
+}
+
+.first:hover {
+    background: none;
+    color: var(--cl);
+}
+
+.icons {
+    margin-top: 50px;
+}
+
+.linked {
+    padding: 13px 15px;
+    color: #fff;
+    background: brown;
+    border-radius: 5rem;
+    border: 1px solid brown;
+    transition: all .5s;
+    cursor: pointer;
+}
+
+.face {
+    padding: 13px 16px;
+    margin: 0 20px;
+    color: #fff;
+    background: blue;
+    border-radius: 5rem;
+    border: 1px solid blue;
+    transition: all .5s;
+    cursor: pointer;
+}
+
+.twitter {
+    padding: 13px;
+    color: #fff;
+    background: skyblue;
+    border-radius: 5rem;
+    border: 1px solid skyblue;
+    transition: all .5s;
+    cursor: pointer;
+}
+
+.google {
+    padding: 13px 10px;
+    margin: 0 20px;
+    color: #fff;
+    background: brown;
+    border-radius: 5rem;
+    border: 1px solid brown;
+    transition: all .5s;
+    cursor: pointer;
+}
+
+.youtube {
+    padding: 13px 15px;
+    color: #fff;
+    background: red;
+    border-radius: 5rem;
+    border: 1px solid red;
+    transition: all .5s;
+    cursor: pointer;
+}
+
+.icons i:hover {
+    background: none;
+    transform: translateY(-8px);
+}
+
+.section {
+    background: var(--cl);
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.section h2 {
+    font-weight: 600;
+}
+
+.portfolio {
+    padding: 90px 0;
+    background: #d3d3d34d;
+}
+
+.top {
+    text-align: center;
+}
+
+.top i {
+    padding: 20px;
+    font-size: 2rem;
+    background: rgb(31, 5, 5);
+    color: #fff;
+    border-radius: 5rem;
+    margin: 10px 0;
+}
+
+.top h1 {
+    color: rgb(31, 5, 5);
+    font-weight: 700;
+}
+
+.portfolio img {
+    width: 100%;
+    ;
+    height: 200px;
+    transition: all .5s;
+}
+
+.portfolio img:hover {
+    transform: scale(1.1);
+}
+
+.portfolio h5 {
+    margin: 10px 0;
+}
+
+.portfolio p {
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.portfolio .box {
+    margin-top: 40px;
+}
+
+.portfolio a {
+    color: var(--cl);
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.portfolio a:hover {
+    text-decoration: underline;
+}
+
+.services {
+    padding: 90px 0;
+    margin-top: 5px;
+    background: #d3d3d34d;
+}
+
+.services .top i {
+    padding: 20px 23px;
+}
+
+.services .box {
+    background: #d3d3d385;
+    border-radius: .25rem;
+    padding: 15px;
+    margin: 40px 0;
+    transition: all .5s;
+}
+
+.services .box:hover {
+    background: crimson;
+    transform: translateY(-8px);
+    color: #fff;
+}
+
+.services .up {
+    text-align: center;
+}
+
+.services .box i {
+    font-size: 3rem;
+    color: var(--cl)
+}
+
+.services h4 {
+    margin-bottom: 15px;
+}
+
+.port {
+    background: var(--cl);
+    color: #000;
+    padding: 200px 0;
+}
+
+.port h1 {
+    font-weight: 700;
+}
+
+.hori {
+    background: #fff;
+    height: 5px;
+    width: 100%;
+    margin: 0;
+}
+
+.blog {
+    padding: 90px 0;
+    background: #d3d3d34d;
+}
+
+.blog .box {
+    border-radius: .6px;
+    margin: 40px 0;
+    position: relative;
+    background: #fff;
+}
+
+.box .layer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    opacity: .8;
+    transition: all .8s;
+    background: linear-gradient(skyblue, crimson);
+}
+
+.layer i {
+    font-size: 3rem;
+}
+
+.box:hover .layer {
+    height: 100%;
+}
+
+.blog img {
+    width: 100%;
+    height: 200px;
+
+}
+
+.blog .mid hr {
+    width: 100%;
+    ;
+    height: 2px;
+    background: #999;
+    margin: 10px 0;
+}
+
+.blog .mid {
+    text-align: right;
+    color: #777;
+    padding: 10px 17px;
+}
+
+.blog .bottom {
+    padding: 20px 17px;
+}
+
+.blog h5 {
+    margin-bottom: 15px;
+}
+
+.blog a {
+    color: var(--cl);
+    font-weight: 600;
+}
+
+.blog p {
+    color: #777;
+}
+
+.blog .last {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.team {
+    background: rgb(62, 36, 36);
+    color: #fff;
+    padding-top: 70px;
+    text-align: center;
+}
+
+.spark {
+    font-size: 1.5rem;
+    margin: 0 10px;
+}
+
+.team i {
+    background: #fff;
+    color: rgb(31, 5, 5);
+    border-radius: 5rem;
+    margin-bottom: 10px;
+    padding: 20px;
+    font-size: 2rem;
+}
+
+.team .teammates {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+    text-align: center;
+}
+
+.team .first-mate {
+    width: 20%;
+    text-align: center;
+}
+
+.team img {
+    width: 50%;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    margin-top: 30px;
+    transition: all .5s;
+}
+
+.team img:hover {
+    transform: scale(1.1);
+}
+
+.team h3 {
+    margin-bottom: 0;
+}
+
+.team span {
+    font-weight: 500;
+    color: #777;
+}
+
+.team h4 {
+    display: inline;
+    margin-bottom: 20px;
+}
+
+.team hr {
+    width: 100%;
+    height: 3px;
+    background: #444;
+    margin-bottom: 40px;
+}
+
+.text {
+    margin-bottom: 20px;
+}
+
+.contact {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.contact i {
+    font-size: 3rem;
+    margin-bottom: 0px;
+    background: none;
+    color: #ffff;
+}
+
+.contact h1 {
+    margin-bottom: 40px;
+}
+
+.contact input {
+    width: 48%;
+    border-radius: .25rem;
+    padding: 10px;
+    border: none;
+    margin-right: 10px;
+    outline: none;
+    background: #fff;
+    margin-bottom: 15px;
+}
+
+.contact .last {
+    text-align: left;
+}
+
+.contact textarea {
+    width: 97%;
+    border-radius: .25rem;
+    padding: 10px;
+    border: none;
+    margin-right: 10px;
+    outline: none;
+    background: #fff;
+    margin-bottom: 15px;
+    resize: none;
+}
+
+.contact button {
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.footer {
+    background: #fff;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.up-1 {
+    width: 3%;
+    height: 4%;
+    background: var(--cl);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: fixed;
+    bottom: 3%;
+    right: 3%;
+    border-radius: 5px;
+    z-index: 999;
+}
+
+@media(max-width: 768px) {
+    .header {
+        text-align: right;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    .contact input {
+        width: 100%;
+    }
+
+    .contact textarea {
+        width: 100%;
+    }
+
+    .up-1 {
+        width: 5%;
+        height: 5%;
+    }
+}
+
+@media(max-width: 580px) {
+    .up-1 {
+        width: 10%;
+    }
+
+    .banner h1 {
+        font-size: 2rem;
+    }
+
+    .banner p {
+        font-size: 1rem;
+    }
+
+    .services .box {
+        box-shadow: 0 5px 5px 0 #aaa;
+    }
+
+    .port {
+        text-align: center;
+    }
+
+    .team .teammates {
+        display: block;
+        justify-content: center;
+    }
+
+    .team .first-mate {
+        width: 100%;
+    }
+}

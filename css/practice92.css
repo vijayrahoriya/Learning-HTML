@@ -1,0 +1,385 @@
+.header .line{
+    display: flex;
+    align-items: center;
+    
+}
+.header{
+    position: fixed;
+    width: 100%;
+    background: #fff;
+    opacity: .9;
+    z-index: 1;
+    box-shadow: 0 5px 5px 0 #aaa;
+}
+.line2{
+    background: red;
+    height: 2px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    opacity: 1;
+    width: 100%;
+    animation: vijay 3s linear;
+}
+.header .line i{
+    
+    animation: box 1s ease-in-out infinite;
+}
+@keyframes box{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+@keyframes vijay{
+    from{width: 0%;}
+    to{width: 100%;}
+}
+.video{
+    transform: translateX(-150%);
+    animation: hanu 2s forwards;
+}
+.text-content{
+    transform: translateX(150%);
+    animation: hanu2 2s forwards;
+}
+@keyframes hanu{
+    100%{
+        transform: translateX(0);
+    }
+}
+@keyframes hanu2{
+    100%{
+        transform: translateX(0);
+    }
+}
+.header .left i{
+    margin: 0 10px;
+    font-size: 2rem;
+}
+.navbar .active .nav-link b{
+    color: orangered
+}
+.navbar li{
+    padding: 0 10px;
+}
+.navbar .nav-link b:hover{
+    color: green;
+}
+.navbar .nav-link b{
+    color: #000;
+}
+.collapse{
+    justify-content: right;
+}
+.collapse a i{
+    color: #000;
+}
+.banner{
+    background: url('../image/photo.jpg') no-repeat 0 0;
+    background-position: center;
+    background-size: cover;
+    padding: 150px 0;
+}
+.banner em{
+    color: orangered;
+}
+.our{
+    background: orangered;
+    padding: 10px 30px;
+    margin: 30px 10px;
+    border: none;
+}
+.banner a{
+    color: #FFF;
+}
+.our2{
+    background: #000;
+    padding: 10px 30px;
+    margin: 30px 0;
+    border: none;
+}
+.section .text{
+    padding-left: 30px;
+}
+.section{
+    margin: 60px 0;
+}
+.section h3{
+    margin-bottom: 20px;
+}
+.section em{
+    color: orangered;
+}
+.section button{
+    background: orangered;
+    padding: 10px 30px;
+    border: none;
+    margin-top: 40px;
+}
+.section button a{
+    color: #fff;
+}
+.industry{
+    background: url('../image/post-2.jpg') no-repeat 0 0;
+    background-position: center;
+    background-size: cover;
+    padding: 70px 0;
+    color: white;
+    text-align: center;
+}
+.industry hr{
+    background: orangered;
+    width: 15%;
+    margin: 25px auto;
+    height: 2px;
+    margin-bottom: 40px;
+}
+.industry .first{
+    background: #fff;
+    padding: 30px;
+    color: #000;
+}
+.industry .first p{
+    color: #777;
+}
+.industry .middle{
+    background: blue;
+    padding: 30px;
+}
+.industry i{
+    color: orangered;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+.section .late h1{
+    color: orangered;
+    font-size: 4rem;
+    margin: 0;
+}
+.late{
+    text-align: center;
+}
+.late h2{
+    margin-bottom: 20px;
+}
+.late p{
+    color: #777;
+}
+.big{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.big img{
+    display: inline-block;
+    width: 25%;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.big i{
+    color: orange;
+}
+.blog{
+    text-align: center;
+}
+.big .box{
+    width: 50%;
+}
+.price{
+    background: url('../image/post-4.jpg') no-repeat 0 0;
+    background-position: center;
+    background-size: cover;
+    padding: 70px 0;
+    text-align: center;
+}
+.price h3{
+    color: #fff;
+}
+.top p{
+    margin: 0;
+}
+.price hr{
+    width: 15%;
+    margin: 30px auto;
+    height: 2px;
+    background: orangered;;
+}
+
+.price .box2{
+    background: #fff;
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: .25rem;
+}
+.price a{
+    text-decoration: none;
+}
+.price a p{
+    color: #777;
+}
+.top{
+    margin-bottom: 50px;
+}
+.top .para{
+    display: inline-block;
+    color: orangered;
+}
+.top h1{
+    display: inline-block;
+    color: orangered;
+}
+.top em{
+    font-size: 1rem;
+    color: #777;
+}
+.price .first button{
+    padding: 10px 30px;
+    border: none;
+    margin-top: 30px;
+    background: darkblue;
+    margin-bottom: 10px;
+}
+.price .second button{
+    padding: 10px 30px;
+    margin-bottom: 10px;
+    border: none;
+    margin-top: 30px;
+    background: orangered;
+}
+.price button a{
+    color: #fff;
+}
+.latest{
+    padding-top: 60px;
+    padding-bottom: 15px;
+}
+.latest h3{
+    color: darkblue;
+    text-align: center;
+}
+.latest .line{
+    display: flex;
+    margin-top: 20px;
+}
+.latest .left{
+    width: 50%;
+}
+.latest .right{
+    padding: 20px;
+    width: 45%;
+}
+.footer .text {
+    text-align: center;
+    margin-bottom: 20px;
+    color: orangered;
+}
+.footer .text .line{
+    justify-content: center;
+}
+.footer{
+    background: darkblue;
+    color: #777;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+.footer .line{
+    margin-bottom: 10px;
+    display: flex;
+    align-items: baseline;
+}
+.footer .line .left{
+    margin: 0 8px;
+}
+.footer .text i{
+    font-size: 2rem;
+}
+.footer .icon .box{
+    font-size: 2rem;
+}
+.footer .icon i{
+    color: orangered;
+}
+.footer h4{
+    margin-bottom: 20px;
+    color: #fff;
+}
+.footer h5{
+    margin-bottom: 15px;
+    color: #fff;
+}
+.footer .link a{
+    color: #777;
+}
+.footer .big2{
+    display: flex;
+    justify-content: space-between;
+}
+.footer p{
+    margin-bottom: 15px;
+}
+.footer .news i{
+    color: orangered;
+}
+
+.footer input{
+    width: 100%;
+    padding:  10px;
+    margin: 10px 0;
+    border: none;
+    text-align: center;
+    background: gray;
+}
+::placeholder{
+    color: #fff;
+    z-index: 1;
+}
+.footer button a{
+    color: #fff;
+}
+.price button:hover{
+    background: yellowgreen;
+}
+.footer button{
+    background: red;
+    padding: 10px 10px;
+    width: 100%;
+    border: none;
+}
+.footer a{
+    text-decoration: none;
+}
+button:hover{
+    background: yellowgreen;
+}
+@media(max-width: 768px){
+    .banner{
+        text-align: center;
+    }
+    .navbar{
+        text-align: right;
+    }
+    .section{
+        text-align: center;
+    }
+    .industry{
+        text-align: center;
+    }
+    .price{
+        text-align: center;
+    }
+    .latest{
+        text-align: center;
+    }
+    .footer{
+        text-align: center;
+    }
+    .footer .line{
+        justify-content: center;
+    }
+    .link .big2{
+        justify-content: center;
+    }
+}

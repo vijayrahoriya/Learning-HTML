@@ -1,0 +1,76 @@
+.header{
+    margin-top: 20px;
+}
+.logo{
+    margin-top: 8px;
+}
+.bar{
+    list-style: none;
+    margin-top: 20px;
+}
+.bar li{
+    display: inline-flex;
+    padding-right: 20px;
+}
+.bar li a{
+    color: black;
+}
+.banner{
+    background: url('../image/banner.jpg') no-repeat 0 0;
+    color: white;
+    text-align: center;
+    padding-top: 80px;
+}
+.banner i{
+    background: orange;
+    font-size: 3rem;
+    margin-bottom: 40px;
+}
+.banner p{
+    margin: 30px 0;
+    color: black;
+}
+hr{
+   background-color: white;
+   width: 50%;
+   margin-bottom: -1.3rem
+}
+.section{
+    text-align: center;
+    margin: 40px 0;  
+}
+.latest{
+    background-color: whitesmoke;
+    padding: 20px 0;
+}
+.latest i{
+    font-size: 3rem;
+    color: orangered;
+    margin-bottom: 20px;
+}
+.latest button{
+    background-color: gray;
+    border-radius: 13%;
+}
+.latest button a{
+    color: white;
+}
+.last i{
+    background-color: orangered;
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+@media (max-width: 768px){
+    .logo{
+        text-align: center;
+    }
+    .banner{
+        text-align: center;
+    }
+    .section{
+        text-align: center;
+    }
+    h1, h2, h5{
+        text-align: center;
+    }
+}

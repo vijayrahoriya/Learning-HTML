@@ -1,0 +1,540 @@
+.header{
+    background: blue;
+    color: #fff;
+    padding-top: 10px;
+}
+.header .top i{
+    color: orange;
+    margin: 0 10px;
+}
+.navbar{
+    padding: 0;
+}
+.header .top a{
+    color: #fff;
+}
+.header .line{
+    display: flex;
+    background: #fff;
+}
+.header p{
+    color: #777;
+}
+.header li{
+    padding: 0 15px;
+}
+.header h1{
+    display: inline-block;
+    color: blue;
+    margin: 0;
+}
+.header hr{
+    height: 2px;
+    width: 100%;
+    background: #777;
+    margin-top: 30px;
+}
+.header .navbar-brand i{
+    color: yellow;
+    margin-right: 15px;
+    font-size: 3rem;
+}
+.header .navbar-brand{
+    padding: 20px;
+    background: #fff;
+    border: 5px solid yellow;
+}
+ .header .carousel{
+    position: relative;
+    border-top: 5px solid yellow;
+}
+.carousel img{
+    display: inline-block;
+    height: 600px;
+}
+.carousel span{
+    border: 1px solid #fff;
+    border-radius: 5rem;
+    padding: 20px;
+}
+.carousel-indicators li{
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+}
+.navbar-light .navbar-nav .active .nav-link b{
+    color: yellow;
+}
+.banner{
+    position: absolute;
+    top: 30%;
+    width: 100%;
+}
+.banner em{
+    color: #fff;
+    font-size: 2rem;
+}
+.banner h1{
+    color: yellow;
+    margin-bottom: 20px;
+}
+.banner p{
+    color: #fff;
+}
+.banner button{
+    background: transparent;
+    padding: 10px 30px;
+    border: 2px solid yellow;
+    margin-top: 20px;
+}
+.banner button a{
+    color: #fff;
+}
+.section{
+    margin-top: 80px;
+}
+.section .text .para{
+    margin: 0;
+    color: #777;
+}
+.text{
+    text-align: center;
+}
+.text h1{
+    color: blue;
+    margin-bottom: 10px;
+}
+.text hr{
+    background: yellow;
+    width: 15%;
+    height: 2px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+.blog .carousel-indicators {
+	left: 0;
+	top: auto;
+    bottom: -40px;
+
+}
+
+/* The colour of the indicators */
+.blog .carousel-indicators li {
+    background: #a3a3a3;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+}
+
+.blog .carousel-indicators .active {
+background: #707070;
+}
+.blog .carousel{
+    margin: 30px 0;
+    margin-bottom: 70px;
+    text-align: center;
+}
+.blog .box{
+    border: 1px solid #888;
+    padding: 20px;
+}
+.blog .box i{
+    background: blue;
+    padding: 20px 30px;
+    border-radius: 3rem;
+    font-size: 2rem;
+    color: yellow;
+    margin-bottom: 15px;
+}
+.blog .carousel-indicators{
+    bottom: -70px;
+}
+.blog .carousel-indicators .active{
+    background: yellow;
+}
+.blog .box h4{
+    margin-bottom: 15px;
+}
+.grow{
+    display: flex;
+    margin: 70px 0;
+}
+.grow .left{
+    width: 48%;
+    margin-right: 15px;
+}
+.grow img{
+    display: inline-block;
+    height: 100%;
+    
+}
+.grow .right{
+    padding: 20px;
+    width: 50%;
+    background: rgb(221, 212, 212);
+}
+.grow .para{
+    color: #777;
+}
+.grow .right h1{
+    color: blue;
+}
+.grow .right p{
+    color: #777;
+}
+.grow hr{
+    width: 20%;
+    background: yellow;
+    height: 2px;
+    margin: 30px 0;
+}
+.why{
+    display: flex;
+}
+.why .left{
+    width: 50%;
+    display: flex;
+    justify-content: right;
+    margin-right: 20px;  
+}
+.why .right{
+    width: 50%;
+    display: flex;
+}
+.why .big{
+    width: 75%;
+    padding: 20px;
+}
+.why h1{
+    color: blue;
+}
+.big .hori{
+    width: 20%;
+    height: 2px;
+    background: yellow;
+    margin: 20px 0;
+}
+.big .box{
+    background: lightgray;
+    padding: 20px;
+    color: #777;
+}
+.big .box hr{
+    background: #555;
+    width: 100%;
+    height: 1px;
+    margin: 15px 0;
+}
+.big .line{
+    color: #777;
+    margin: 15px 0;
+    background: lightgray;
+    padding: 20px;
+}
+.why .right .first{
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+}
+.let{
+    width: 50%;
+}
+.let2{
+    width: 45%;
+    margin-left: 15px;
+}
+.why img{
+    object-fit: cover;
+    object-position: center;
+}
+.why .second{
+    width: 100%;
+    height: 50%;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+.why .Third{
+    display: inline-block;
+    height: 50%;
+    width: 100%;
+}
+.search{
+    background: yellow;
+    padding: 30px 0;
+    margin: 50px 0;
+    color: blue;
+}
+.search .line{
+    display: flex;
+}
+.search h4{
+    color: blue;
+}
+.search em{
+    font-size: 4rem;
+    margin-right: 15px;
+}
+.search h5{
+    color: blue;
+    margin: 0;
+    margin-top: 10px;
+}
+.feedback{
+    text-align: center;
+}
+.feedback .para{
+    margin: 0;
+    color: #777;
+}
+.feedback hr{
+    width: 10%;
+    height: 2px;
+    background: orangered;
+    margin: 15px auto;
+}
+.blog .para{
+    color: #777;
+}
+.feedback h2{
+    color: blue;
+}
+.feedback .carousel i{
+    background: blue;
+    border-radius: 5rem;
+    padding: 10px 25px;
+    font-size: 3rem;
+    color: yellow;
+    margin: 20px 0;
+}
+.feedback p{
+    margin: 15px 0;
+}
+.feedback h5{
+    color: blue;
+    margin-bottom: 20px;
+}
+.feedback .blog .carousel-indicators .active{
+    background: yellow;
+}
+.full{
+    margin-top: 90px;
+    display: flex;
+}
+.full .left{
+    width: 50%;
+    display: flex;
+    justify-content: right;
+    margin-right: 20px;
+}
+.full .right{
+    width: 50%;
+}
+.full .left h2{
+    color: blue;
+}
+.full hr{
+    width: 20%;
+    height: 2px;
+    margin: 30px 0;
+    background: yellow;
+}
+.full .box{
+    width: 75%;
+    padding: 50px 0;
+}
+.full .line{
+    display: flex;
+    color: blue;
+}
+.full .line em{
+    font-size: 4rem;
+    margin-right: 15px;
+}
+.full .line .right2 h5{
+    margin: 0;
+    margin-top: 20px;
+}
+.full .right img{
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: inline-block;
+}
+.commit{
+    background: blue;
+    color: #fff;
+    padding: 30px 0;
+}
+.commit button{
+    background: yellow;
+    padding: 10px 30px;
+    border: none;
+    margin-left: 20px;
+}
+.blog2{
+    margin: 100px 0;
+}
+.blog2 .para{
+    color: #777;
+    text-align: center;
+}
+.blog2 h2{
+    color: blue;
+    text-align: center;
+}
+.blog2 hr{
+    width: 10%;
+    background: yellow;
+    height: 2px;
+    margin: 20px auto;
+}
+.blog2 .box2{
+    background: url('../image/boat.jpg') no-repeat 0 0;
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+}
+.blog2 .box2 .date{
+    background: blue;
+    padding: 10px 30px;
+    margin-top: 20px;
+    border: none;
+}
+.date a{
+    color: #fff;
+}
+.blog2 h5{
+    color: rgb(113, 107, 107);
+    margin: 20px 0;
+}
+.blog2 .read{
+    background: yellow;
+    padding: 10px 30px;
+    border: none;
+    border-radius: .25rem;
+    margin-top: 20px;
+}
+.footer{
+    color: #fff;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    background: rgb(62, 60, 60);
+}
+.footer .line{
+    display: flex;
+    margin-bottom: 20px;
+}
+.footer .line i{
+    font-size: 4rem;
+    margin-right: 10px;
+}
+.footer h3{
+    margin:0;
+}
+.footer .para{
+    color: orange;
+}
+.footer h4{
+    color: orange;
+    margin-bottom: 20px;
+}
+.footer a{
+    color: #fff;
+}
+.footer h5{
+    margin: 0;
+}
+.section-slide{
+    color: #fff;
+    padding: 10px 0;
+    background: rgb(49, 46, 46);
+}
+.section-slide .icons i{
+    border: 2px solid orange;
+    padding: 10px 10px;
+    color: orange;
+    border-radius: 4rem;
+    margin-left: 5px;
+}
+.icons{
+    text-align: right;
+}
+@media(max-width: 768px){
+    .why{
+        display: block;
+    }
+    .header .navbar{
+        text-align: right;
+    }
+    .why .left{
+        width: 100%;
+    }
+    .why .right{
+        width: 100%;
+        display: block;
+    }
+    .why .right .let{
+        width: 100%;
+    }
+    .line{
+        justify-content: center;
+    }
+    .let2{
+        width: 100%;
+    }
+    h1, h2, h3, h4, h5{
+        text-align: center;
+    }
+    .grow hr{
+        margin: 30px auto
+    }
+    .why .hori{
+        margin: 20px auto
+    }
+    .why .big{
+        width: 100%;
+    }
+    .grow{
+        display: block;
+    }
+    .grow .left{
+        width: 100%;
+    }
+    .grow .right{
+        width: 100%;
+    }
+    .full{
+        display: block;
+    }
+    .read{
+        margin-bottom: 15px;
+    }
+    .blog2{
+        text-align: center;
+    }
+    .commit{
+        text-align: center;
+    }
+    .banner{
+        text-align: center;
+    }
+    .full .left{
+        width: 100%;
+        margin-left: 0;
+    }
+    .full .box{
+        width: 100%;
+    }
+    .full .box hr{
+        margin: 30px auto
+    }
+    .full .right{
+        width: 100%;
+    }
+    .footer{
+        text-align: center;
+    }
+    .section-slide{
+        text-align: center;
+    }
+}

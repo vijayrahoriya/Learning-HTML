@@ -1,0 +1,241 @@
+.header{
+    background: #000;
+    color: #fff;
+}
+.header .collapse{
+    justify-content: right;
+}
+.header i{
+    margin-right: 10px;
+    color: red;
+}
+.banner{
+    height: 700px;
+}
+.banner::before{
+    background: url('../image/post-2.jpg') no-repeat 0 0;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    content: "";
+    height: 700px;
+    color: #000;
+    text-align: center;
+    font-weight: 700;
+    opacity: .3;
+}
+.banner .text{
+    padding: 170px 0;
+    text-align: center;
+}
+.banner h1{
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+.banner button{
+    background: #000;
+    padding: 15px 40px;
+    margin-top: 50px;
+}
+.banner a{
+    color: #FFF;
+}
+.section{
+    padding: 80px 0;
+}
+.section .identify{
+    text-align: center;
+    font-weight: 700;
+}
+.identify i{
+    font-size: 2rem;
+    margin-bottom: 50px;
+    color: red;
+}
+.identify p{
+    margin-bottom: 20px;
+}
+.section-slide{
+    background: skyblue;
+    padding: 140px 0;
+    font-weight: 700;
+    text-align: center;
+}
+.book{
+    font-size: 3rem;
+    margin: 40px 0;
+}
+.left-box{
+    text-align: center;
+}
+.section-slide .left-box h1{
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.left-box a{
+    color: #000;
+}
+.left-box a i{
+    margin-left: 10px;
+}
+.left-box .para{
+    margin-top: 30px;
+}
+.box{
+    border: 3px solid #000;
+    padding: 20px 20px;
+    background: #fff;
+}
+.box .line{
+    display: flex;
+}
+.box .line .right{
+    margin-left: 10px;
+}
+.box i{
+    color: red;
+}
+.left .gola{
+    color: blue
+}
+.section-slide button{
+    background: #000;
+    padding: 15px 30px;
+    margin-top: 100px;
+}
+.section-slide button a{
+    color: #fff;
+}
+.section .ton{
+    margin-top: 30px;
+    text-align: center;
+}
+.section .video{
+    margin: 30px 0;
+    font-weight: 700;
+}
+.line .right2{
+    margin-left: 10px;
+}
+.line .first{
+    color: orangered
+}
+.line .second{
+    color: blue
+}
+.whole{
+    padding: 100px 0;
+    text-align: center;
+    background: #000;
+}
+.whole h1{
+    margin-bottom: 70px;
+    color: #fff;
+}
+.blue{
+    color: blue;
+}
+.pink{
+    color: pink;
+}
+.orange{
+    color: orange;
+}
+.skyblue{
+     color: skyblue;
+}
+.testi{
+    margin: 50px 0;
+    text-align: center;
+}
+.section img{
+    border-radius: 50%;
+    margin-bottom: 60px;
+    width: 50%
+}
+.photo{
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+.get{
+    background: rgb(244, 244, 38);
+    padding: 80px 0;
+}
+.buttons{
+    text-align: right;
+}
+.buttons button{
+    background: #000;
+    padding: 15px 30px;
+}
+.buttons a{
+    color: #fff;
+}
+.last{
+    text-align: center;
+    padding: 80px 0;
+}
+.last h1{
+    margin-bottom: 20px;
+}
+.last img{
+    margin: 20px 0;
+}
+.last p{
+    font-weight: 700;
+}
+.footer{
+    padding: 10px 0;
+    text-align: center;
+    border-top: 2px solid #000;
+    background: rgb(255, 178, 191);
+}
+.top i{
+    color: #000;
+    margin: 40px 5px;
+}
+.box2{
+    background: #000;
+    color: #fff;
+    margin: 30px 0;
+    text-align: center;
+    padding: 30px 0;
+}
+.box2 input{
+    padding: 15px 10px;
+    width: 25%;
+    border: none;
+    margin: 20px 0;
+}
+.box2 button{
+    background: blue;
+    padding: 15px 30px;
+    border: none;
+    margin: 20px 0;
+}
+.box2 a{
+    color: #fff;
+}
+.late a{
+    color: #777;
+}
+.late a em{
+    color: #000;
+}
+@media(max-width: 768px){
+    .header{
+        text-align: right;
+    }
+    .buttons{
+        text-align: center;
+        margin: 15px 0;
+    }
+}
+@media(max-width: 500px){
+    .footer input{
+        width: 100%;
+    }
+}
+

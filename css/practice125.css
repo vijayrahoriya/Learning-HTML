@@ -1,0 +1,496 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&family=Playfair+Display:ital@1&display=swap');
+/* font-family: 'Playfair Display', serif; */
+html{
+    scroll-behavior: smooth;
+}
+.header{
+    padding: 40px 0;
+    position: fixed;
+    width: 100%;
+    background: none;
+}
+.header.sticky{
+    background: palevioletred;
+    box-shadow: 0 .3rem .5rem palevioletred;
+    padding: 10px 0;
+    opacity: .9;
+    z-index: 999;
+}
+.header .navbar-brand .line{
+    display: flex;
+}
+.navbar{
+    padding: 0;
+}
+.header .left{
+    margin-right: 10px;
+}
+
+.header .left i{
+    font-size: 2rem;
+    color: #0098a1;
+    background: #eee;
+    border-radius: 5rem;
+    padding: 10px;
+}
+.header h3{
+    font-family: 'Kalam', cursive;
+    margin-bottom: 0;
+    color: #fff;
+}
+.header p{
+    letter-spacing: 2px;
+    color: #fff;
+    font-size: .7rem;
+}
+.header .collapse{
+    justify-content: right;
+}
+.navbar .nav-item .nav-link{
+    color: #fff;
+    position: relative;
+    font-weight: 600;
+}
+.navbar .nav-item .nav-link::after{
+    width: 0%;
+    content: "";
+    height: 3px;
+    background: crimson;
+    border-radius: 6px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: all .5s;
+}
+.navbar .nav-item .nav-link:hover::after{
+    width: 100%;
+}
+.navbar li{
+    padding: 0 10px;
+}
+.first{
+    background: #fff;
+    color: #0098a1;
+    border-radius: 5rem;
+    padding: 5px 20px;
+    text-align: center;
+    font-weight: 600;
+    border: 2px solid #fff;
+    cursor: pointer;
+    transition: all .5s;
+}
+.first:hover{
+    background: none;
+    color: #fff;
+}
+
+.banner{
+    background: url('../image/gallery-img-4.jpg') no-repeat 0 0;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: multiply;
+    min-height: 95vh;
+    color: #fff;
+    padding-top: 200px;
+}
+.banner .box{
+    padding-left: 60px;
+}
+.banner h1{
+    margin-bottom: 20px;
+    letter-spacing: 3px;
+}
+.banner .first{
+    margin-top: 15px;
+    padding: 15px 30px;
+}
+.photo{
+    text-align: center;
+}
+.banner img{
+    width: 60%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.section{
+    margin-top: 150px;
+    margin-bottom: 110px;
+}
+.section .box{
+    min-height: 200px;
+    background: #9bd3eb5e;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #0098a1;
+    position: relative;
+}
+.box .layer{
+    width: 100%;
+    height: 0%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    background: linear-gradient(skyblue, crimson);
+    opacity: .6;
+    transition: all .5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.layer i{
+    font-size: 2rem;
+    cursor: pointer;
+    color: #000;
+}
+
+.section .box:hover .layer{
+    height: 100%;
+}
+.advice{
+    background: #f5deb338;
+    padding: 70px 0;
+}
+.advice img{
+    width: 60%;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+.advice h5{
+    color: #0098a1;
+    font-family: 'Kalam', cursive;
+    margin-bottom: 30px ;
+    font-size: 1.5rem;
+}
+.advice h2{
+    margin-bottom: 25px;
+}
+.advice p{
+    color: #777;
+}
+.second{
+    padding: 15px 30px;
+    margin: 20px 0;
+    color: #fff;
+    background: #24617a;
+}
+.second:hover{
+    background: none;
+    border: 2px solid #0098a1;
+    color: #0098a1;
+}
+
+.services{
+    text-align: center;
+    margin: 80px 0;
+}
+.services i{
+    padding: 20px;
+    margin-top: 20px;
+    font-size: 2rem;
+    color: #0098a1;
+    background: #9bd3eb5e;
+    border-radius: 5rem;
+}
+.services h4{
+    font-family: 'Kalam', cursive;
+    margin: 20px 0;
+    font-weight: bold;
+    color:#0098a1;
+}
+.services p{
+    color: #888;
+}
+
+.team{
+    padding-top: 150px;
+    padding-bottom: 60px;
+    color: #fff;
+    background: linear-gradient(#0000, #0998a1), url('../image/markus-spiske-fkEUEsX0KsM-unsplash.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.team img{
+    width: 60%;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+.team h2{
+    margin-bottom: 20px;
+}
+.team .first{
+    margin-top: 20px;
+    padding: 15px 30px;
+    margin-bottom: 20px;
+}
+
+.result{
+    margin-top: 140px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+.result .box{
+    background: #9bd3eb5e;
+    padding: 40px;
+    border-radius: 6px;
+    margin-top: 30px;
+}
+.result h5{
+    margin-bottom: 20px;
+    color: #0098a1;
+    font-weight: 700;
+}
+.result button{
+    background: none;
+    border: 2px solid #0098a1;
+    color: #0098a1;
+    font-family: 'Kalam', cursive;
+    padding: 10px 25px;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: all .5s;
+    font-weight: 700;
+    font-size: 1.5rem;
+    border-radius: .25rem;
+}
+.result button:hover{
+    background: #0098a1;
+    color: #fff;
+}
+
+
+.work{
+    padding: 70px 0;
+    text-align: center;
+    background: #f5deb338;
+}
+.big{
+    display: flex;
+    justify-content: center;
+}
+.work .big .right p{
+    align-items: left;
+    margin-bottom: 0;
+    color: #888;
+}
+.work h1{
+    margin-bottom: 20px;
+}
+.work h5{
+    font-family: 'Kalam', cursive;
+    color: #0098a1;
+    font-weight: 700;
+}
+.work .line{
+    width: 60%;
+    justify-content: center;
+    display: flex;
+    margin-top: 10px;
+}
+.work .right{
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+}
+.work button{
+    background: skyblue;
+    color: #0098a1;
+    border: 2px solid skyblue;
+}
+
+.mission{
+    margin: 80px 0;
+}
+.mission h1{
+    display: inline;
+    background: skyblue;
+    color: #0098a1;
+}
+.ton{
+    margin: 10px 0;
+    margin-top: 6px;
+    margin-left: -85px; 
+    margin-bottom: 15px;
+}
+.mission p{
+    color: #888;
+}
+.mission button{
+    background: #f5deb338;
+    color: #0098a1;
+}
+.mission img{
+    width: 100%;
+}
+
+.form{
+    background: linear-gradient(transparent, #0098a1), url('../image/featued-img-3.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+.form h5{
+    font-family: 'Kalam', cursive;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+.form form{
+    background: #eee;
+    padding: 50px;
+    margin-top: 30px;
+    text-align: left;
+}
+.form input{
+    width: 27%;
+    padding: 10px;
+    border: 2px solid #999;
+    outline: none;
+    margin-left: 10px;
+}
+.form button{
+    margin-top: 0;
+    margin-left: 10px;
+    background: skyblue;
+    padding: 10px 30px;
+    color: #0098a1;
+    border: 2px solid skyblue;
+}
+.well{
+    margin-top: 140px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+.well button{
+    background: skyblue;
+}
+.footer{
+    background: #0098a1;
+    color: #fff;
+    padding: 70px 0;
+}
+.footer .line{
+    margin-top: 15px;
+    justify-content: center;
+    display: flex;
+}
+.footer .line i{
+    color: #0098a1;
+    background: #eee;
+    border-radius: 5rem;
+    padding: 10px;
+    font-size: 3rem;
+}
+.footer .right{
+    margin-left: 20px;
+}
+.footer h3{
+    margin-bottom: 0;
+    font-size: 2.5rem;
+    font-family: 'Kalam', cursive;
+    font-weight: 700;
+}
+.footer h5{
+    letter-spacing: 4px;
+    font-size: .7rem;
+}
+.icons {
+    text-align: center;
+}
+.icons i{
+    padding: 10px;
+    color: #0098a1;
+    background: #fff;
+    border-radius: 5rem;
+    cursor: pointer;
+    margin: 20px 3px;
+    transition: all .5s;
+    border: 2px solid #fff;
+}
+.icons i:hover{
+    background: none;
+    color: #fff;
+}
+.footer h4{
+    margin-bottom: 30px;
+    font-family: 'Kalam', cursive;
+}
+.footer span:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.footer .photo{
+    margin-top: 50px;
+}
+.footer .icons .face{
+    padding: 10px 13px;
+}
+
+
+@media(max-width: 768px){
+    .header{
+        text-align: right;
+    }
+    .banner img{
+        margin: 40px 0;
+    }
+    .banner {
+        text-align: center;
+    }
+    .banner .box{
+        padding: 0;
+    }
+    .section .box{
+        margin: 20px 0;
+    }
+    .advice{
+        text-align: center;
+    }
+    .advice .lot{
+        text-align: center;
+    }
+    .team img{
+        margin: 20px 0;
+    }
+    .team{
+        text-align: center;
+    }
+    .work .line{
+        width: 100%;
+    }
+    .ton{
+        margin-left: 0;
+        text-align: center;
+    }
+    .mission{
+        text-align: center;
+    }
+    .form input{
+        width: 100%;
+        margin: 10px 0;
+    }
+    .form button{
+        width: 100%;
+        margin-left: 0;
+    }
+    .footer h4{
+        margin: 30px 0;
+    }
+}
+
+@media(max-width: 580px){
+    .footer{
+        text-align: center;
+    }
+}

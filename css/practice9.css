@@ -1,0 +1,86 @@
+.header-slide{
+    background-color: #0a524d;
+    color: white;
+    text-align: right;
+}
+.logo{
+    text-align: center;
+}
+.bar{
+    list-style: none;
+    margin-top: 20px;
+}
+.bar li{
+    display: inline-block;
+    padding-right: 25px;
+}
+.bar li a{
+    color: white;
+}
+.text{
+    margin: 60px 0;
+    text-align: left;
+}
+.section{
+    margin: 20px 0;
+    text-align: center;
+}
+.section hr{
+    background-color: gray;
+}
+.section h2 em{
+    color: blue;
+}
+.section button{
+    background-color: blue;
+}
+.section button a{
+    color: white;
+}
+.section-head{
+    text-align: center;
+    background-color: darkgray;
+
+}
+button{
+    background-color: blue;
+    margin-top: 15px;
+}
+button a{
+    color: white;
+}
+.footer-slide{
+    background-color: #326a67;
+    color: white;
+}
+.footer-slide hr{
+    background-color: orangered;
+}
+.footer{
+    background-color: #2da59f;
+    color: white;
+    padding: 15px 0;
+}
+.foot{
+    text-align: right;
+}
+@media (max-width: 768px){
+    .header-slide{
+        text-align: center;
+    }
+    h1, h2, h3, h4{
+        text-align: center;
+    }
+    .section{
+        text-align: center;
+    }
+    .section-head{
+        text-align: center;
+    }
+    .footer-slide{
+        text-align: center;
+    }
+    .footer{
+        text-align: center;
+    }
+}

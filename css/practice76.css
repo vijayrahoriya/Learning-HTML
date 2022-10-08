@@ -1,0 +1,334 @@
+.header{
+    background: url('../image/theater.jpg') no-repeat 0 0;
+    color: #fff;
+    background-position: center;
+    background-size: cover;
+    
+}
+.header .collapse{
+    justify-content: right;
+}
+.header li{
+    padding: 0 15px;
+}
+.header .collapse a b:hover{
+    background: white;
+    padding: 10px 10px;
+    border-radius: .25rem;
+    color: orangered;
+}
+.header .text{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 90vh;
+    padding-bottom: 50px;
+}
+.header .text a:hover{
+    color: orangered;
+}
+.header .text p{
+    font-weight: 700;
+}
+.header .text h1 em{
+    color: orangered
+}
+.btn{
+    background: white;
+    color: orangered;
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: .25rem;
+    margin-top: 15px;
+    cursor: pointer;
+    margin-bottom: 90px;
+}
+.section{
+    position: absolute;
+    top: 85%;
+    width: 100%;
+}
+.section .up{
+    border-radius: .25rem;
+    padding: 40px 20px;
+    background: #fff;
+    box-shadow: 5px 5px 5px 5px #aaa;
+}
+.section h5{
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+.section p{
+    color: #777;
+}
+.section select{
+    background: transparent;
+    border: none;
+    padding: 5px;
+    padding-right: 90px;
+    color: #777;
+    outline: none;
+}
+.btn-prime{
+    background: red;
+    padding: 10px 10px;
+    border: none;
+    width: 100%;
+    border-radius: .25rem;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.section a{
+    color: white;
+    text-decoration: none;
+}
+.explore{
+    margin-top: 200px;
+}
+.explore .text h4{
+    font-weight: 700;
+}
+.explore .text h4 em{
+    color: orangered
+}
+.explore .content{
+    margin: 15px 0;
+}
+.explore .content img{
+    display: inline-block;
+    height: 450px;
+    border-radius: .25rem;
+}
+.content .left{
+    width: 40%;
+   
+}
+.explore .content .up{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.explore .content .up .icons{
+    display: flex;
+}
+.explore .content .up .long2{
+    margin-left: 10px;
+}
+.explore .content .up .right h5{
+    margin-bottom: 25px;
+}
+.explore .content  h5{
+    font-weight: 700;
+}
+.explore .check{
+    margin: 140px 0;
+}
+.explore .check a{
+    background: red;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: .25rem;
+}
+.explore .check h4{
+    margin: 20px 0;
+}
+.explore .check p{
+    margin-bottom: 40px;
+}
+.explore img{
+    border-radius: .25rem;
+}
+.explore .check .Second{
+    position: absolute;
+    top: -20%;
+    right: 50%;
+    display: inline-block;
+    width: 50%;
+    height: 450px;
+    border-radius: .25rem;
+}
+.map{
+    
+    background: url('../image/tiger.webp') no-repeat 0 0;
+    background-position: center;
+    background-size: cover;
+    height: 85vh;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.map h4{
+    font-weight: 700;
+}
+.map h4 em{
+    color: orangered
+}
+.map .big{
+    display: flex;
+    justify-content: space-between;
+}
+.map .big .left{
+    width: 49%;
+}
+.map .text{
+    background-color: white;
+    padding: 25px 25px;
+    border-radius: .25rem;
+}
+.big  input{
+    background: transparent;
+    padding: 10px 10px;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid gray;
+    outline: none;
+    color: black
+}
+.big .bottom{
+    width: 100%;
+}
+.big  textarea{
+    background: transparent;
+    padding: 10px 10px;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid gray;
+    outline: none;
+    color: black
+}
+.map .big .right{
+    width: 49%
+}
+.btn-prime a{
+    color: #fff;
+    text-decoration: none;
+}
+.map .large{
+    border-radius: .25rem;
+}
+.map img{
+    display: inline-block;
+    height: 392.2px;
+    width: 100%;
+    border-top-right-radius: .25rem;
+    border-bottom-right-radius: .25rem;
+}
+.map .photo{
+    padding: 0;
+}
+.footer{
+    padding: 20px 0;
+    margin: 50px 0;
+}
+.footer h4{
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+.footer p{
+    color: #777;
+}
+.footer h1 i{
+    color: orangered;
+    font-size: 2rem;
+    margin-right: 5px;
+}
+.footer h1{
+    letter-spacing: 5px;
+    margin-bottom: 40px;
+}
+.footer .big{
+    display: flex;
+    margin-bottom: 15px;cursor: pointer;
+}
+.footer .right{
+    margin-left: 10px;
+}
+.footer .big i{
+    background: #000;
+    color: #fff;
+    border-radius: 5rem;
+    padding: 5px 5px;
+}
+.footer .subscribe{
+    text-align: center;
+    margin: 15px 0;
+}
+.footer .email{
+    text-align: right;
+    margin: 15px 0;
+}
+.footer .email input{
+    border: none;
+    outline: none;
+}
+.footer .submit{
+    text-align: right;
+    margin: 15px 0;
+}
+.footer a{
+    color: #000;
+    text-decoration: none;
+}
+.footer .text{
+    margin: 15px 0;
+}
+.footer em{
+    color: orangered
+}
+@media(max-width: 768px){
+    .footer{
+        text-align: center;
+    }
+    .footer .email{
+        text-align: center;
+    }
+    .footer .submit{
+        text-align: center;
+    }
+    .footer .big{
+        justify-content: center;
+    }
+}
+@media(max-width: 580px){
+    .header .navbar{
+        text-align: right;
+    }
+    .section{
+        top: 66%;
+        text-align: center;
+    }
+    .explore .content .up{
+        display: block;
+    }
+    .explore{
+        text-align: center;
+    }
+    .explore .content .left{
+        margin-right: 10px;
+    }
+    .map{
+        text-align: center;
+        margin: 110px 0;
+    }
+    .check{
+        margin: 40px 0;
+    }
+    .map .big{
+        display: block;
+    }
+    .map .big .left{
+        width: 100%
+    }
+    .map .big .right{
+        width: 100%
+    }
+    .icons{
+        justify-content: center;
+    }
+    .explore .up .left{
+        width: 100%
+    }
+}

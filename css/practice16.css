@@ -1,0 +1,93 @@
+.header{
+    background-color: black;
+    color: white;
+}
+.logo{
+    margin-top: 10px;
+}
+.logo em{
+    color: orangered
+}
+.bar{
+    list-style: none;
+    margin: 20px 0;
+}
+.bar li{
+    display: inline-block;
+    padding-right: 15px;
+}
+.bar li a{
+    color: white;
+}
+.banner{
+    background: url('../image/phone.jpg') no-repeat 0 0;
+    color: white;
+    padding: 50px 0;
+}
+button{
+    background-color: orangered;
+    border-radius: 13%;
+}
+button a{
+    color: white;
+}
+.section{
+    padding: 30px 0;
+    background-color: gray;
+    color: white;
+}
+.section p:before{
+    content: "\f073";
+    font-family: fontAwesome;
+    padding-right: 5px;
+    color: white;
+    font-size: 3rem;
+}
+.text{
+    margin: 20px 0;
+}
+hr{
+    margin: 20px 0;
+    background-color: black;
+}
+.line img:before{
+    content: "\f073";
+    font-family: fontAwesome;
+    padding-right: 5px;
+    color: white;
+    font-size: 3rem;
+}
+.gone{
+    background-color: black;
+}
+button{
+    margin: 10px 0;
+}
+.footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.icons{
+    font-size: 2rem;
+}
+@media (max-width: 768px){
+    .header{
+        text-align: center;
+    }
+    .logo{
+        text-align: center;
+    }
+    h1, h2, h3, h4{
+        text-align: center;
+    }
+    .banner{
+        text-align: center;
+    }
+    .section{
+        text-align: center;
+    }
+    .footer{
+        text-align: center;
+    }
+}

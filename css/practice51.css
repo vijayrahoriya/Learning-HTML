@@ -1,0 +1,123 @@
+.header-slide{
+    background-color: black;
+    color: white;
+    padding: 5px 0;
+}
+.line{
+    background-color: red;
+    height: 1px;
+    animation: vijay 3s linear;
+}
+.header-slide i{
+    color: white;
+    margin: 0 10px;
+}
+.rate{
+    text-align: right;
+}
+.header{
+    padding: 20px 0;
+}
+.logo i{
+    font-size: 2rem;
+    animation: hanuman 3s linear infinite;
+}
+.logo h2{
+    display: inline;
+    animation: hanuman 3s linear infinite;
+}
+.bar{
+    list-style: none;
+}
+.bar li{
+    display: inline-block;
+    padding-right: 20px;
+}
+.bar li a{
+    color: black;
+}
+.bar button{
+    background-color: greenyellow;
+    border-radius: 1rem;
+    padding: 5px 15px;
+    border: greenyellow;
+}
+.bar button a{
+    color: white;
+
+}
+.d-block{
+    height: 500px;
+}
+.banner{
+    position: absolute;
+    top: 20%;
+    left: 13%;
+}
+.banner button{
+    background-color: white;
+    border-radius: 1rem;
+    padding: 5px 15px;
+    margin: 15px 0;
+}
+.banner a{
+    color: black;
+}
+.section{
+    text-align: center;
+    position: absolute;
+    top: 75%;
+    left: 13%;
+    
+   
+}
+.box{
+    width: 95%;
+    background-color: white;
+}
+.latest i{
+    background-color: darkgray;
+    font-size: 2rem;
+    color: green;
+    border: green;
+    border-radius: 40%;
+    margin: 20px 0;
+}
+.game{
+    background-color: black;
+    color: white;
+}
+@keyframes vijay{
+    from{width: 0;}
+    to{width: 100%;}
+}
+@keyframes hanuman{
+   from{
+font-size: 0;}
+   to{
+    font-size: 2rem;}
+}
+@media(max-width: 768px){
+    .header-slide{
+        text-align: center;
+    }
+    .logo{
+        text-align: center;
+    }
+    .bar{
+        text-align: center;
+    }
+    .banner{
+        text-align: center;
+    }
+    .section{
+        position: relative;
+        top: 0;
+        left: 0;
+        text-align: center;
+        margin: 20px 0;
+    }
+    .box{
+        width: 100%;
+    }
+}

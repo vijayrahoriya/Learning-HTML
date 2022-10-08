@@ -1,0 +1,167 @@
+body{
+    background-color: aliceblue;
+}
+.top{
+    background-color: black;
+    color: white;
+    display: flex;
+    padding: 15px 10px;
+    justify-content: space-between;
+}
+.fbox{
+    display: flex;
+    cursor: pointer;
+    justify-content: space-around;
+    width: 30%;
+}
+.left:hover{
+    border: 1px solid orange;
+}
+.left em{
+    font-size: 1rem;
+}
+.right em{
+    color: gray
+}
+.right:hover{
+    border: 1px solid orange;
+}
+.sbox{
+    display: flex;
+    cursor: pointer;
+    justify-content: space-between;
+    width: 40%;
+}
+.jambo{
+    background-color: darkgray;
+    border: 1px solid black;
+    position: absolute;
+    cursor: pointer;
+    top: 2%;
+    left: 30%;
+    padding: 7px 0;
+}
+.search{
+    padding: 5px 0;
+    width: 500px;
+}
+.sbox i{
+    color: black;
+    position: absolute;
+    top: 2%;
+    right: 37%;
+    border: 1px solid black;
+    padding: 10px 10px;
+}
+.tbox{
+    display: flex;
+    cursor: pointer;
+    justify-content: space-between;
+    width: 30%;
+}
+.last{
+    display: flex;
+    justify-content: space-between;
+}
+.hanu{
+    padding: 5px 20px;
+}
+.hanu:hover{
+    border: 1px solid orange;
+}
+.header-slide{
+    background-color: gray;
+    padding: 8px 3px;
+    color: white;
+    display: flex;
+}
+.header-slide a{
+    color: white;
+    margin: 3px 10px;
+    padding: 5px 5px;
+}
+.header-slide a:hover{
+    border: 1px solid orange;
+}
+.lug{
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+}
+.fsmall{
+    width: 10%;
+    color: white;
+}
+.fsmall:hover{
+    border: 1px solid orange;
+}
+.ssmall{
+    width: 90%;
+}
+
+.bug{
+    width: 25%;
+}
+.bug img{
+    height: 35px;
+    width: 100%;
+}
+.bug:hover{
+    border: 1px solid orange;
+}
+.d-block{
+    height: 600px;
+}
+.carousel-control-prev-icon:hover{
+    border: 2px solid orange;
+    padding: 100px 20px;
+}
+.carousel-control-next-icon:hover{
+    border: 2px solid orange;
+    padding: 100px 20px;
+}
+.section{
+    position: absolute;
+    top: 70%;
+    left: 13%;
+}
+.boll{
+    cursor: pointer;
+    background-color: white;
+}
+.main{
+    background-color: white;
+    margin: 250px 10px 0 10px;
+}
+.banner{
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    left: 2%;
+}
+.photo{
+    height: 350px;
+}
+.banner img{
+    width: 19%;
+    height: 300px;
+}
+.footer-slide{
+    text-align: center;
+    margin: 20px 0;
+}
+.footer-slide button{
+    background-color: orange;
+    border: orange;
+    border-radius: .25rem;
+    padding: 5px 30px;
+    cursor: pointer;
+}
+.footer{
+    background-color: rgb(42, 42, 79);
+    color: white;
+    padding: 100px 10px;
+}
+.footer p{
+    cursor: pointer;
+}

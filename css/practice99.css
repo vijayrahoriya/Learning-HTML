@@ -1,0 +1,368 @@
+.header-slide{
+    background: #000;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+}
+.header-slide .first{
+    width: 30%;
+}
+.header-slide p i{
+    margin: 0 10px;
+}
+.header-slide .middle{
+    width: 40%;
+}
+.header-slide .last a{
+    color: #fff;
+    margin:  0 10px;
+}
+.header-slide .last i{
+    margin: 0 10px;
+}
+.header-slide .middle i{
+    position: absolute;
+    color: #000;
+    top: 3%;
+    left: 31%;
+    margin: 0 10px;
+}
+.header-slide input{
+    width: 100%;
+    padding: 5px 50px;
+    border-radius: .25rem;
+    border: none;
+}
+.header-slide .last{
+    width: 30%;
+    text-align: right;
+}
+.header{
+    background: #000;
+    padding: 0 30px;
+}
+.header li{
+    padding: 0 10px;
+}
+.collapse{
+    justify-content: right;
+}
+.header .line{
+    display: flex;
+    color: #fff;
+}
+.header .right{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.header .line p{
+    margin: 0;
+    font-size: .5rem;
+}
+.slide img{
+    display: inline-block;
+    height: 80vh;
+}
+.banner{
+    position: absolute;
+    width: 100%;
+    color: #fff;
+    padding: 150px 0;
+}
+.banner a{
+    color: #fff;
+}
+.carousel-indicators li{
+    height: 30px;
+    border-radius: 50%;
+}
+.icons{
+    text-align: center;
+    background: rgb(19, 15, 15);
+    color: #fff;
+   
+}
+.icons i{
+    color: #fff;
+    font-size: 2rem;
+    margin: 10px 0;
+}
+.major{
+    margin: 90px 0;
+}
+.major h1{
+    margin-bottom: 70px;
+}
+.major .photo{
+    background: url('../image/fighter\ jet.webp') no-repeat 0 0;
+    background-position: center;
+    background-size: cover;
+    
+    display: flex;
+    align-items: flex-end;
+    color: #fff;
+    padding: 0 20px;
+    padding-bottom: 20px;
+    padding-top: 400px;
+}
+.major .line{
+    display: flex;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+.major .left{
+    width: 49%;
+    margin: 0 10px;
+}
+.major a{
+    color: #000;
+}
+.work{
+    background: lightblue;
+    padding: 50px 0;
+}
+.work h1{
+    margin-bottom: 20px;
+}
+.work .box{
+    background: #fff;
+    color: #000;     
+    border-radius: .25rem;   
+    padding: 20px;
+    position: relative;
+}
+.box .first {
+    padding-left: 30px;
+}
+.work input{
+    border-radius: 50px;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 0 10px;
+}
+.work .first i{
+    position: absolute;
+    top: 4%;
+    right: 8%;
+}
+.work .first button{
+    background: #000;
+    border: none;
+    border-radius: 50px;
+    margin: 5px;
+    padding: 5px 10px;
+}
+.work .first a{
+    color: #fff;
+}
+.work p i{
+    margin: 0 10px;
+}
+.work .second{
+    margin: 40px 0;
+}
+.work .third{
+    border: 1px solid lightgray;
+    border-radius: .25rem;
+}
+.work .third i{
+    margin: 0 10px;
+}
+.work .third .in{
+    padding: 10px;
+    padding-left: 30px;
+}
+.in button{
+    background: #000;
+    padding: 5px 20px;
+    border-radius: 50px;
+    margin: 15px 0px;
+}
+.in a{
+    color: #fff;
+}
+.work .fourth{
+    margin: 30px 0;
+}
+.work .big2{
+    background: #fff;
+    color: #000;
+    border-radius: .25rem;
+}
+.work .big2 .line{
+    display: flex;
+    margin-bottom: 15px;
+    padding:0 15px;
+}
+.work .big2 .line .left p{
+    background: #000;
+    color: #fff;
+    padding: 0 2px;
+    border-radius: 50%;
+}
+.work .top-box{
+    background: #000;
+    color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.work .big2 .right{
+    margin-left: 10px;
+}
+.work .pare{
+    background: lightgray;
+    padding: 10px;
+    border-radius: .25rem;
+}
+.section{
+    background: rgb(47, 42, 42);
+    color: #fff;
+    
+}
+.section .big-box{
+    background: #fff;
+    padding-top: 20px;
+    margin-top: 200px;
+}
+.section .box{
+    border-radius: .25rem;
+    background: #000;
+}
+.section .top{
+    display: flex;
+    padding: 5px 15px;
+    background: rgb(30, 28, 28);
+}
+.section .top img{
+    border-radius: 50%;
+    width: 100%;
+    
+}
+.section .para{
+    padding: 10px 15px;
+}
+.section .top .left{
+    width: 20%;
+}
+.section .top .right{
+    width: 70%;
+    margin-left: 15px;
+}
+.section .bottom{
+    background: #000;
+    padding: 20px;
+}
+.section .last{
+    background: #000; 
+    text-align: right;
+    padding: 0 15px;
+    position: relative;
+}
+.section input{
+    border-radius: 50px;
+    border: none;
+    background: #fff;
+    padding: 5px 10px;
+    margin-right: 10px;
+}
+.section .last img{
+    position: absolute;
+    top: -15%;
+    width: 15%;
+    border-radius: 50%;
+    right: 7%;
+}
+.btn{
+    padding: 20px 0;
+    text-align: right;
+    background: #fff;
+    margin-bottom: 135px;
+}
+.btn button{
+    background: #000;
+    margin-right: 20px;
+    padding: 5px 10px;
+    border-radius: .25rem;
+}
+.btn a{
+    color: #fff;
+}
+.box2{
+    background: #fff;
+    color: #000;
+    padding: 20px;
+    border-radius: .25rem;
+    margin-bottom: 40px;
+}
+.box2 .top2{
+    display: flex;
+    border-bottom: 1px solid #000;
+}
+.video{
+    margin-bottom: 40px;
+}
+.top2 p{
+    margin: 0;
+}
+.box2 .left{
+    width: 20%;
+}
+.box2 .left img{
+    display: inline-block;
+    width: 100%;
+    border-radius: 50%;
+}
+.box2 .right{
+    width: 80%;
+    margin-left: 5px;
+}
+.box2 .line{
+    display: flex;
+    border: 1px solid gray;
+    border-radius: .25rem;
+    margin-top: 20px;
+}
+.box2 .line .left{
+    background: lightgray;
+    padding: 20px;
+}
+.box2 .line2{
+    display: flex;
+    justify-content: space-between;
+}
+.box2 .line2 i{
+    margin: 10px;
+}
+.footer{
+    background: #000;
+    color: #fff;
+}
+@media(max-width: 768px){
+    .navbar{
+        text-align: right;
+    }
+    .header-slide .middle i{
+        top: 2%;
+    }
+    .work .first i{
+        top: 3%;
+    }
+    .top-box{
+        margin-top: 25px;
+    }
+    .section .btn{
+        margin-top: 15px;
+    }
+}
+@media(max-width: 500px){
+    .major .line{
+        display: block;
+    }
+    .major .line .left{
+        width: 100%;
+    }
+    .major .line .right{
+        width: 100%;
+        text-align: center;
+    }
+}

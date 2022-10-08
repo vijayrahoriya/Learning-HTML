@@ -1,0 +1,99 @@
+.banner{
+    padding: 20px 0;
+    position: absolute;
+    color: white;
+    left: 10%;
+
+}
+.logo{
+    margin-top: 10px;
+}
+.bar{
+    list-style: none;
+    margin: 20px;
+}
+.bar li{
+    display: inline-block;
+    padding-right: 15px;
+}
+a{
+    color: white;
+}
+.text{
+    padding: 60px 0;
+    color: white;
+}
+.text a{
+    color: black
+}
+.text button{
+    margin: 10px 15px;
+    padding: 5px 10px;
+    border: 1px solid white;
+    border-radius: .25rem;
+    background-color: white
+}
+button:hover{
+    background-color: rgb(255, 204, 109);
+}
+button a:hover{
+    color: rgb(56, 159, 199);
+}
+.d-block{
+    height: 800px;
+}
+.box{
+    position: absolute;
+    top: 90%;
+    left: 13%;
+}
+.desktop{
+    display: block;
+}
+.mobile{
+    display: none;
+}
+.big{
+    display: flex;
+    justify-content: space-between;
+}
+.fbox{
+    background-color: gray;
+    color: white;
+    width: 24%;
+}
+.fbox i{
+    background-color: orange;
+    border-radius: 50%;
+    padding: 5px 5px;
+}
+.section{
+    margin: 150px 0;
+}
+.section img{
+    border-radius: 45%;
+}
+@media(max-width: 768px){
+    .banner{
+        text-align: center;
+    }
+    .big{
+        display: block;
+    }
+    .fbox{
+        width: 100%;
+        text-align: center;
+    }
+    .box{
+        position: relative;
+        left: 0;
+        justify-content: center;
+    }
+    .desktop{
+        display: none;
+    }
+    .mobile{
+        margin: 20px 0;
+        display: block;
+    }
+}

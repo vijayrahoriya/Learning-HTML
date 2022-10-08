@@ -1,0 +1,185 @@
+.header{
+    background: url('../image/phone.jpg') no-repeat 0 0;
+    color: white;
+    padding: 20px 0;;
+}
+.boll{
+    animation: game 3s linear;
+    height: 1px;
+    background-color: red;
+}
+.top h3{
+    display: inline;
+}
+.top i{
+    font-size: 2rem;
+    animation: vijay 3s linear infinite;
+}
+.bar{
+    list-style: none;
+}
+.right{
+    text-align: right;
+}
+.bar li{
+    display: inline-block;
+    padding-right: 20px;
+}
+.header a{
+    color: white;
+}
+.ftext{
+    margin-top: 80px;
+    text-align: center;
+}
+.big{
+    display: flex;
+    justify-content: space-around;
+}
+.line{
+    height: 2px;
+    background-color: white;
+    width: 19%;
+    margin: 20px 0;
+}
+.text .icons{
+    border-radius: .50rem;
+    margin: 0 10px ;
+    background-color: orangered;
+}
+.para{
+    display: inline;
+}
+.lag{
+    text-align: right;
+}
+button{
+    background-color: black;
+    border-radius: .25rem;
+    padding: 5px 20px;
+    margin: 10px 0;
+}
+button i{
+    background-color: black;
+}
+.section{
+    background-color: orangered;
+    text-align: center;
+    color: white;
+    padding: 5px 0;
+}
+.banner{
+    background: url('../image/medical.webp') no-repeat 0 0;
+    padding: 50px 0;
+}
+.box{
+    display: flex;
+    width: 75%;
+}
+.left{
+    width: 50%;
+    background-color: white;
+    color: black;
+    margin-right: 20px;
+    padding: 30px 30px;
+}
+.right{
+    width: 48%;
+}
+.toop{
+    background-color: white;
+    color: black;
+    padding: 10px 5px;
+    width: 100%;
+    
+}
+.bot{
+    background-color: white;
+    color: black;
+    padding: 10px 5px;
+    width: 50%;
+    margin: 20px 0;
+}
+.banner button{
+    border-radius: .25rem;
+    padding: 5px 20px;
+    background-color: rgb(191, 83, 83);
+}
+.banner a{
+    color: white;
+    background-color: rgb(191, 83, 83);
+}
+.last{
+    background-color: pink;
+    text-align: center;
+    padding: 20px 0;
+}
+.last button{
+    background-color: pink;
+    border: pink;
+    border-radius: .25rem;
+    padding: 5px 20px;
+    margin: 10px 0;
+}
+.last button i{
+    background-color: pink;
+}
+.footer{
+    text-align: center;
+    padding: 20px 0;
+    background-color: rgb(82, 82, 224);
+}
+.late{
+    padding: 20px 0;
+}
+.late i{
+    color: black;
+    font-size: 3rem;
+}
+.bar a{
+    color: white;
+}
+@media(max-width: 768px){
+    .top{
+        text-align: center;
+    }
+    .bar{
+        text-align: center;
+    }
+    .text{
+        text-align: center;
+    }
+    .section{
+        text-align: center;
+    }
+    .box{
+        display: block;
+        width: 100%;
+    }
+    .left{
+        width: 100%;
+        
+    }
+    .right{
+        width: 100%;
+        margin: 10px;
+    }
+    .last{
+        text-align: center;
+    }
+    .footer{
+        text-align: center;
+    }
+}
+@keyframes vijay{
+    from{width: 0;
+    font-size: 0;}
+    to{width: 30px;
+    font-size: 2rem;}
+}
+@keyframes game{
+    from{width: 0;}
+    to{
+        width: 100%;
+    }
+}

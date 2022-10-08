@@ -1,0 +1,90 @@
+body{
+    background: #000;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Pacifico&display=swap');
+.box{
+    background: lightgray;
+    margin: 50px 0;
+    color: #000;
+    padding: 0 90px;
+    width: 60%;
+    border: 5px solid #fff;
+    border-radius: .25rem;
+
+}
+.left p{
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Pacifico', cursive
+}
+.big{
+    display: flex;
+    justify-content: center;
+}
+h3{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.line{
+    display: flex;
+    margin-bottom: 10px;
+}
+.line .left{
+    width: 30%;
+}
+.line .right{
+    width: 70%;
+}
+.data{
+    width: 100%;
+    padding: 5px;
+}
+.right .sel{
+    background: transparent;
+}
+.last{
+    display: flex;
+    align-items: flex-end;
+}
+label{
+    font-weight: 700;
+    margin-right: 5px;
+}
+.big button{
+    background: rgb(204, 199, 199);
+    padding: 3px 5px;
+    border-radius: .25rem;
+    border:1px solid darkgray;
+    margin-right: 30px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+button a{
+    color: #000;
+    font-weight: normal;
+    text-decoration: none;
+}
+button:hover{
+    background: white;
+}
+@media(max-width: 768px){
+    .box{
+        width: 100%;
+    }
+}
+@media(max-width: 400px){
+    .box{
+        padding: 0 20px;
+    }
+    .line{
+        display: block;
+    }
+    .line .left{
+        width: 100%;
+    }
+    .line .right{
+        width: 100%;
+    }
+}

@@ -1,0 +1,351 @@
+.header{
+    background: #15158fde;
+    padding: 15px 0;
+}
+.header li:hover{
+    background: skyblue;
+}
+.header .collapse{
+    justify-content: right;
+}
+.header .navbar-brand i{
+    font-size: 3rem;
+    color: skyblue;
+}
+.header .nav-link b{
+    color: #fff;
+}
+.header .navbar .dropdown-toggle{
+    color: #fff;
+}
+.header li{
+    padding: 0 10px;
+}
+.banner {
+    color: #fff;
+    position: absolute;
+    width: 100%;
+    top: 20%;
+}
+.banner h1{
+    margin-bottom: 30px;
+}
+.banner .text a{
+    color: #fff;
+    background: transparent;
+    border: 2px solid #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+.banner .text p{
+    margin-bottom: 30px;
+}
+.banner .text a:hover{
+    background: crimson;
+    border: 2px solid crimson;
+}
+.banner .box{
+    background: #15158fde;
+    color: #fff;
+    border-radius: .25rem;
+    padding: 30px 25px;
+}
+.banner h5{
+    margin-bottom: 15px;
+}
+.banner select{
+    width: 100%;
+    margin-bottom: 5px;
+    padding: 10px;
+}
+.banner .labales{
+    display: flex;
+    justify-content: space-between;
+}
+.labales .left{
+    width: 49%;
+}
+.labales .right{
+    width: 49%;
+}
+.banner .box button{
+    background: skyblue;
+    border: 2px solid skyblue;
+    padding: 10px;
+    cursor: pointer;
+    width: 100%;
+    margin: 10px 0;
+}
+.banner .box button:hover{
+    background: crimson;
+    border: 2px solid crimson;
+}
+.banner .box a{
+    color: #fff;
+    text-decoration: none;
+}
+.photo{
+    height: 100vh;
+}
+.section{
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 50px;
+}
+.section button{
+    background: orange;
+    padding: 8px 20px;
+    border: 2px solid orange;
+    position: absolute;
+    top: 58%;
+    left: 0%;
+    cursor: pointer;
+}
+.section button:hover{
+    background: none;
+}
+.section a{
+    color: #fff;
+    text-decoration: none;
+}
+.section i{
+    margin: 0 5px;
+}
+.section .top{
+    position: relative;
+}
+.section .first{
+    width: 23%;
+}
+.section .top img{
+    width: 100%;
+    height: 200px;
+    margin-bottom: 20px;
+}
+.services{
+    margin-top: 100px;
+    display: flex;
+}
+.services hr{
+    width: 10%;
+    background: #777;
+    margin: 10px 0;
+    margin-bottom: 40px;
+    height: 3px;
+    border-radius: .25rem;
+}
+.services .left{
+    width: 60%;
+    display: flex;
+    justify-content: right;
+}
+.services .box{
+    width: 80%;
+    margin-right: 20px;
+    margin-top: 50px;
+}
+.services p{
+    color: #777;
+}
+.services .top{
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.services .line{
+    display: flex;
+    justify-content: space-between;
+}
+.services i{
+    padding: 20px;
+    color: #fff;
+    border-radius: 5rem;
+    background: orange;
+    margin-right: 10px;
+}
+
+.services .right {
+    width: 40%
+}
+
+.offer{
+    background: #15158fde;
+    color: #fff;
+    padding: 40px 0;
+}
+.offer .see{
+    display: flex;
+    justify-content: center;
+}
+.offer button{
+    background: skyblue;
+    padding: 12px 50px;
+    border: 2px solid skyblue;
+    margin: 0 25px;
+    text-align: center;
+    cursor: pointer;
+}
+.offer a{
+    text-decoration: none;
+    color: #fff;
+}
+.offer button:hover{
+    background: none;
+}
+.offer button:hover a{
+    color: skyblue;
+}
+.latest{
+    margin: 80px 0;
+}
+.latest h2{
+    text-align: center;
+}
+.latest hr{
+    width: 5%;
+    background: #000;
+    height: 3px;
+    border-radius: .25rem;
+    margin: 20px auto;
+}
+.latest img{
+    width: 100%;
+}
+.latest .bottom{
+    padding: 20px;
+}
+.latest span{
+    color: #777;
+    margin-right: 20px;
+}
+.latest span i{
+    margin-right: 10px;
+}
+.latest img{
+    height: 200px;
+}
+.latest h5{
+    color: rgb(20, 158, 212);
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.latest button{
+    background: #77777763;
+    padding: 5px 10px;
+    border: 2px solid #77777763;
+    margin: 10px 5px;
+    cursor: pointer;
+}
+.news{
+    margin: 20px 0;
+}
+.latest button:hover{
+    border: 2px solid crimson;
+    background: crimson;
+}
+.latest button a{
+    color: gray;
+    text-decoration: none;
+}
+.latest .btn{
+    text-align: center;
+    margin-top: 20px;
+}
+.latest .btn button{
+    background: none;
+    border: 2px solid rgb(49, 170, 217);
+    padding: 10px 30px;
+    border-radius: .25rem;
+    cursor: pointer;
+}
+.btn button:hover{
+    background: rgb(49, 170, 217);
+}
+.latest .btn button:hover a{
+    color: #fff;
+}
+.latest .btn a{
+    color: rgb(49, 170, 217);
+    text-decoration: none;
+}
+
+.summer{
+    background: url('../image/photo.jpg') no-repeat 0 0;
+    background-position: center;
+    background-size: cover;
+    padding: 100px 0;
+    color: #fff;
+    text-align: center;
+}
+.summer button{
+    background: orange;
+    padding: 10px 30px;
+    border: 2px solid orange;
+    cursor: pointer;
+    border-radius: .25rem;
+    margin-top: 25px;
+}
+.summer button:hover{
+    background: none;
+}
+.summer button:hover a{
+    color: orange;
+}
+.summer a{
+    text-decoration: none;
+    color: #fff;
+}
+.footer{
+    background: #15158fde;
+    color: #fff;
+    padding: 30px 0;
+    text-align: center;
+}
+.footer .mo{
+    font-size: 5rem;
+    color: skyblue;
+    margin-bottom: 20px;
+}
+.footer p{
+    cursor: pointer;
+}
+
+@media(max-width: 768px){
+    .header{
+        text-align: right;
+    }
+    .banner .box{
+        margin-top: 20px;
+    }
+    .section button{
+        width: 80%;
+    }
+    .section a{
+        font-size: .8rem;
+    }
+    .services{
+        display: block;
+    }
+    .services .left{
+        width: 100%;
+        justify-content: left;
+        padding-left: 20px;
+    }
+    .services .left .box{
+        width: 100%;
+    }
+    .services .right{
+        width: 100%;
+    }
+}
+@media(max-width: 500px){
+    .section{
+        display: block;
+    }
+    .section .first{
+        width: 100%;
+    }
+    .services .top{
+        display: block;
+    }
+}

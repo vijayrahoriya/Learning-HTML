@@ -1,0 +1,248 @@
+html{
+    scroll-behavior: smooth;
+}
+.header-slide{
+    background: #111184;
+    color: #fff;
+    padding: 10px 0;
+}
+.logo{
+    display: flex;
+    place-items: center;
+}
+.header-slide span i{
+    margin-right: 10px;
+    color: orange;
+}
+.header-slide input{
+    padding: 10px;
+    outline: none;
+    border: none;
+    margin: 10px;
+    background: #fff;
+    width: 70%;
+}
+::placeholder{
+    color: #777;
+}
+.search{
+    position: absolute;
+    top: 21%;
+    right: 10%;
+    color: #777;
+    cursor: pointer;
+}
+.navbar{
+    padding: 0;
+}
+.header-slide p span{
+    color: orange;
+    font-weight: 600;
+    cursor: pointer;
+}
+.header-slide p span:hover{
+    text-decoration: underline;
+}
+.navbar .nav-item .nav-link{
+    color: #000;
+    font-weight: 600;
+}
+.navbar li{
+    padding:  0 10px;
+}
+.banner{
+    background: url('../image/banner.jpg') no-repeat 0 0;
+    background-position: center;
+    background-size: cover;
+    padding: 200px 0;
+    color: #fff;
+    text-align: center;
+}
+.banner h5{
+    margin-bottom: 0;
+}
+.banner h1{
+    font-weight: 700;
+}
+.banner .big{
+    display: flex;
+    justify-content: center;
+}
+.choose{
+    border-bottom-left-radius: 5rem;
+    border-top-left-radius: 5rem;
+}
+.banner .box{
+    width: 80%;
+    display: flex;
+}
+.banner select{
+    width: 100%;
+    height: 100%;
+    padding: 10px 20px;
+    border: 2px solid #fff;
+    border-left: 1px solid #777;
+}
+.banner .first{
+    width: 25%;
+}
+.banner .btn-1{
+    padding: 10px;
+    border-bottom-right-radius: 5rem;
+    border-top-right-radius: 5rem;
+    border: 2px solid orange;
+    width: 100%;
+    background: orange;
+    color: #fff;
+    cursor: pointer;
+    transition: all .5s;
+}
+.banner .btn-1:hover{
+    background: none;
+    color: orange;
+    border: 2px solid orange;
+}
+.offers{
+    margin: 70px 0;
+}
+.heading{
+    text-align: center;
+}
+.heading h1{
+    margin-bottom: 0;
+}
+.offers .bottom{
+    background: #d3d3d380;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.offers img{
+    width: 100%;
+    height: 250px;
+    transition: all .5s;
+}
+.offers img:hover{
+    transform: scale(1.1);
+}
+.offers .box{
+    margin: 20px 0;
+    border: 1px solid lightgray;
+    border-radius: 6px;
+}
+
+.why{
+    background: url('../image/space.jpg') no-repeat 0 0;
+    background-position: center;
+    background-size: cover;
+    padding: 60px 0;
+    text-align: center;
+    color: #fff;
+}
+.why h1{
+    font-weight: 700;
+}
+.why i{
+    padding: 20px;
+    background: #fff;
+    color: orange;
+    font-size: 2rem;
+    border-radius: 5rem;
+    margin: 20px 0;
+}
+.why h4{
+    margin-bottom: 15px;
+}
+.why .globe{
+    padding: 20px 22px;
+}
+.testi{
+    text-align: center;
+    padding: 70px 0;
+}
+.testi h5{
+    margin-bottom: 20px;
+}
+.testi i{
+    font-size: 3rem;
+    color: #777;
+    margin-bottom: 10px;
+}
+.testi span{
+    color: orange;
+}
+.footer{
+    background: #111184;
+    padding: 60px 0;
+    color: #fff;
+    text-align: center;
+}
+.footer span{
+    margin: 0 10px;
+}
+.footer a i{
+    background: #fff;
+    color: #111184;
+    border-radius: 5rem;
+    padding: 10px;
+    border: 1px solid #fff;
+    transition: all .5s;
+}
+.footer a{
+    text-decoration: none;
+}
+.footer a i:hover{
+    background: none;
+    color: #fff;
+}
+.footer .face{
+    padding: 10px 13px;
+}
+@media(max-width: 1200px){
+    .search{
+        right: 30%;
+        top: 36%;
+    }
+}
+@media(max-width: 768px){
+    .logo{
+        justify-content: center;
+    }
+    .header-slide {
+        text-align: center;
+    }
+    .header-slide .search{
+        right: 15%;
+        top: 23%;
+    }
+    .navbar{
+        justify-content: center;
+        text-align: center;
+    }
+}
+@media(max-width: 580px){
+    .banner .box{
+        display: block;
+    }
+    .banner .first{
+        width: 100%;
+    }
+    .banner select{
+        width: 100%;
+        border-radius: 6px;
+        margin: 10px 0;
+    }
+    .banner .btn-1{
+        width: 100%;
+        border-radius: 6px;
+    }
+    .choose{
+        border-radius: 6px;
+    }
+}
+@media(max-width: 380px){
+    .header-slide .search{
+        top: 36%;
+        right: 23%;
+    }
+}

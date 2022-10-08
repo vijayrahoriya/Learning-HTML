@@ -1,0 +1,516 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header {
+    background: url('../image/tiger.webp') no-repeat 0 0;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+}
+
+.header a {
+    text-decoration: none;
+}
+
+.header .collapse {
+    justify-content: right;
+}
+
+.header h4 em {
+    color: white;
+    margin-top: 10px;
+    background: orangered;
+    border-radius: 8rem;
+    padding: 8px 20px;
+    font-size: 2rem;
+    margin-right: 5px;
+}
+
+.header .text {
+    margin: 30px 0;
+}
+
+.header .top {
+    padding-top: 30px;
+}
+
+.header .top h1 {
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.header .btn {
+    margin-top: 70px;
+    background: transparent;
+    border: 1px solid #fff;
+    border-radius: .25rem;
+    padding: 10px 30px;
+}
+
+.header .btn a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.header .btn i {
+    margin-left: 10px;
+}
+
+.header .icon {
+    text-align: center;
+}
+
+.header .text .tv {
+    font-size: 20rem;
+
+}
+
+.header .icons {
+    margin: 10px 0;
+}
+
+.header .icons h5 {
+    display: inline-block;
+}
+
+.header .icons em i {
+    color: #777;
+}
+
+.header .icons i {
+    color: #fff;
+    margin: 0 15px;
+}
+
+.section {
+    display: flex;
+    height: 100vh;
+}
+
+.section .left {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: url('../image/post-1.jpg') no-repeat 0 0;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+}
+
+.section .left button {
+    background: transparent;
+    border: none;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.section .box {
+    width: 50%;
+    margin-top: 200px;
+}
+
+.section .left a {
+    text-decoration: none;
+
+    color: #fff;
+    font-weight: 700;
+
+}
+
+.section .left i {
+    margin-left: 10px;
+}
+
+.section .right {
+    width: 70%;
+    height: 100vh;
+}
+
+.section .right .top {
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section .top .big {
+    width: 70%;
+}
+.section .right .top-para u{
+    color: orangered
+}
+.section .right .top-para u p{
+    color: #000;
+}
+.section .right .top .top-para {
+    font-weight: 700;
+}
+
+.section .late {
+    padding: 0 50px;
+}
+
+.section .late p {
+    color: black;
+    font-weight: 700;
+}
+
+.section .right h1 {
+    color: orangered;
+    font-weight: 700;
+}
+
+.section .right .para {
+    margin-top: 20px;
+    font-weight: normal;
+}
+
+.section .bottom {
+    display: flex;
+    height: 50vh;
+}
+
+.section .bottom .left2 {
+    width: 30%;
+}
+
+.section .bottom .right2 {
+    width: 70%;
+}
+
+.section .bottom .left2 .img-content {
+    height: 50%;
+}
+
+.section .bottom .left2 .img-content2 {
+    height: 50%;
+    overflow: hidden;
+}
+
+.section .bottom .right2 .img-content {
+    height: 100%;
+}
+
+.section .bottom .right2 .img-content img {
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+.solution {
+    margin: 80px 0;
+}
+
+.solution .text {
+    text-align: center;
+}
+
+.solution .text p {
+    font-weight: 700;
+}
+
+.solution .text h1 {
+    color: orangered;
+    font-weight: 700;
+}
+
+.solution .long h5 {
+    margin-bottom: 15px;
+}
+
+.solution .long p {
+    color: #777;
+}
+
+.solution .message {
+    text-align: right;
+}
+
+.solution .long {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.solution .message .comment {
+    color: orange;
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.solution .long i {
+    color: blue;
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.middle {
+    background: rgb(225, 221, 221);
+    position: relative;
+    height: 90vh;
+}
+
+.middle .button {
+    position: absolute;
+    width: 80%;
+    top: -3%;
+    text-align: center;
+}
+
+.middle .button button {
+    padding: 10px 40px;
+    background: orangered;
+    border: none;
+}
+
+.middle a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.middle .text {
+    text-align: center;
+    margin-top: 150px;
+}
+
+.middle .text p {
+    font-weight: 700;
+}
+
+.middle .text h1 {
+    color: orangered;
+    font-weight: 700;
+}
+
+.middle .another {
+    position: absolute;
+    top: -160%;
+}
+
+.middle .hori {
+    margin-top: 100px;
+}
+
+@media (min-width: 768px) {
+
+    /* show 3 items */
+    .carouselPrograms .carousel-inner .active,
+    .carouselPrograms .carousel-inner .active + .carousel-item,
+    .carouselPrograms .carousel-inner .active + .carousel-item + .carousel-item {
+        display: block;
+    }
+
+    .carouselPrograms .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left),
+    .carouselPrograms .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item,
+    .carouselPrograms .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item + .carousel-item {
+        transition: none;
+    }
+
+    .carouselPrograms .carousel-inner .carousel-item-next,
+    .carouselPrograms .carousel-inner .carousel-item-prev {
+        position: relative;
+        transform: translate3d(0, 0, 0);
+    }
+
+    .carouselPrograms .carousel-inner .active.carousel-item + .carousel-item + .carousel-item + .carousel-item {
+        position: absolute;
+        top: 0;
+        right: -33.333%;
+        z-index: -1;
+        display: block;
+        visibility: visible;
+    }
+
+    /* left or forward direction */
+    .carouselPrograms .active.carousel-item-left + .carousel-item-next.carousel-item-left,
+    .carouselPrograms .carousel-item-next.carousel-item-left + .carousel-item,
+    .carouselPrograms .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item,
+    .carouselPrograms .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item + .carousel-item {
+        position: relative;
+        transform: translate3d(-100%, 0, 0);
+        visibility: visible;
+    }
+
+    /* farthest right hidden item must be abso position for animations */
+    .carouselPrograms .carousel-inner .carousel-item-prev.carousel-item-right {
+        position: absolute;
+        top: 0;
+        left: 0%;
+        z-index: -1;
+        display: block;
+        visibility: visible;
+    }
+
+    /* right or prev direction */
+    .carouselPrograms .active.carousel-item-right + .carousel-item-prev.carousel-item-right,
+    .carouselPrograms .carousel-item-prev.carousel-item-right + .carousel-item,
+    .carouselPrograms .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item,
+    .carouselPrograms .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item + .carousel-item {
+        position: relative;
+        transform: translate3d(100%, 0, 0);
+        visibility: visible;
+        display: block;
+        visibility: visible;
+    }
+}
+.middle img {
+    border-radius: 50%;
+    display: inline-block;
+    width: 50%;
+    margin-bottom: 20px;
+    
+}
+
+.middle h5 {
+    color: black;
+}
+
+.middle a {
+    text-align: center;
+}
+
+.logo {
+    margin: 20px 0;
+}
+
+.logo h3 em {
+    color: white;
+    margin-top: 10px;
+    background: orangered;
+    border-radius: 8rem;
+    padding: 8px 20px;
+    font-size: 2rem;
+    margin-right: 5px;
+}
+.logo input{
+    border: none;
+    font-weight: 700;
+    width: 100%;
+    padding: 20px 20px;
+    border-radius: 50px;
+    background: rgb(222, 218, 209);
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+.logo a{
+    padding: 20px 30px;
+    border-radius: 50px;
+    position: absolute;
+    right: 11px;
+    background: orangered;
+    color: #fff;
+    text-decoration: none;
+    box-shadow:  -5px 10px -4px darkred
+}
+.footer{
+    padding-top: 50px;
+    padding-bottom: 30px;
+    background-color: rgb(220, 215, 215);
+}
+.footer h5{
+    color: orangered;
+    margin: 20px 0;
+}
+.footer a{
+    color: #000;
+    text-decoration: none;
+}
+.footer i{
+    padding: 15px 15px;
+    border: 1px solid black;
+    border-radius: 5rem;
+    margin: 15px 10px;
+}
+.footer-slide{
+    background: #000;
+    color: #fff;
+    padding: 15px 0;
+}
+.footer-slide a{
+    text-decoration: none;
+    color: #fff;
+    margin: 0 10px;
+}
+@media(max-width: 768px){
+    .header .navbar{
+        text-align: right;
+    }
+    .header{
+        text-align: center;
+    }
+    .footer{
+        text-align: center;
+    }
+    .footer-slide{
+        text-align: center;
+    }
+    .logo{
+        text-align: center;
+    }
+    .logo h3{
+        margin: 15px 0;
+    }
+    .header{
+        text-align: center;
+    }
+    .section{
+        display: block;
+        text-align: center;
+        height: 200vh;
+    }
+    .section .left{
+        width: 100%;
+    }
+    .section .right{
+        width: 100%;
+    }
+    .middle hr{
+        display: none;
+    }
+    
+
+}
+@media(max-width: 580px){
+    .solution{
+        margin: 10px 0;
+    }
+    .middle .button{
+        left: 8%;
+        top: -1%;
+    }
+    .header .top h1{
+        font-weight: 500;
+    }
+    .section .right .top{
+        align-items: flex-start;
+    }
+    .section .left{
+        margin-bottom: 60px;
+        height: auto;
+    }
+    .section .left2 .img-content{
+        margin-top: 60px;
+    }
+    .header .text .tv{
+        font-size: 8rem;
+    }
+    .middle{
+        height: 90vh;
+    }
+    .section .bottom{
+        display: block;
+        margin-top: 100px;
+    }
+    .section .bottom .left2{
+        width: 100%;
+    }
+    .section .bottom .right2{
+        width: 100%;
+    }
+    .section{
+        height: 300vh;
+    }
+}

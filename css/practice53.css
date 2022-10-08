@@ -1,0 +1,69 @@
+body{
+    background-color: rgb(219, 244, 252);
+    padding: 30px 0;
+}
+.bar{
+    list-style: none;
+    text-align: right;
+}
+.bar li{
+    display: inline-block;
+    padding-right: 20px;
+}
+.bar a{
+    color: black;
+}
+.late{
+    margin: 20px 0;
+    text-align: center;
+    padding: 50px 0;
+    background-color: lightblue;
+}
+.late button{
+    background-color: lightblue;
+    border: 1px solid darkblue;
+    padding: 5px 15px;
+}
+.late a{
+    color: black;
+}
+.photo{
+    margin: 20px 0;
+    text-align: right;
+}
+.main{
+    text-align: center;
+    background: url('../image/boat5.jpg') no-repeat 0 0;
+    padding: 50px 0;
+    margin: 20px 0;
+}
+.note{
+    text-align: center;
+    padding: 50px 0;
+    background-color: lightblue;
+}
+.note button{
+    background-color: lightblue;
+    border: 1px solid darkblue;
+    padding: 5px 15px;
+}
+.note a{
+    color: black
+}
+@media(max-width: 768px){
+    .logo{
+        text-align: center;
+    }
+    .bar{
+        text-align: center;
+    }
+    .late{
+        text-align: center;
+    }
+    .main{
+        text-align: center;
+    }
+    .note{
+        text-align: center;
+    }
+}

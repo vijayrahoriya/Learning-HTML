@@ -1,0 +1,239 @@
+.line{
+    background-color: red;
+    height: 1px;
+    animation: hanu 3s linear;
+}
+.header{
+    padding: 20px;
+}
+::placeholder{
+    color: #fff;
+    z-index: 1;
+}
+.top{
+    text-align: right;
+}
+.slide i{
+    font-size: 2rem;
+    animation: vijay 3s linear infinite;
+}
+.ora{
+    background-color: orangered;
+    border: orangered;
+    border-radius: .25rem;
+    padding: 5px 20px;
+    margin: 0 30px;
+    cursor: pointer;
+}
+.slide{
+    margin: 10px 0;
+}
+.slide h3{
+    display: inline;
+}
+.bar{
+    list-style: none;
+    text-align: right;
+}
+.bar li{
+    display: inline-block;
+    padding-right: 20px;
+    cursor: pointer;
+}
+li:hover{
+    border: 1px solid orange;
+}
+.banner{
+    animation: bajrang 3s linear;
+    background: url('../image/bignature.jpg') no-repeat 0 0;
+    text-align: right;
+    padding: 180px 0;
+}
+button:hover{
+    border: 1px solid orange;
+
+}
+.banner em{
+    color: orangered;
+}
+.learn{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    padding: 3px 20px;
+}
+.get{
+    background-color: orangered;
+    color: white;
+    cursor: pointer;
+    padding: 3px 20px;
+}
+.section hr{
+    background-color: orangered;
+}
+.section i{
+    font-size: 3rem;
+    color: orangered;
+    margin: 10px 0;
+}
+.section-slide h1{
+    color: black
+}
+.section-slide{
+    margin: 20px 0;
+    background-color: red;
+    opacity: .8;
+    text-align: center;
+    padding: 160px 0;
+    color: white;
+}
+.left{
+    display: flex;
+    text-align: center;
+}
+.left hr{
+    width: 40%;
+    background-color: gray;
+}
+.big{
+    display: flex;
+    justify-content: space-between;
+}
+.box{
+    width: 19%;
+    text-align: center;
+    margin: 20px 0;
+}
+.box i{
+    font-size: 2rem;
+}
+.game{
+    background-color: darkgray;
+    padding: 10px 0;
+}
+.fbox{
+    background-color: white;
+    color: black;
+    height: 328px;
+    padding: 5px 15px;
+}
+.sbox{
+    display: flex;
+    color: white;
+    padding: 10px 5px;
+    background-color: black;
+    justify-content: space-evenly;
+}
+.text h6{
+    display: inline;
+    padding-right: 10px;
+    color: black;
+}
+.lost{
+    background-color: red;
+    text-align: left;
+    color: white;
+    padding: 30px 0;
+    margin: 15px 0;
+}
+.text li{
+    color: black;
+}
+.text button{
+    margin: 20px 0;
+    background-color: black;
+    color: white;
+    border-radius: .25rem;
+    padding: 5px 25px;
+}
+.text{
+    text-align: left;
+    padding: 20px 10px;
+}
+.student{
+    padding: 20px 10px;
+}
+.student em{
+    color: orangered
+}
+.info{
+    background-color: black;
+    color: white;
+    border-radius: .25rem;
+    padding: 5px 80px;
+    margin: 15px 0;
+}
+.let button{
+    cursor: pointer;
+}
+.let{
+    text-align: center;
+}
+.late{
+    text-align: right;
+}
+.footer{
+    color: white;
+    padding: 20px 0;
+    background-color: rgb(70, 49, 34);
+}
+.footer a{
+    color: white;
+}
+.footer i:hover{
+    border: 1px solid orange;
+}
+@keyframes hanu{
+    from{width: 0;}
+    to{width: 100%;}
+}
+@keyframes vijay{
+    from{font-size: 0;}
+    to{font-size: 2rem;}
+}
+@keyframes bajrang{
+    from{width: 0;}
+    to{width: 100%;}
+}
+@media(max-width: 768px){
+    .top{
+        text-align: center;
+    }
+    .slide{
+        text-align: center;
+    }
+    .bar{
+        text-align: center;
+    }
+    .banner{
+        text-align: center;
+    }
+    .section{
+        text-align: center;
+    }
+    .info{
+        padding: 5px 20px;
+    }
+    .box{
+        width: 34%;
+        text-align: center;
+    }
+    .late{
+        text-align: center;
+    }
+    .section-slide{
+        text-align: center;
+    }
+    .main{
+        text-align: center;
+    }
+    .game{
+        text-align: center;
+    }
+    .lost{
+        text-align: center;
+    }
+    .footer{
+        text-align: center;
+    }
+}

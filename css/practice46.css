@@ -1,0 +1,114 @@
+.header{
+    background-color: rgb(60, 60, 135);
+    color: white;
+    padding: 10px 0;
+}
+.header i{
+    position: absolute;
+    right: 33%;
+    padding: 14px 0;
+    color: black;
+}
+.bar{
+    list-style: none;
+    margin-top: 10px
+}
+.bar li{
+    display: inline-block;
+    padding-right: 15px;
+}
+.bar a{
+    color: white;
+}
+.top{
+    border-radius: .25rem;
+    margin-top: 10px;
+    border: rgb(60, 60, 135);
+}
+.header i{
+    cursor: pointer;
+}
+.text{
+    padding-top: 500px;
+    text-align: center;
+}
+.late{
+    padding: 30px 0;;
+}
+.header-slide{
+    padding: 60px 0;
+    color: white;
+    position: absolute;
+    top: 15%;
+    left: 13%;
+    width: 80%;
+    background-color: rgb(50, 40, 119);
+}
+.header-slide button{
+    border: rgb(38, 24, 131);
+    border-radius: .25rem;
+    padding: 5px 20px;
+    background-color: rgb(38, 24, 131);
+}
+button a{
+    color: white;
+}
+.header-slide img{
+    height: 300px 
+}
+.section{
+    margin: 20px 0;
+}
+.section button{
+    border-radius: .25rem;
+    padding: 5px 20px;
+    border: rgb(32, 32, 83);
+    background-color: rgb(32, 32, 83);
+}
+.big{
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: space-around;
+}
+.big .box{
+    width: 24%;
+    height: 180px;
+    padding-top: 70px;
+    text-align: center;
+    border: 5px solid gray;
+}
+.fbox{
+    text-align: right;
+}
+@media(max-width: 768px){
+    .header{
+        text-align: center;
+    }
+    .logo{
+        text-align: center;
+    }
+    .bar{
+        text-align: center;
+    }
+    .header-slide{
+        text-align: center;
+        position: relative;
+        top: 0;
+        left: 0;
+        margin: 20px 0;
+        width: 100%;
+    }
+    .text{
+        text-align: center;
+        padding-top: 20px;
+    }
+    .section{
+        text-align: center;
+    }
+    button{
+        margin: 15px 0;
+    }
+    .fbox{
+        text-align: center;
+    }
+}

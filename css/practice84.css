@@ -1,0 +1,40 @@
+body{
+    text-align: center;
+    place-items: center;
+    background: #fff;
+}
+.menu-wrapper{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50vw;
+    height: 80px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .25);
+    background: #fff;
+    line-height: 80px;
+}
+.menu-wrapper .navbar{
+    display: flex;
+}
+.menu-wrapper .navbar li{
+    list-style: none;
+    flex: 1;
+    font-size: 30px;
+    cursor: pointer;
+}
+.menu-wrapper .navbar li :hover{
+    color: #304ffe;
+}
+.menu-wrapper .navbar li a{
+    color: #000;
+    transition: .5s ease;
+    display: inline-block;
+}
+.menu-wrapper .navbar li .active{
+    color: #304ffe;
+    border-bottom: 5px solid #304ffe;
+    width: 100%;
+    border-radius: 1px;
+    transition: .1s ease;
+}

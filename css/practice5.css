@@ -1,0 +1,102 @@
+.banner{
+    text-align: center;
+    background: url('../image/banner.jpg') no-repeat 0 0;
+}
+.section{
+    margin: 30px 0;
+}
+.main{
+    color: white;
+    padding: 70px 0;
+}
+ button{
+    background-color: blueviolet;
+    border-radius: 20%;
+}
+ button a{
+    color: white;
+}
+.text{
+    text-align: center;
+}
+.latest{
+    text-align: center;
+}
+.latest i{
+    color: orangered;
+    font-size: 3rem;
+}
+.medium{
+    background-color: blue;
+    text-align: center;
+}
+.line{
+    padding: 30px 0;
+    color: white;
+}
+.line i{
+    font-size: 3rem;
+}
+.latest-news{
+    text-align: center;
+}
+.latest-news i{
+    font-size: 3rem;
+    color:lightcoral;
+}
+.lion{
+    text-align: center;
+}
+.lion h4{
+    color: blue
+}
+.members img{
+    border-radius: 50%;
+}
+.members{
+    text-align: center;
+}
+.footer{
+    background: #3c4ebc;
+    color: white;
+    padding-top: 40px
+}
+.game{
+    font-size: 5rem;
+}
+hr{
+    background-color: white
+}
+.lion hr{
+    background-color: orangered;
+}
+@media (max-width: 768px){
+    .main{
+        text-align: center;
+    }
+    h1, h2, h3, h4{
+        text-align: center;
+    }
+    .latest{
+        text-align: center;
+    }
+    .latest-news{
+        text-align: center;
+    }
+    .lion{
+        text-align: center;
+    }
+    .members{
+        text-align: center;
+    }
+    .game{
+        text-align: center;
+    }
+    .line{
+        text-align: center;
+    }
+    .icons{
+        text-align: center;
+    }
+    
+}

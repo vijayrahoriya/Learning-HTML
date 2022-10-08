@@ -1,0 +1,87 @@
+.header-slide{
+    background-color: gray;
+    color: white;
+    padding-top: 3px;
+}
+.header-slide a{
+    color: white;
+    margin: 0 10px;
+}
+.header-slide span{
+    margin-left: 15px;
+}
+.navbar{
+    padding: .5rem 0;
+}
+.top{
+    display: flex;
+    align-items: center;
+}
+.link{
+    justify-content: end;
+    display: flex;
+    align-items: center;
+}
+.links{
+    background-color: black;
+    opacity: .4;
+}
+.header{
+    color: white;
+    background: url('../image/tiger.webp') no-repeat 0 0;
+}
+.collapse{
+    justify-content: end;
+}
+
+.text{
+    padding: 70px 0
+}
+.text button{
+    padding: 10px 25px;
+    margin: 10px 0;
+    background-color: white;
+    text-align: center;
+    border-radius: 5rem;
+    border: none;
+}
+.text h1{
+    margin-bottom: 20px;
+}
+.text p{
+    font-size: 2rem;
+}
+.text a{
+    color: palevioletred
+}
+.section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 0;
+    color: white;
+    background-color: rgb(65, 65, 199);
+}
+.section i{
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.last h5{
+    margin-bottom: 20px;
+}
+@media(max-width: 768px){
+    .top{
+        text-align: center;
+    }
+    .link{
+        margin-bottom: 10px;
+    }
+    .text{
+        text-align: center;
+    }
+    .last{
+        text-align: center;
+        margin-bottom: 15px;
+    }
+}

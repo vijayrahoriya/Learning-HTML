@@ -1,0 +1,154 @@
+.line{
+    background-color: red;
+    height: 1px;
+    animation: hanu 3s linear;
+}
+.banner{
+    background: url('../image/tiger.webp') no-repeat 0 0;
+    padding: 100px 0;
+    color: white;
+}
+.section{
+    margin: 10px 0;
+    position: absolute;
+    top: 45%;
+    left: 13%;
+}
+.text{
+    background-color: gray;
+    color: white;
+    padding: 40px 15px;
+}
+.btn{
+    cursor: pointer;
+    background-color: darkgray;
+    color: white;
+    border: darkgray;
+    border-radius: .25rem;
+    padding: 5px 20px;
+}
+.game{
+    padding: 80px 10px;
+}
+.set{
+    margin: 10px 0;
+}
+.mid{
+    background-color: aqua;
+    padding: 50px 8px;
+}
+.section i{
+    font-size: 2rem;
+}
+.late{
+    margin: 15px 0;
+}
+.middle{
+    background: url('../image/post-2.jpg') no-repeat 0 0;
+    padding-top: 200px;
+    padding-bottom: 30px; 
+    margin-top: 700px;
+}
+.section-slide{
+    margin: 20px 0;
+}
+.lite{
+    padding: 10px 5px;
+}
+.lite i{
+    font-size: 2rem;
+}
+.ton{
+    margin: 20px 0;
+}
+.main{
+    background-color: gray;
+    color: white;
+    margin-top: 20px;
+    padding: 80px 0;
+}
+.photo{
+    padding: 50px 0;
+}
+.last{
+    position: absolute;
+    top: 341%;
+    left: 13%;
+}
+.footer{
+   position: absolute;
+   top: 450%;
+   left: 13%;
+}
+.footer input{
+    margin: 15px 0;
+    width: 75%;
+}
+.footer button{
+    margin: 15px 0;
+    cursor: pointer;
+    background-color: aqua;
+    border: aqua;
+    border-radius: .25rem;
+    padding: 5px 15px;
+}
+button:hover{
+    border: 1px solid orange;
+}
+@keyframes hanu{
+    from{width: 0;}
+    to{width: 100%;}
+}
+
+@media(max-width: 2500px){
+    .section{
+        top: 25%;
+    }
+    .last{
+        top: 195%;
+    }
+    .footer{
+        top: 258%;
+    }
+    
+}
+@media(max-width: 768px){
+    .banner{
+        text-align: center;
+    }
+    .section{
+        position: relative;
+        left: 0;
+        top: 0;
+        margin: 20px 0;
+    }
+    .game{
+        padding: 0 10px;
+    }
+    .middle{
+        text-align: center;
+        margin-top: 20px;
+    }
+    .section-slide{
+        text-align: center;
+    }
+    
+    .main{
+        text-align: center;
+    }
+    .last{
+        text-align: center;
+        position: relative;
+        top: 0;
+        left: 0;
+        margin: 20px 0;
+    }
+    .footer{
+        text-align: center;
+        position: relative;
+        top: 0;
+        left: 0;
+        margin: 15px 0;
+    }
+
+}

@@ -1,0 +1,219 @@
+.header{
+    background: url('../image/tiger.webp') no-repeat 0 0;
+    color: white;
+}
+.header-slide{
+    background-color: black;
+    opacity: .7;
+}
+.navbar{
+    background-color: black;
+    opacity: .7;
+}
+.collapse{
+    justify-content: end;
+}
+.header a{
+    color: white;
+}
+.menu{
+    text-align: right;
+}
+.text{
+    padding-top: 50px;
+    height: 323px;
+}
+.btn{
+    background-color: white;
+    border-radius: 1rem;
+    border: white;
+    padding: 5px 15px;
+    text-align: center;
+    margin: 10px 0;
+}
+.btn a{
+    color: black;
+}
+.info{
+    padding-top: 95px;
+}
+.text i{
+    font-size: 20rem;
+    color: black;
+}
+.last{
+    background-color: aqua;
+    opacity: .7;
+    padding: 20px 0;
+}
+.late i{
+    border-radius: 5rem;
+    padding: 8px 8px;
+    margin-right: 10px;
+    background-color: rgb(148, 232, 232);
+}
+.box{
+    text-align: center;
+}
+.box .icons{
+    background-color: rgb(148, 232, 232);
+    border-radius: 4rem;
+    color: black;
+    padding: 40px 40px;
+    font-size: 1rem;
+    text-align: center;
+}
+.cart{
+    font-size: 1rem;
+}
+.big{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+.section{
+    text-align: center;
+    margin: 50px 0;
+}
+.laptop{
+    margin: 10px 0;
+}
+.laptop i{
+    font-size: 10rem;
+}
+
+.section-slide{
+    background-color: rgb(248, 244, 238);
+    padding: 20px 0;
+    margin: 15px 0;
+}
+.section-slide img{
+    border-radius: 7rem;
+    height: 140px;
+}
+.section-slide em{
+    color: rgb(80, 203, 203);
+    font-size: 2rem;
+}
+.steve{
+    text-align: center;
+}
+.main{
+    margin: 20px 0;
+}
+.right{
+    margin-left: 15px;
+}
+.photo, .box{
+    padding: 20px 0;
+}
+.photo img{
+    border-radius: 10rem;
+}
+.photo{
+    display: flex;
+    justify-content: space-between;
+}
+.main .box{
+    background-color: rgb(248, 244, 238);
+    padding: 10px 10px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+.slide{
+    display: flex;
+    align-items: center;
+}
+.footer-slide{
+    background-color: aqua;
+    color: white;
+    padding: 30px 0;
+}
+.let{
+    text-align: right;
+    display: flex;
+    justify-content: end;
+}
+.let .btn{
+    margin: 0 0;
+}
+.footer{
+    padding: 30px 0;
+    background-color: gray;
+    color: white;
+}
+.bit{
+    display: flex;
+    margin: 10px 0;
+    justify-content: space-between;
+}
+.bit a{
+    color: white;
+    display: flex;
+    align-items: center;
+    float: left;
+}
+.small{
+    margin-right: 15px;
+}
+hr{
+    background-color: white;
+    margin: 10px 0;
+    width: 100%;
+}
+.bit i{
+    margin-right: 10px;
+}
+@media(max-width: 480px){
+    .big{
+        display: block;
+    }
+    
+    .left{
+        margin-bottom: 15px;
+    }
+    .photo{
+        display: block;
+    }
+    .text i{
+        font-size: 10rem;
+    }
+    .let{
+        text-align: center;
+    }
+
+}
+@media(max-width: 768px){
+    .text{
+        text-align: center;
+        height: 270px;
+        padding-top: 34px;
+    }
+    .icons{
+        padding: 30px 30px;
+    }
+    .bid{
+        text-align: left;
+    }
+    .text i{
+        font-size: 17rem;
+    }
+    .last{
+        text-align: center;
+    }
+    .section{
+        text-align: center;
+    }
+    .section-slide{
+        text-align: center;
+    }
+    .main{
+        text-align: center;
+    }
+    .footer-slide{
+        text-align: center;
+    }
+    .footer{
+        text-align: center;
+    }
+}

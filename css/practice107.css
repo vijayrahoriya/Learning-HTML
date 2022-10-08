@@ -1,0 +1,563 @@
+@import url('https://fonts.googleapis.com/css2?family=Combo&family=EB+Garamond&family=Ms+Madi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Combo&family=EB+Garamond&family=Ms+Madi&display=swap');
+
+.navbar .nav-item .nav-link {
+    color: #fff;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    color: #fff;
+}
+.navbar.sticky{
+    background: crimson;
+    padding: 20px 10px;
+    
+}
+.navbar li {
+    padding: 0 10px;
+}
+
+.banner {
+    background: url('../image/lighthouse.jpg') no-repeat 0 0;
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.banner h1 {
+    font-size: 4.4rem;
+    margin-bottom: 15px;
+}
+
+.banner p {
+    font-family: 'Combo', cursive;
+    font-family: 'EB Garamond', serif;
+    font-family: 'Ms Madi', cursive;
+    font-size: 1.8rem;
+    line-height: 25px;
+}
+
+.banner button {
+    border: 2px solid #fff;
+    padding: 10px 30px;
+    background: transparent;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+
+.banner button:hover {
+    background: crimson;
+    border: 2px solid crimson;
+}
+
+.banner a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.banner a i {
+    margin-left: 5px;
+    border: 1px solid #fff;
+    padding: 5px;
+    border-radius: 5rem;
+    font-size: .8rem;
+}
+
+.another {
+    transform: rotate(90deg);
+    display: flex;
+    align-items: flex-start;
+    height: 100px;
+}
+
+.another .line {
+    background: #fff;
+    width: 60px;
+    height: 2px;
+    margin-left: 5px;
+    margin-top: 12px;
+}
+
+.slides {
+    display: flex;
+    color: #fff;
+    text-align: center;
+}
+
+.slides h4 {
+    margin-bottom: 0px;
+}
+
+.slides .first {
+    background: url('../image/eiffel-tower.jpg') no-repeat 0 0;
+    background-position: center;
+    background-size: cover;
+    padding: 28px 10px;
+    width: 25%;
+}
+
+.slides .second {
+    background: url('../image/banner.jpg') no-repeat 0 0;
+    background-position: center;
+    background-size: cover;
+    padding: 28px 10px;
+    width: 25%;
+}
+
+.slides .third {
+    background: url('../image/boat6.webp') no-repeat 0 0;
+    background-position: center;
+    background-size: cover;
+    padding: 28px 10px;
+    width: 25%;
+}
+
+.slides .fourth {
+    background: url('../image/cafe2.jpg') no-repeat 0 0;
+    background-position: center;
+    background-size: cover;
+    padding: 28px 10px;
+    width: 25%;
+}
+
+.section {
+    margin: 80px 0;
+}
+
+.section .expect {
+    padding-left: 30px;
+}
+.section img{
+    height: 100%;
+}
+.expect p {
+    color: #777;
+    align-items: justify;
+}
+.expect h1{
+    font-size: 5.5rem;
+}
+.expect h4 {
+    margin: 0;
+    line-height: 0;
+    font-family: 'Ms Madi', cursive;
+    font-weight: 700;
+}
+
+.expect .para {
+    font-family: 'Ms Madi', cursive;
+    margin: 25px 0;
+    color: #777;
+    font-size: 1.8rem;
+    line-height: 27px;
+    margin-left: -106px;
+    width: 80%;
+    align-items: justify;
+}
+
+.expect .top {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0;
+}
+.expect h5{
+    font-style: italic;
+}
+.expect .bottom {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.expect .line {
+    display: flex;
+    justify-content: space-between;
+}
+
+.expect .line .icon {
+    width: 20%;
+}
+
+.expect .icon i {
+    padding: 20px;
+    color: #000;
+    font-size: 1.5rem;
+    border: 1px solid lightgray;
+    border-radius: 5rem;
+}
+
+.expect .line .text {
+    width: 75%;
+}
+
+.expect button {
+    border: 2px solid #000;
+    padding: 10px 30px;
+    background: #fff;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+.expect button:hover {
+    background: rgb(250, 235, 235);
+    border: 2px solid rgb(250, 235, 235);
+}
+
+.expect button a {
+    color: #000;
+    text-decoration: none;
+}
+.gall{
+    margin-top: 100px;
+}
+.gall .box{
+    background: lightgray;
+    padding: 0 40px;
+    padding-top: 40px;
+    padding-bottom: 5px;
+    margin-top: 100px;
+}
+.gall span{
+    margin: auto;
+    padding: 45px;
+}
+.gall span h5{
+    display: inline;
+}
+.gall .top2{
+    display: flex;
+    justify-content: space-between;
+}
+.gall .gallery{
+    width: 32%;
+    height: 130px;
+    display: flex;
+    place-items: center;
+    justify-content: center;
+    transform: rotate(270deg);
+}
+.gallery .draw{
+    background: #000;
+    width: 60px;
+    height: 2px;
+}
+
+.gall .bottom2{
+    display: flex;
+    justify-content: space-between;
+}
+.gall .box img{
+    display: inline;
+    width: 32%;
+    height: 130px;
+    margin-bottom: 10px;
+}
+.gall .line2{
+    text-align: right;
+}
+.gall .line2 p{
+    font-size: .5rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.photo{
+    position: relative;
+}
+.photo .big{
+    position: absolute;
+    left: -8%;
+}
+.photo img{
+    height: 330px;
+    width: 100%;
+}
+.photo .bot{
+    padding: 30px 0px;
+    padding-left: 100px;
+}
+.photo p{
+    color: #777;
+    margin-top: 15px;
+}
+.video{
+    display: flex;
+}
+.tour{
+    margin-top: 125px;
+    background: #d3d3d354;
+    position: relative;
+    padding: 40px 20px;
+}
+.hori{
+    background: #000;
+    width:100px;
+    height: 2px;
+}
+iframe{
+    position: absolute;
+    left: 33%;
+    top: -10%;
+}
+.tour .uniqe{
+    display: flex;
+    transform: rotate(270deg);
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 23%;
+    left: -15%;
+}
+.tour .line3{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+.line3 h3{
+    margin: 0;
+}
+.line3 p{
+    color: #777;
+    font-size: .8rem;
+}
+.line3 .right span{
+    font-size: 1.5rem;
+}
+.tour button{
+    background: transparent;
+    padding: 10px 30px;
+    border: 2px solid #000;
+    margin: 15px 5px;
+    cursor: pointer;
+}
+.tour button:hover{
+    background: gray;
+    border: 2px solid gray;
+}
+.tour a {
+    color: #000;
+}
+.digit{
+    text-align: center;
+    margin-top: 100px;
+}
+.digit h2{
+    margin-bottom: 50px;
+}
+.digit .pare{
+    color: #777;
+    margin-top: 15px;
+}
+.banner2{
+    background: url('../image/naturebig.webp') no-repeat 0 0;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+.banner2 .line{
+    width: 1px;
+    height: 100px;
+    background: #000;
+    display: inline-block;
+    margin-top: 20px;
+}
+.banner2 p{
+    font-size: 2rem;
+    font-family: 'Ms Madi', cursive;
+    margin: 0;
+    line-height: 0;
+    margin-top: 20px;
+}
+.banner2 h1{
+    font-size: 5rem;
+}
+.banner2 button{
+    background: transparent;
+    padding:  10px 40px;
+    border: 2px solid #000;
+    margin-bottom: 150px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.banner2 button:hover{
+    background: gray;
+    border: 2px solid gray;
+}
+.banner2 a{
+    color: #000;
+    text-decoration: none;
+}
+.footer{
+    background: #000;
+    color: #fff;
+    padding: 60px 0;
+}
+.footer hr{
+    width: 80%;
+    background: #fff;
+    margin: 20px 0;
+}
+.footer h4{
+    margin: 15px 0;
+}
+.footer p{
+    color: #777;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+.footer p:hover{
+    color: crimson;
+}
+.footer .box{
+    width: 50%;
+}
+.footer .box p{
+    color: #fff;
+}
+.footer a{
+    color: #fff;
+    text-decoration: none;
+}
+.footer a:hover{
+    color: blue;
+}
+.footer .for{
+    margin-bottom: 80px;
+}
+.footer .link p{
+    margin-top: 15px;
+}
+.link a{
+    margin-right: 10px;
+}
+.icons{
+    text-align: right;
+}
+.footer .icons i{
+    color: #fff;
+    padding: 10px;
+    border: 2px solid #fff;
+    border-radius: 5rem;
+    margin: 0 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+.footer .icons .face{
+    color: #fff;
+    padding: 10px 13px;
+    border: 2px solid #fff;
+    border-radius: 5rem;
+    margin: 0 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+.icons p{
+    color: #777;
+}
+.footer .icons i:hover{
+    color: crimson;
+    border: 2px solid crimson;
+}
+.footer span{
+    color: #fff;
+}
+.footer span:hover{
+    color: #fff;
+    text-decoration: underline;
+}
+@media(max-width: 768px){
+    .expect{
+        margin: 20px 0;
+    }
+    .expect .para{
+        margin: 0;
+    }
+    .photo .big{
+        position: relative;
+        left: 0;
+    }
+    .tour .uniqe{
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+    iframe{
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+}
+@media(max-width: 550px){
+    .slides{
+        display: block;
+    }
+    .slides .first{
+        width: 100%;
+    }
+    .slides .second{
+        width: 100%;
+    }
+    .slides .third{
+        width: 100%;
+    }
+    .slides .fourth{
+        width: 100%;
+    }
+    .expect .top{
+        display: block;
+    }
+    .expect .bottom{
+        display: block;
+    }
+    .footer{
+        text-align: center;
+    }
+    .footer hr{
+        width: 100%;
+    }
+    .link{
+        text-align: center;
+    }
+    .footer .for .box{
+        width: 100%;
+    }
+    .icons{
+        text-align: center;
+    }
+    .expect{
+        text-align: center;
+    }
+    .expect .para{
+        width: 100%;
+    }
+    .photo .bot{
+        padding: 10px;;
+    }
+    iframe{
+        width: 80%;
+    }
+    .hori{
+        display: none;
+    }
+}
+@media(max-width: 1000px){
+    iframe{
+        width: 53%;
+    }
+}
+@media(max-width: 340px){
+    .another{
+        height: 0;
+    }
+    .let{
+        margin-right: 30px;
+    }
+    .let p{
+        font-size: .8rem;
+    }
+}

@@ -1,0 +1,116 @@
+.section{
+    margin: 25px 0;
+}
+.logo{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+.heading{
+    text-align: left;
+    margin-top: 10px;
+}
+.bar{
+    list-style: none;
+}
+.bar li{
+    display: inline-block;
+    padding-right: 5px;
+}
+.bar li a{
+    color: black;
+}
+.button{
+    margin-top: 5px
+}
+.become{
+    background-color: red;
+}
+.login{
+    background-color: gray;
+}
+a{
+    color: white;
+}
+.banner{
+    background: #f5a4a8;
+}
+.game{
+    text-align: center;
+    padding: 40px 0;
+    background-color: orangered;
+}
+.lost{
+    text-align: center;
+    padding: 20px 0;
+}
+.lost button a{
+    color: black
+}
+.line{
+    height: 3px;
+    background-color: orangered;
+    margin: 30px 0; 
+    width: 100%;
+    
+}
+.icon{
+    font-size: 7rem;
+    color: black;
+    
+}.list{
+    background-color: #f2f2f2;
+}
+.hut{
+    text-align: center;
+}
+.hut h3{
+    color: orangered
+}
+.footer-widget{
+    background-color: #4b4b4b;
+    color: white;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+.footer{
+    background-color: #4b4b4b;
+    color: white
+}
+@media (max-width: 768px){
+    .logo{
+        text-align: center;
+    }
+    h1, h2, h3, h4{
+        text-align: center;
+    }
+    .heading{
+        text-align: center;
+    }
+    .button{
+        text-align: center;
+    }
+    .footer{
+        text-align: center;
+    }
+    .footer-widget{
+        text-align: center;
+    }
+    .hut{
+        text-align: center;
+    }
+    .lost{
+        text-align: center;
+    }
+    .list{
+        text-align: center;
+    }
+    .icon{
+        text-align: center;
+    }
+    .line{
+        text-align: center;
+    }
+    .game{
+        text-align: center;
+    }
+}

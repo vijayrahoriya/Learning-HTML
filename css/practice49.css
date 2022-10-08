@@ -1,0 +1,106 @@
+.header{
+    display: flex;
+    padding: 5px 10px;
+    background-color: black;
+    color: white;
+    
+}
+.left{
+    width: 50%;
+}
+.logo i{
+    animation: vijay 3s linear infinite;
+}
+.bar{
+    list-style: none;
+}
+.bar li{
+    display: inline-block;
+    padding-right: 15px;
+}
+.bar a{
+    color: white;
+}
+.right{
+    width: 50%;
+    text-align: right;
+}
+.header-slide{
+    background-color: rgb(44, 83, 83);
+    color: white;
+    padding: 40px 0;
+}
+.top{
+    text-align: right;
+}
+.top li{
+    padding-right: 30px;
+    border-left: 2px solid gray;
+}
+.header-slide h3{
+    display: inline-block;
+}
+.section{
+    margin: 20px 0;
+}
+.late{
+    background-color: rgb(44, 83, 83);
+    color: white;
+    padding: 20px 10px;
+    border-radius: .25rem;
+}
+hr{
+    width: 100%;
+    margin: 20px 0;
+    background-color: gray;
+}
+.section .text{
+    margin: 20px 0;
+}
+.latest{
+    margin: 10px 0;
+}
+.latest img{
+    border: 6px solid darkgray;
+    margin: 8px 0;
+}
+.big{
+    background-color: red;
+    height: 1px;
+    position: fixed;
+    z-index: 10;
+    animation: big 3s linear;
+}
+
+@media(max-width: 768px){
+    .left{
+        text-align: center;
+    }
+    .right{
+        text-align: center;
+    }
+    .logo{
+        text-align: center;
+    }
+    .top{
+        text-align: center;
+    }
+    .header-slide{
+        text-align: center;
+    }
+    .section{
+        text-align: center;
+    }
+}
+@keyframes big{
+    from{width: 0px;
+    }
+    to{width: 100%;
+    }
+}
+@keyframes vijay{
+    from{width: 0;
+    height: 20px;}
+    to{width: 30px;
+    height: 20px;}
+}

@@ -1,0 +1,220 @@
+.header{
+    background: url('../image/tiger.webp') no-repeat 0 0;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    color: #fff;
+}
+.navbar{
+    padding: 10px 15px;
+}
+.collapse{
+    justify-content: end;
+}
+.navbar em{
+    color: aqua
+}
+.nav-item a{
+    font-weight: 500;
+    color: black
+}
+.header-slide{
+    padding: 10px 0;
+    text-align: right;
+}
+.header-slide i{
+    margin: 0 10px;
+    border: 1px solid black;
+    padding: 5px 5px; 
+    border-radius: 5rem;
+}
+.text{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+}
+.info h5{
+    margin-bottom: 25px;
+}
+.info p{
+    margin-bottom: 30px;
+}
+.btn{
+    background-color: #000;
+    color: white;
+    padding: 10px 25px;
+    text-decoration: none;
+    border: none;
+    border-radius: .25rem;
+}
+.service{
+    margin: 35px 0;
+    text-align: center;
+}
+.guide{
+    margin-top: 50px;
+    color: #555;
+}
+.guide i{
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: aqua
+}
+.big input{
+    width: 70%;
+    padding: 9px  0;
+    margin-right: 10px;
+    padding-left: 10px;
+    border-radius: .25rem;
+}
+.big h3{
+    margin-bottom: 20px;
+}
+.big{
+    height: 40vh;
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-color: lightseagreen;
+}
+.customers{
+    display: flex;
+    height: 50vh;
+    margin-top: 60px;
+    color: #fff;
+    text-align: center;
+}
+.customers h4{
+    margin-bottom: 20px;
+}
+.private{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    background: url('../image/sunset.jpg') no-repeat 0 0;
+    background-position: center;
+    background-size: cover;
+}
+.business{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    background: url('../image/sunset.jpg') no-repeat 0 0;
+    background-position: center;
+    background-size: cover;
+}
+.near{
+    background: url('../image/cafe4.webp') no-repeat 0 0;
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    color: white
+}
+.near h4{
+    margin-right: 50px;
+}
+.footer{
+    height: 60vh;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    background-color: #555;
+}
+.footer h5{
+    margin-bottom: 20px;
+}
+.footer li{
+    list-style: none
+}
+.footer-box{
+    display: flex;
+}
+.right{
+    margin-left: 10px;
+}
+.left i{
+    color: white;
+    border: 1px solid blue;
+    padding: 5px 5px;
+    border-radius: 5rem;
+}
+.footer-box2 button{
+    border: 1px solid #aaa;
+    background-color: #555;
+    padding: 8px 40px;
+    margin: 20px 0;
+}
+.footer-box2{
+    display: flex;
+}
+button a{
+    color: white;
+}
+.footer-slide{
+    background-color: #444;
+    color: white;
+    padding: 20px 0;
+}
+@media(max-width: 758px){
+    .customers{
+        display: block;
+    }
+    .info{
+        text-align: center;
+    }
+    .header-slide{
+        text-align: center;
+    }
+    .private{
+        width: 100%;
+        padding: 20px 0;
+    }
+    .business{
+        width: 100%;
+        padding: 20px 0;
+    }
+    .footer{
+        height: 90vh;
+        text-align: center;
+    }
+    .footer h5{
+        margin-top: 15px;
+    }
+    .footer-slide{
+        text-align: center;
+    }
+    
+    
+}
+@media(max-width: 580px){
+    .box .btn{
+        margin-top: 15px;
+    }
+    .footer{
+        text-align: center;
+        height: 90vh;
+    }
+    .footer h5{
+        margin-top: 15px;
+    }
+    .footer-box2{
+        display: block;
+    }
+    .footer-box{
+        justify-content: center;
+    }
+    .footer-box2{
+        justify-content: center;
+    }
+    .footer-box2 button{
+        margin: 8px 0;
+    }
+
+}

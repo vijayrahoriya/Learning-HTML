@@ -1,0 +1,510 @@
+.header{
+    display: flex;
+}
+.header .left{
+    width: 90%;
+    padding: 0 20px;
+}
+.collapse{
+    justify-content: center;
+}
+.header .right{
+    width: 10%;
+    display: flex;
+    align-items: center;
+}
+.header .right i{
+    color: #000;
+    margin-right: 15px;
+}
+.header .right a{
+    color: #000;
+}
+.banner{
+    background: url('../image/naturebig.webp') no-repeat 0 0;
+    background-position: center;
+    background-size: cover;
+    padding: 150px 0;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    
+}
+.banner .text{
+    width: 50%;
+}
+.banner h1{
+    margin-bottom: 20px;
+}
+.section {
+    position: relative;
+}
+.section .point{
+    padding: 30px 0;
+}
+.point h5{
+    color: #777;
+    margin-bottom: 15px;
+}
+.point select{
+    border: none;
+    padding: 10px 0px;
+    padding-right: 40px;
+    border-bottom: 1px solid gray;
+    color: #000;
+    font-weight: 700;
+}
+.section .book{
+    background: orangered;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    align-items: center;
+}
+.section a{
+    color: #fff;
+}
+.top{
+    position:absolute;
+    right: 0;
+    top: 75%;
+    display: flex;
+    justify-content: right;
+    width: 100%;
+}
+.top .video{
+    width: 25%;
+    background: url('../image/nature.jpg') no-repeat 0 0;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    height:150px;
+    align-items: center;
+    justify-content: center;
+}
+.top .video .left i{
+    padding: 20px 20px;
+    color: #fff;
+    border: 2px solid #fff;
+    background: transparent;
+    margin-right: 10px;
+    border-radius: 5rem;
+    cursor: pointer;;
+}
+.section-slide{
+    display: flex;
+    background: rgb(242, 238, 238);
+}
+.section-slide .left1{
+    width: 40%;
+    padding: 100px 0;
+    padding-left: 140px;
+}
+.left1 h3{
+    margin-bottom: 20px;
+}
+.section-slide .left1 button{
+    background: orange;
+    padding: 10px 20px;
+    border: none;
+    margin-top: 25px;
+}
+.section-slide .left1 button a{
+    color: #fff;
+}
+.section-slide .right2{
+    width: 60%;
+    padding: 60px 0;
+}
+@media (min-width: 768px) {
+
+    /* show 3 items */
+    .carousel-inner .active,
+    .carousel-inner .active + .carousel-item,
+    .carousel-inner .active + .carousel-item + .carousel-item,
+    .carousel-inner .active + .carousel-item + .carousel-item + .carousel-item  {
+        display: block;
+    }
+    
+    .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left),
+    .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item,
+    .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item + .carousel-item,
+    .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item + .carousel-item + .carousel-item {
+        transition: none;
+    }
+    
+    .carousel-inner .carousel-item-next,
+    .carousel-inner .carousel-item-prev {
+      position: relative;
+      transform: translate3d(0, 0, 0);
+    }
+    
+    .carousel-inner .active.carousel-item + .carousel-item + .carousel-item + .carousel-item + .carousel-item {
+        position: absolute;
+        top: 0;
+        right: -25%;
+        z-index: -1;
+        display: block;
+        visibility: visible;
+    }
+    
+    /* left or forward direction */
+    .active.carousel-item-left + .carousel-item-next.carousel-item-left,
+    .carousel-item-next.carousel-item-left + .carousel-item,
+    .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item,
+    .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item + .carousel-item,
+    .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item + .carousel-item + .carousel-item {
+        position: relative;
+        transform: translate3d(-100%, 0, 0);
+        visibility: visible;
+    }
+    
+    /* farthest right hidden item must be abso position for animations */
+    .carousel-inner .carousel-item-prev.carousel-item-right {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        display: block;
+        visibility: visible;
+    }
+    
+    /* right or prev direction */
+    .active.carousel-item-right + .carousel-item-prev.carousel-item-right,
+    .carousel-item-prev.carousel-item-right + .carousel-item,
+    .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item,
+    .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item + .carousel-item,
+    .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item + .carousel-item + .carousel-item {
+        position: relative;
+        transform: translate3d(50%, 0, 0);
+        visibility: visible;
+        display: block;
+        visibility: visible;
+    }
+
+}
+.section-slide .right2 img{
+    height: 300px;
+}
+.section-slide .carousel .carousel-control-prev{
+    top: 350px;
+    left: 80%;
+    opacity: .8;
+}
+.section-slide .carousel .carousel-control-next{
+    top: 350px;
+    opacity: .8;
+}
+.section-slide .carousel-control-next-icon{
+    background: black no-repeat center center;
+    width: 25px;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+    height: 25px;
+    background-size: 100% 100%;
+}
+.section-slide .carousel-control-prev-icon{
+    background: #888 no-repeat center center;
+    width: 25px;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+    height: 25px;
+    background-size: 100% 100%;
+}
+.section-slide .line{
+    display: flex;
+    width: 100%;
+    color: #000;
+    justify-content: space-between;
+}
+.section-slide .line .left{
+    width: 80%;
+}
+.section-slide .line .left i{
+    color: orange;
+}
+.last{
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+.photo{
+    background: url('../image/theater600.jpg') no-repeat 0 0;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    justify-content: flex-end;
+    color: #fff;
+    padding: 0 20px;
+}
+.section-slide .top2{
+    display: flex;
+    margin-bottom: 30px;
+    color: #fff;
+    height: 46%;
+}
+.top2 .left3{
+    width: 45%;
+    background: url('../image/boat.jpg') no-repeat 0 0;
+    background-position: center;
+    background-size: cover;
+    margin-right: 15px;
+    padding-top: 100px;
+    padding-left: 20px;
+}
+.top2 .right3{
+    width: 45%;
+    background: url('../image/boat.jpg') no-repeat 0 0;
+    background-position: center;
+    background-size: cover;
+    padding-top: 100px;
+    padding-left: 20px;
+}
+.second{
+    margin-bottom: 80px;
+    height: 380px;
+}
+.second p{
+    margin: 0;
+}
+@media (min-width: 768px) {
+
+    /* show 3 items */
+    .carouselPrograms .carousel-inner .active,
+    .carouselPrograms .carousel-inner .active + .carousel-item,
+    .carouselPrograms .carousel-inner .active + .carousel-item + .carousel-item {
+        display: block;
+    }
+
+    .carouselPrograms .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left),
+    .carouselPrograms .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item,
+    .carouselPrograms .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item + .carousel-item {
+        transition: none;
+    }
+
+    .carouselPrograms .carousel-inner .carousel-item-next,
+    .carouselPrograms .carousel-inner .carousel-item-prev {
+        position: relative;
+        transform: translate3d(0, 0, 0);
+    }
+
+    .carouselPrograms .carousel-inner .active.carousel-item + .carousel-item + .carousel-item + .carousel-item {
+        position: absolute;
+        top: 0;
+        right: -33.333%;
+        z-index: -1;
+        display: block;
+        visibility: visible;
+    }
+
+    /* left or forward direction */
+    .carouselPrograms .active.carousel-item-left + .carousel-item-next.carousel-item-left,
+    .carouselPrograms .carousel-item-next.carousel-item-left + .carousel-item,
+    .carouselPrograms .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item,
+    .carouselPrograms .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item + .carousel-item {
+        position: relative;
+        transform: translate3d(-100%, 0, 0);
+        visibility: visible;
+    }
+
+    /* farthest right hidden item must be abso position for animations */
+    .carouselPrograms .carousel-inner .carousel-item-prev.carousel-item-right {
+        position: absolute;
+        top: 0;
+        left: 0%;
+        z-index: -1;
+        display: block;
+        visibility: visible;
+    }
+
+    /* right or prev direction */
+    .carouselPrograms .active.carousel-item-right + .carousel-item-prev.carousel-item-right,
+    .carouselPrograms .carousel-item-prev.carousel-item-right + .carousel-item,
+    .carouselPrograms .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item,
+    .carouselPrograms .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item + .carousel-item {
+        position: relative;
+        transform: translate3d(100%, 0, 0);
+        visibility: visible;
+        display: block;
+        visibility: visible;
+    }
+}
+.late .carousel-inner{
+    padding: 70px 0;
+    position: relative;
+}
+
+.late .carousel .carousel-control-prev{
+    top: 300px;
+    left: 82%;
+    opacity: .8;
+}
+.late .carousel .carousel-control-next{
+    top: 300px;
+    opacity: .8;
+}
+.late .carousel-control-next-icon{
+    background: #000;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+    width: 25px;
+    height: 25px;
+}
+.late .carousel-control-prev-icon{
+    background: #888;
+    width: 25px;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+    height: 25px;
+}
+.late  img{
+    border-radius: 50%;
+    width: 100px;
+    position: absolute;
+    top: -25%;
+}
+.para{
+    margin-top: 20px;
+}
+.late .panel-thumbnail{
+    background: #fff;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+.late{
+    background: rgb(242, 238, 238);
+}
+.late a{
+    color: #000;
+    text-decoration: none;
+}
+.late a h1, p{
+    margin: 0;
+}
+.late .slide{
+    margin-left: 140px ;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.footer{
+    background: rgb(242, 238, 238);
+}
+.footer h2{
+    text-align: center;
+    margin: 50px
+}
+.inputs{
+    text-align: center;
+}
+.footer input{
+    padding: 10px 10px;
+    width: 40%;
+    margin-bottom: 80px;
+    border: none;
+    outline: none;
+}
+.footer button{
+    border: none;
+    padding: 10px 40px;
+    background: orangered;
+    outline: none;
+}
+.footer a{
+    color: #fff;
+}
+.footer-slide{
+    padding: 15px 40px;
+    display: flex;
+    background: rgb(242, 238, 238);
+}
+.footer-slide a{
+    color: #000;
+    margin: 0 20px;
+}
+.first{
+    width: 25%;
+}
+.middle{
+    width: 50%;
+    text-align: center;
+}
+.third i{
+    margin: 0 10px;
+}
+.third{
+    width: 25%;
+    text-align: center;
+}
+@media(max-width: 768px){
+    .header .right{
+        text-align: center;
+    }
+    .top{
+        position: relative;
+        width: 100%;
+    }
+    .banner .text{
+        justify-content: center;
+        width: 100%;
+    }
+    .section{
+        text-align: center;
+    }
+    .section-slide{
+        display: block;
+    }
+    .section-slide .carousel .carousel-control-prev{
+        left: 75%;
+    }
+    .late .carousel .carousel-control-prev{
+        left: 75%;
+    }
+    .section-slide .left1{
+        width: 100%;
+        padding-left: 20px;
+    }
+    .section-slide .right2{
+        width: 100%;
+    }
+    .section-slide .last{
+        text-align: center;
+    }
+    .section-slide{
+        text-align: center;
+    }
+    .footer{
+        text-align: center;
+    }
+    .footer-slide{
+        justify-content: center;
+    }
+    .top2{
+        display: block;
+    }
+    .left3{
+        width: 100%;
+    }
+    .right3{
+        width: 100%;
+    }
+    .late .slide{
+        margin-left: 20px;
+    }
+    .top .video{
+        width: 50%;
+    }
+}
+@media(max-width: 500px){
+    .footer-slide{
+        display: block;
+        justify-content: center;
+    }
+    .footer-slide .first{
+        width: 100%;
+        text-align: center;
+    }
+    .middle{
+        width: 100%;
+    }
+    .third{width: 100%;}
+}

@@ -1,0 +1,382 @@
+
+.header-slide{
+    background: #000;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    opacity: .5;
+    
+}
+.header-slide .first{
+    padding: 10px 0;
+}
+.header-slide .second {
+    text-align: right;
+    
+}
+.icon{
+    display: inline-block;
+    padding: 10px 0;
+    border-left: 1px solid gray;
+}
+.header-slide .first i{
+    margin: 0 15px;
+    color: #fff;
+}
+.header-slide .search{
+    font-size: 1.5rem;
+    color: #fff;
+    
+}
+.header-slide .second i{
+    font-size: 1.5rem;
+    color: #fff;
+    margin: 0 15px;
+}
+.collapse{
+    justify-content: right;
+}
+.header{
+    background: #000;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    opacity: .5;
+    margin-top: 47px;
+}
+.navbar p{
+    color: #fff;
+    font-size: 2rem;
+}
+
+.navbar .nav-item{
+    color: #fff;
+    margin-left: 10px;
+}
+.navbar p i{
+   margin-right: 10px;
+   font-size: 2rem;
+}
+.navbar .nav-link b{
+    color: #fff;
+}
+.banner{
+    background: url('../image/adventure2.jfif') no-repeat 0 0;
+    background-position: center;
+    background-size: cover;
+    padding-top: 400px;
+    padding-bottom: 150px;
+    color: #fff;
+}
+.banner p{
+    color: gray;
+    font-size: 1.5rem;
+}
+.banner em{
+    color: rgb(26, 117, 153);
+}
+.section{
+    position: absolute;
+    top: 79%;
+    width: 100%;
+}
+.section p{
+    display: inline-block;
+    color: #fff;
+}
+.section button{
+    border: none;
+    background: rgb(62, 157, 62);
+    border-radius: .25rem;
+    margin-left: 15px;
+    padding: 5px 10px;
+}
+.section i{
+    margin: 0 10px;
+}
+.section a{
+    color: #fff;
+    text-decoration: none;
+}
+.section .box{
+    margin: 15px 0;
+    background: #fff;
+    border: 1px solid gray;
+    border-radius: .25rem;
+}
+
+.section .box p{
+    color: #777;
+    margin-left: 10px;
+}
+.section h5{
+    margin: 10px 15px;
+}
+.mid{
+    background: #d3d3d366;
+    height: 38vh;
+}
+.find{
+    margin: 100px 0;
+}
+.find .logo i{
+    font-size: 13rem;
+    color: orangered;
+}
+.find em{
+    color: green;
+}
+.find input{
+    margin: 20px 0;
+    width: 100%;
+    border-radius: 50px;
+    padding: 10px;
+}
+::placeholder{
+    color: gray;
+    font-size: 1.3rem;
+    font-weight: normal;
+}
+.om{
+    position: relative;
+    text-align: center;
+}
+.find .om i{
+    position: absolute;
+    top: 33%;
+    right: 5%;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #777;
+}
+.info{
+    background: #d3d3d366;
+    padding: 70px 0;
+}
+.info .box{
+    background: #fff;
+    border-radius: .25rem;
+    border: .5px solid rgb(177, 171, 171);
+}
+.info .first{
+    padding: 10px 10px;
+}
+.info .first h5{
+    margin-bottom: 10px;
+}
+.info p{
+    color: #777;
+}
+.middle{
+    color: #fff;
+}
+.middle .line{
+    background: url('../image/eiffel-tower.jpg') no-repeat 0 0;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    padding:10px 20px;
+    padding-top: 155px;
+    align-items: center;
+}
+.line2{
+    background: url('../image/boat.jpg') no-repeat 0 0;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    padding: 10px 20px;
+    align-items: center;
+}
+.line3{
+    background: url('../image/brige.jpg') no-repeat 0 0;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    padding: 10px 20px;
+    align-items: center;
+}
+.middle  .right{
+    margin-left: 20px;
+}
+
+.middle  i{
+    font-size: 1.5rem;
+}
+.info .last{
+    text-align: right;
+    padding: 10px;
+}
+.info a{
+    color: #777;
+}
+.info a i{
+    margin: 0 5px;
+}
+.port{
+    background: url('../image/naturebig.webp') no-repeat 0 0;
+    background-position: center;
+    background-size: cover;
+    padding: 200px 0;
+    
+}
+.port h1{
+    font-size: 3rem;
+}
+.port .text{
+    display: flex;
+    color: #fff;
+    justify-content: right;
+}
+.port .box{
+    width: 50%;
+}
+.port p{
+    margin: 20px 0;
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+}
+.port button{
+    background: #45da45;
+    padding: 10px;
+    border: none;
+    border-radius: .25rem;
+}
+.port i{
+    margin: 0 5px;
+}
+.port a{
+    color: #fff;
+}
+.news{
+    margin: 90px 0;
+}
+.news .box{
+    margin-top: 20px;
+    border-radius: .25rem;
+    border: .5px solid #d3d3d366;
+}
+.news h4{
+    display: inline-block;
+    margin-right: 10px;
+}
+.news button{
+    background: #45da45;
+    padding: 5px 10px;
+    border: none;
+    border-radius: .25rem;
+}
+.news button a{
+    color: #fff;
+}
+.news h5{
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+.news .top{
+    background: url('../image/sunset.jpg') no-repeat 0 0;
+    background-position: center;
+    background-size: cover;
+    padding-top: 300px;
+    color: #fff;
+    padding-left: 20px;
+}
+.news p{
+    margin: 0;
+}
+.news i{
+    margin-right: 10px;
+}
+.news .last{
+    display: flex;
+    justify-content: space-between;
+    background: #888;
+    color: lightgray;
+    padding: 10px;
+}
+.footer{
+    background: #d3d3d366;
+    padding: 90px 0;
+    color: #777;
+}
+.footer a{
+    color: #777;
+    margin: 0 15px;
+    text-decoration: none;
+}
+.footer p{
+    margin-top: 30px;
+    margin-left: 15px;
+}
+.up{
+    text-align: right;
+}
+.footer i{
+    font-size: 10rem;
+    color: orangered;
+}
+.footer-slide{
+    background: #c8c1c177;
+    padding: 10px 0;
+    color: #777;
+}
+.link {
+    text-align: right;
+}
+.footer-slide i{
+    margin: 0 5px;
+}
+
+@media(max-width: 768px){
+    .header-slide{
+        text-align: center;
+    }
+    .header-slide .second{
+        text-align: center;
+    }
+    .header{
+        margin-top: 90px;
+        text-align: right;
+    }
+    .section{
+        position: relative;
+        margin: 20px 0;
+    }
+    .box{
+        margin: 10px 0;
+    }
+    .section p{
+        color: #000;
+    }
+    .mid{
+        display: none
+    }
+    .link{
+        text-align: center;
+    }
+    .find{
+        text-align: center;
+    }
+    .find .om i{
+        top: 61%;
+        right: 7%;
+    }
+    .up{
+        text-align: center;
+    }
+}
+@media(max-width: 400px){
+    .header{
+        margin-top: 113px;
+    }
+    .port .text{
+        justify-content: center;
+    }
+    .footer-slide{
+        text-align: center;
+    }
+    .box{
+        box-shadow: 0 5px 5px 0 #aaa;
+    }
+}

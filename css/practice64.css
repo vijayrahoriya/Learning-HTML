@@ -1,0 +1,55 @@
+.collapse{
+    justify-content: end;
+}
+nav em{
+    color: aqua;
+    font-size: 2rem;
+}
+.banner{
+    background: url('../image/post-4.jpg') no-repeat 0 0;
+    color: white;
+    padding-top: 240px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+.section{
+    margin: 100px 0;
+    text-align: center;
+}
+.section h1{
+    color: aqua;
+    margin-bottom: 25px;
+}
+.section button{
+    border: skyblue;
+    background-color: skyblue;
+    padding: 15px 30px;
+    border-radius: .25rem;
+    text-align: center;
+    margin: 15px 0;
+}
+.section a{
+    color: white;
+}
+.late{
+    margin-top: 100px;
+    text-align: center;
+}
+.section i{
+    background-color:  skyblue;
+    padding: 40px 40px;
+    border-radius: 3rem;
+    font-size: 2rem;
+    color: white;
+}
+@media(max-width: 768px){
+    .banner{
+        text-align: center;
+    }
+    .section{
+        text-align: center;
+    }
+    .section i{
+        margin: 15px 0;
+    }
+}

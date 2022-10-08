@@ -1,0 +1,472 @@
+html{
+    scroll-behavior: smooth;
+}
+:root{
+    --bg: orange;
+}
+.header-slide{
+    background: #222;
+    color: #ffff;
+    padding: 10px 0;
+    
+}
+.header-slide p{
+    margin-bottom: 0;
+    margin: 0 10px;
+    display: inline;
+}
+.header-slide .left p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.header-slide p i{
+    color: orange;
+    margin-right: 8px;
+}
+.header-slide .para{
+    text-align: right;
+}
+
+.up{
+    width: 4%;
+    height: 5%;
+    background: orange;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    position: fixed;
+    right: 3%;
+    bottom: 10px;
+    z-index: 999;
+}
+.header{
+    padding: 30px 0;
+    padding-top: 50px;
+   
+    background: #fff;
+}
+.header .collapse{
+    justify-content: right;
+}
+.header h4{
+    margin-bottom: 0;
+}
+.header .navbar-brand{
+    border: 3px solid #000;
+    padding: 5px 10px;
+}
+.header li{
+    padding: 0 10px;
+}
+.navbar{
+    padding: 0;
+}
+.navbar .nav-link b{
+    color: #222;
+}
+.nav-link{
+    position: relative;
+}
+.nav-link::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 3px;
+    border-radius: 6px;
+    background: crimson;
+    transition: all .5s;
+}
+.nav-link:hover::after{
+    width: 100%;
+}
+
+.banner{
+    position: absolute;
+    top: 20%;
+    width: 100%;
+    color: #fff;
+}
+.banner .big{
+    display: flex;
+    justify-content: right;
+}
+.banner .box{
+    width: 50%;
+}
+.banner h1{
+    margin-bottom: 15px;
+}
+.banner p{
+    font-size: 1.2rem;
+}
+.first{
+    background: var(--bg);
+    color: #fff;
+    padding: 10px 20px;
+    border: 2px solid var(--bg) ;
+    border-radius: .25rem;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: all .5s;
+    font-weight: 600;
+}
+.first:hover{
+    background: none;
+    color: var(--bg);
+}
+.carousel{
+    position: relative;
+}
+.carousel img{
+    height: 70vh;
+}
+.carousel a{
+    opacity: 1;
+}
+.carousel .carousel-control-next-icon{
+    padding: 15px;
+    background: var(--bg);
+    font-size: .7rem;
+    border: 2px solid orange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.carousel .carousel-control-prev-icon{
+    padding: 15px;
+    background: none;
+    font-size: .7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #fff;
+}
+.work{
+    margin: 100px 0;
+}
+.work img{
+    width: 100%;
+    margin-bottom: 10px;
+    height: 200px;
+}
+.work h4{
+    margin: 15px 0;
+}
+.work a{
+    color: #222;
+    text-decoration: none;
+    font-weight: 700;
+}
+.work p{
+    color: #777;
+}
+.work a i{
+    margin-left: 8px;
+}
+.work a:hover{
+    text-decoration: underline;
+}
+.work .line{
+    display: flex;
+    justify-content: space-between;
+}
+.work .line h4{
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+.work .line img{
+    width: 100px;
+    height: 90px;
+}
+.work .line p{
+    margin-bottom: 0;
+}
+.work .right{
+    padding-left: 20px;
+}
+.work hr{
+    width: 100%;
+    height: .5px;
+    background: lightgray;
+    margin: 20px 0;
+}
+.contact{
+    background: #222;
+    color: #fff;
+    padding: 50px 0;
+}
+.contact h3{
+    margin: 0;
+}
+.but{
+    text-align: right;
+}
+.contact button{
+    margin-top: 0;
+    color: #222;
+    font-weight: 700;
+}
+
+.about{
+    margin: 100px 0;
+}
+.about img{
+    width: 100%;
+    height: 280px;
+}
+.about h2{
+    margin: 20px 0;
+}
+.about a{
+    color: #000;
+    font-weight: 700;
+    text-decoration: none;
+}
+.about .line{
+    display: flex;
+    justify-content: space-between;
+}
+.about a i{
+    margin-left: 8px;
+}
+.about a:hover{
+    text-decoration: underline;
+}
+.about .line{
+    margin-top: 70px;
+}
+.about .line i{
+    border: 2px solid var(--bg);
+    border-radius: 5rem;
+    color: var(--bg);
+    font-size: .8rem;
+    padding: 8px;
+}
+.about .right{
+    padding-left: 10px;
+}
+.about .line h4{
+    margin-bottom: 10px;
+}
+.why{
+    background: #20c99717;
+    padding: 80px 0;
+}
+.why h3{
+    margin-bottom: 20px;
+}
+.why p{
+    color: #777;
+}
+.why .line{
+    display: flex;
+    justify-content: none;
+}
+.why .line p{
+    color: #000;
+}
+.why i{
+    color: var(--bg);
+}
+.why .right{
+    padding-left: 10px;
+}
+.info{
+    margin: 70px 0;
+}
+.info h3{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.info .box{
+    margin-top: 20px;
+    position: relative;
+}
+.layer{
+    width: 100%;
+    height: 0%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(skyblue, crimson);
+    opacity: .8;
+    overflow: hidden;
+    transition: all .5s;
+}
+.layer i{
+    font-size: 2rem;
+    cursor: pointer;
+}
+.layer i:hover{
+    color: blue;
+}
+.info .box:hover .layer{
+    height: 100%;
+}
+.info img{
+    width: 100%;
+    height: 200px;
+    margin-bottom: 10px;
+    transition: all .5s;
+}
+
+.info h5{
+    margin: 10px 0;
+}
+.info h5:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.info p{
+    color: #777;
+}
+.bat{
+    text-align: center;
+    margin-top: 50px;
+}
+.bat a{
+    color: #222;
+    text-decoration: none;
+    font-weight: 700;
+}
+.bat a i{
+    margin-left: 8px;
+}
+.bat a:hover{
+    text-decoration: underline;
+}
+.review{
+    padding: 50px 0;
+}
+.review p{
+    color: #666;
+}
+.review i{
+    margin-right: 8px;
+    color: #333;
+}
+.review h5{
+    margin-bottom: 8px;
+}
+
+.footer{
+    background: #222;
+    color: #fff;
+    padding: 80px 0;
+}
+.footer .logo p{
+    margin: 25px 0;
+}
+.footer .logo h5{
+    display: inline;
+    padding: 5px 15px;
+    background: #fff;
+    color: #000;
+    margin-bottom: 15px;
+}
+.footer  p{
+    margin-bottom: 5px;
+}
+.footer .links p:hover{
+    color: var(--bg);
+    cursor: pointer;
+    text-decoration: underline;
+}
+.footer h5{
+    margin-bottom: 20px;
+}
+.footer-slide{
+    background: #111;
+    color: #fff;
+    padding: 20px 0;
+}
+.footer-slide i{
+    margin-right: 5px;
+}
+
+@media(max-width: 768px){
+    .header-slide{
+        text-align: center;
+    }
+    .header-slide .para{
+        text-align: center;
+    }
+    .header{
+        text-align: right;
+    }
+    .banner .big{
+        justify-content: center;
+    }
+    .up{
+        width: 8%;
+    }
+    .banner .box{
+        width: 100%;
+        text-align: center;
+    }
+    .work .box{
+        margin: 20px 0;
+    }
+    .review p{
+        margin: 20px 0;
+    }
+    .footer-slide{
+        text-align: center;
+    }
+    .why iframe{
+        margin: 20px 0;
+    }
+    .about img{
+        margin: 20px 0;
+    }
+}
+@media(max-width: 580px){
+    .banner h1{
+        font-size: 2rem;
+    }
+    .contact{
+        text-align: center;
+    }
+    .but{
+        text-align: center;
+        margin: 20px 0;
+    }
+    .footer{
+        text-align: center;
+    }
+    .review{
+        text-align: center;
+    }
+    .info{
+        text-align: center;
+    }
+    .carousel img{
+        height: 70vh;
+    }
+    .big .box{
+        width: 100%;
+        text-align: center;
+    }
+    .banner p{
+        font-size: .7rem;
+    }
+    .up{
+        width: 10%;
+    }
+    .why h3{
+        text-align: center;
+    }
+    .carousel .carousel-control-prev-icon{
+        padding: 5px;
+    }
+    .carousel .carousel-control-next-icon{
+        padding: 5px;
+    }
+}

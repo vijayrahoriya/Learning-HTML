@@ -1,0 +1,69 @@
+.header{
+    background-color: rgb(85, 85, 204);
+    color: white;
+    padding: 10px 0;
+}
+.header .logo{
+    font-size: 3rem;
+    margin-bottom: 10px;
+    color: orangered;
+}
+.bar{
+    list-style: none;
+}
+.bar li{
+    display: inline-block;
+    padding-right: 15px;
+}
+.header button{
+    border-radius: 13%;
+    border: 1px solid orangered;
+    margin: 0 5px;
+    background-color: orangered;
+}
+.header a{
+    color: white;
+}
+.banner{
+    text-align: center;
+    padding: 60px 0;
+    position: absolute;
+    top: 24%;
+    left: 18%;
+    color: white;
+}
+.banner button{
+    border: 1px solid white;
+    background-color: blue;
+}
+.banner a{
+    color: white;
+}
+.desktop{
+    display: block;
+}
+.mobile{
+    display: none;
+}
+@media (max-width: 768px){
+    .header{
+        text-align: center;
+    }
+    .bar{
+        text-align: center;
+    }
+    .banner{
+        text-align: center;
+        position: relative;
+        display: none;
+        left: 0%
+    }
+    .desktop{
+        display: none;
+    }
+    .mobile{
+        display: block;
+        position: relative;
+        color: black;
+    }
+}

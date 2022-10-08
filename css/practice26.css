@@ -1,0 +1,137 @@
+.banner{
+    color: whire;
+    background: url('../image/airoplane.webp') no-repeat 0 0;
+}
+.header{
+    background-color: white;
+    padding: 20px 0;
+}
+h1{
+    display: inline-block;
+}
+.logo em{
+    color: greenyellow
+}
+.header i{
+    font-size: 2rem;
+}
+.bar{
+    list-style: none;
+    margin-top: 20px;
+    text-align: right;
+}
+.bar li{
+    display: inline-block;
+    padding-right: 15px;
+}
+.bar li a{
+    color: black;
+}
+.text{
+    padding: 80px 0;
+    color: white;
+}
+.text button{
+    background-color: gray;
+    border: 1px solid white;
+}
+.text button a{
+    color: white;
+}
+.info{
+    margin: 40px 0;
+    background-color: rgb(76, 76, 228);
+}
+.info i{
+    margin-left: 15px;
+    color: white;
+}
+.info a{
+    color: white;
+}
+form{
+    color: white;
+}
+form label{
+    margin-left: 15px;
+}
+section label{
+    margin-right: 130px;
+}
+section select{
+    margin-left: 11px;
+    margin-right: 80px;
+}
+.game input{
+    margin-left: 10px;
+}
+.airport{
+    margin-right: 60px;
+}
+section{
+    margin: 15px 0;
+}
+.customers label{
+    margin-right: 40px;
+}
+.last{
+    padding: 30px 0;
+}
+.last button{
+    background-color: orange;
+    margin-left: 100px;
+}
+.last input{
+    margin-left: 10px;
+}
+.last button a{
+    color: white;
+}
+.foot{
+    margin: 30px 0;
+}
+.foot i{
+
+    background-color: greenyellow;
+    font-size: 3rem;
+    color: white;
+}
+@media (max-width: 768px){
+    .banner{
+        text-align: center;
+    }
+    .logo{
+        text-align: center;
+    }
+    .bar{
+        text-align: center;
+    }
+    section{
+        text-align: center;
+    }
+    section label{
+        margin-right: 0;
+    }
+    section input{
+        margin: 15px 0;
+    }
+    section select{
+        margin: 0 auto;
+    }
+    .customers label{
+        margin: 0 5px;
+    }
+    .foot{
+        text-align: center;
+    }
+    h1, h2, h3{
+        text-align: center;
+    }
+    .airport{
+        margin: 0 auto;
+    }
+    .last button{
+        margin-left: 0;
+        margin-top: 20px;
+    }
+}

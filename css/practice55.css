@@ -1,0 +1,136 @@
+.line{
+    background-color: red;
+    height: 1.5px;
+    animation: vijay 3s linear;
+}
+.header{
+    background: url('../image/cafe4.webp') no-repeat 0 0;
+    padding: 20px 0;
+    color: white;
+}
+.logo{
+    animation: hanuman 3s linear;
+}
+.bar{
+    list-style: none;
+    text-align: right;
+}
+.bar li{
+    display: inline-block;
+    padding-right: 20px;
+    cursor: pointer;
+}
+.text{
+    padding: 50px 0;
+    text-align: center;
+}
+.text input{
+    background-color: white;
+    margin: 15px 0;
+    color: black;
+}
+.text button{
+    background-color: blue;
+    border: blur;
+    color: white;
+    padding: 5px 40px;
+    cursor: pointer;
+    border-radius: .25rem;
+    opacity: .9;
+}
+.section{
+    text-align: center;
+    margin: 20px 0;
+}
+.latest{
+    margin: 20px 0;
+}
+.latest i{
+    font-size: 2rem;
+    padding: 5px 10px;
+    border: 1px solid black;
+}
+.section button{
+    margin: 20px 0;
+    background-color: blue;
+    border: blur;
+    opacity: .9;
+    color: white;
+    padding: 5px 40px;
+    cursor: pointer;
+    border-radius: .25rem;
+}
+.feature{
+    margin: 50px 0;
+    text-align: left;
+}
+hr{
+    background-color: gray;
+}
+.last{
+    margin: 30px 0;
+    text-align: center;
+    padding: 20px 0;
+    border: 2px solid black;
+    background-color: white;
+}
+.icon{
+    border: 2px solid black;
+    padding: 30px 0;
+}
+.footer{
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    background-color: rgb(89, 79, 79);
+}
+.footer input{
+    width: 70%;
+    background-color: white;
+    border: white;
+    border-radius: .25rem;
+    padding: 5px;
+}
+.footer i{
+    position: absolute;
+    color: gray;
+    top: 75%;
+    right: 35%;
+}
+.footer button{
+    background-color: white;
+    border: white;
+    border-radius: .25rem;
+    padding: 5px 50px;
+}
+@keyframes hanuman{
+    from{font-size: 0;}
+    to{font-size: 1rem;}
+}
+@keyframes vijay{
+    from{width: 0;}
+    to{width: 100%;}
+}
+@media(max-width: 768px){
+    .logo{
+        text-align: center;
+    }
+    .bar{
+        text-align: center;
+    }
+    .text{
+        text-align: center;
+    }
+    .section{
+        text-align: center;
+    }
+    .footer{
+        text-align: center;
+    }
+    .footer i{
+        top: 45%;
+    }
+    .footer button{
+        margin: 20px 0;
+    }
+}

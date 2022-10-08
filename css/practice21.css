@@ -1,0 +1,84 @@
+.banner{
+    background: url('../image/boat6.webp') no-repeat 0 0;
+    color: white;
+    
+}
+.bar{
+    list-style: none;
+    margin-top: 20px
+}
+.logo{
+    margin-top: 10px;
+}
+.bar li{
+    display: inline-block;
+    padding-right: 15px;
+}
+a{
+    color: white;
+}
+.text{
+    text-align: center;
+    margin-top: 70px;
+} 
+.text button{
+    background-color: red;
+}
+.info{
+    background-color: white;
+    color: black;
+    margin-top: 200px
+}
+.section{
+    text-align: center;
+    margin: 50px 0;
+
+}
+.photo{
+    background: url('../image/boat3.jpg') no-repeat 0 0;
+    padding-top: 200px;
+    color: white;
+    text-align: left;
+}
+.second{
+    background: url('../image/boat4.jpg') no-repeat 0 0;
+    padding-top: 170px;
+    color: white;
+    text-align: left;
+}
+.last{
+    background: url('../image/boat6.webp') no-repeat 0 0;
+    color: white;
+    padding: 150px 0;
+    text-align: center;
+}
+button{
+    background-color: red;
+    margin: 30px 0;
+}
+.footer{
+    background-color: gray;
+    color: white;
+    text-align: center;
+    padding-top: 30px
+}
+@media (max-width: 768px){
+    .banner{
+        text-align: center;
+    }
+    .logo{
+        text-align: center;
+    }
+    h1, h2, h3, h4, h5{
+        text-align: center;
+    }
+    .section{
+        text-align: center;
+    }
+    .last{
+        text-align: center;
+    }
+    .footer{
+        text-align: center;
+    }
+}

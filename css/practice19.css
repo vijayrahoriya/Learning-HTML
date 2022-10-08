@@ -1,0 +1,84 @@
+.logo{
+    margin-top: 10px;
+}
+.bar{
+    list-style: none;
+    margin-top: 20px;
+}
+.bar li{
+    display: inline-block;
+    padding-right: 15px;
+}
+.bar li a{
+    color: black
+}
+.banner{
+    background: url('../image/cafe3.webp') no-repeat 0 0;
+    text-align: center;
+    color: white;
+    padding-top: 110px;
+}
+button{
+    background-color: rgb(232, 156, 169);
+    border-radius: 13%;
+}
+button a{
+    color: white;
+}
+.box{
+    background-color: white;
+    color: black;
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px 0;
+}
+.box i{
+    color:rgb(200, 133, 144);
+    font-size: 2rem;
+}
+.section{
+    margin: 40px 0;
+    text-align: center;
+}
+.section img{
+    margin: 20px 0;
+}
+.section h2{
+    margin-top: 50px;
+}
+.slide h2{
+    color: rgb(238, 152, 166);
+}
+.last{
+    background: url('../image/cafe4.webp') no-repeat 0 0;
+    text-align: center;
+    color: white;
+    padding-top: 110px;
+}
+.last button a{
+    color: white;
+}
+.last a{
+    color: rgb(200, 133, 144);
+}
+@media (max-width: 768px){
+    .logo{
+        text-align: center;
+    }
+    h1, h2, h3, h4, h5{
+        text-align: center;
+    }
+    .banner{
+        text-align: center;
+    }
+    .section{
+        text-align: center;
+    }
+    .last{
+        text-align: center;
+    }
+    .last button{
+        margin: 20px 0;
+    }
+}
+

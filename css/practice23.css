@@ -1,0 +1,152 @@
+.header{
+    margin-top: 10px;
+    background-color: greenyellow;
+    color: white;
+}
+.logo{
+    padding-top: 10px;
+}
+.bar{
+    list-style: none;
+    margin-top: 20px;
+    text-align: center;
+}
+.bar li{
+    display: inline-block;
+    padding-right: 15px;
+}
+.bar li a{
+    color:white;
+}
+.add{
+    background-color: orangered;
+    text-align: center;
+    padding: 10px 0;
+}
+.banner{
+    background: url('../image/boat6.webp') no-repeat 0 0;
+    text-align: center;
+    padding: 20px 0;
+}
+.top{
+    list-style: none;
+    margin-top: 20px;
+    text-align: center;
+}
+.top li{
+    display: inline-block;
+    padding-right: 15px;
+    background-color: black;
+}
+.top li a{
+    color: white;
+}
+form{
+    background-color: wheat;
+}
+section button{
+    background-color: orangered;
+    margin: 20px 0;
+}
+.banner input{
+    margin-bottom: 20px;
+}
+form h3{
+    text-align: right;
+    margin-bottom: 20px;
+}
+.section{
+    margin: 20px 0;
+    text-align: center;
+}
+.latest{
+    background: url('../image/boat4.jpg') no-repeat 0 0;
+    text-align: center;
+    padding: 50px 0;
+}
+.latest h4{
+    color: aqua;
+    margin-bottom: 20px;
+}
+.country{
+    background: url('../image/boat2.jpg') no-repeat 0 0;
+    text-align: center;
+    padding: 50px 0;
+}
+.text{
+    background-color: aqua;
+    text-align: center;
+    padding: 50px 0;
+}
+.new{
+    background: url('../image/boat4.jpg') no-repeat 0 0;
+    text-align: center;
+    padding: 50px 0;
+}
+.new h4{
+    color: aqua;
+}
+.help{
+    background-color: aqua;
+    text-align: center;
+    padding: 40px 0;
+}
+.help img{
+    border-radius: 50%;
+}
+.help button{
+    background-color: brown;
+}
+.help button a{
+    color: white;
+}
+.footer-slide{
+    background-color: darkgray;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+
+}
+.footer-slide button{
+    background-color: orangered;
+    margin-bottom: 30px;
+}
+.footer-slide button a{
+    color: white;
+}
+.footer{
+    background-color: gray;
+    color: white;
+}
+@media (max-width: 768px){
+    .logo{
+        text-align: center;
+    }
+    .banner{
+        text-align: center;
+    }
+    .section{
+        text-align: center;
+    }
+    .country{
+        text-align: center;
+    }
+    .text{
+        text-align: center;
+    }
+    .help{
+        text-align: center;
+    }
+    .about{
+        text-align: center;
+    }
+    .footer{
+        text-align: center;
+    }
+    .footer-slide{
+        text-align: center;
+    }
+    .new{
+        text-align: center;
+    }
+}

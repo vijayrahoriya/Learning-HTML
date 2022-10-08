@@ -1,0 +1,115 @@
+#header{
+    background: black;
+    color: #fff
+}
+.logo{
+    font-size: 2rem;
+    margin-top: 8px 
+}
+.top{
+    list-style: none;
+}
+.top li{
+    display: inline-block;
+    margin-right: 15px;
+    margin-top: 12px;
+}
+.top li a{
+    color: white;
+}
+.banner{
+    background-color: black;
+    margin-bottom: 15px;
+    color: white
+}
+.game, h2{
+    color: #fff;
+    margin-top: 15px;
+}
+img{
+    margin: 15px 0;
+}
+.buy{
+    background-color: orangered;
+    border-radius: 5%;
+}
+.buy a{
+    color: white;
+    font-size: 20px;
+}
+.text{
+    color: black;
+}
+.gone{
+    margin: 20px 0;
+
+}
+.contact{
+    margin: 20px 0;
+    background-color: #d8d8d8;
+}
+.contact a{
+    color: black;
+}
+.slide{
+    margin: 15px 0;
+}
+img{
+    margin: 15px 0;
+}
+.portfolio{
+    margin-top: 10px;
+    background-color: #d8d8d8 ;
+}
+.read-more{
+    color: orangered
+
+}
+.big{
+    font-size: 3rem;
+    padding-top: 38px;
+    font-family:'Times New Roman', Times, serif
+}
+.small{
+    font-size: 3rem;
+    font-family:'Times New Roman', Times, serif
+}
+input{
+    margin-bottom: 15px
+}
+.submit{
+    float: right;
+    margin-top: 45px
+}
+.footer{
+    background-color: black;
+    color: white;
+    padding-top: 15px
+}
+.footer-slide{
+    background-color: #191919;
+    color: white;
+    padding-top: 25px;
+    margin-top: 15px
+}
+@media (max-width: 768px){
+    .logo{
+        text-align: center;
+
+    }
+    .top{
+        text-align: center;
+    }
+    h2, h3, h4, h5{
+        text-align: center;
+    }
+    .photo{
+        text-align: center;
+    }
+    .button{
+        text-align: center;
+    }
+}
+
+
+

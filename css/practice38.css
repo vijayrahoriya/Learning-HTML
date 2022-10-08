@@ -1,0 +1,145 @@
+.top{
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+.header-slide{
+    background-color: wheat;
+    text-align: center;
+    padding: 5px 0;
+    
+}
+.header{
+    background-color: white;
+    
+}
+.bar{
+    list-style: none;
+    margin-top: 10px;
+}
+.bar li{
+    display: inline-block;
+    padding-right: 15px;
+}
+.header a{
+    color: black;
+}
+.icon{
+    text-align: center;
+    margin-top: 10px;
+}
+.icon i{
+    margin-right: 10px;
+}
+.banner{
+    background-color: aqua;
+    padding-top: 120px;
+    
+}
+.text{
+    padding: 60px 0;
+}
+.text button{
+    background-color: black;
+    border-radius: .25rem;
+    padding: 10px 50px;
+}
+.text a{
+    color: white;
+}
+.section{
+    margin: 10px 0;
+    text-align: center;
+}
+.box{
+    display: flex;
+}
+.ftext{
+    width: 15%;
+    text-align: center;
+    padding: 20px 10px;
+    font-size: 3rem;
+}
+.stext{
+    width: 15%;
+    text-align: center;
+    padding: 40px 10px;
+}
+.man{
+    margin: 20px 0;
+}
+.d-block{
+    height: 700px;
+}
+.game{
+    position: absolute;
+    top: 30%;
+    left: 13%;
+}
+.game i{
+    margin-bottom: 10px;
+}
+.game button{
+    margin: 20px 0px;
+    padding: 10px 20px;
+}
+.game a{
+    color: black
+}
+.desktop{
+    display: block;
+}
+.mobile{
+    display: none;
+}
+.footer{
+    background-color: pink;
+    padding: 20px 20px;
+}
+.footer i{
+    color: orange;
+    margin-right: 20px;
+}
+@media(max-width: 768px){
+    .header-slide{
+        text-align: center;
+    }
+    .header{
+        padding-bottom: 10px;
+    }
+    .logo{
+        text-align: center;
+    }
+    .bar{
+        text-align: center;
+    }
+    .icon{
+        text-align: center;
+    }
+    .banner{
+        text-align: center;
+        padding-top: 150px;
+    }
+    .section{
+        text-align: center;
+    }
+    .game{
+        text-align: center;
+        margin-top: 10px;
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+    .desktop{
+        display: none;
+    }
+    .mobile{
+        display: block;
+    }
+    .box .ftext{
+        width: 50%;
+    }
+    .footer{
+        text-align: center;
+    }
+}

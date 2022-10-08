@@ -1,0 +1,91 @@
+.logo{
+    padding-top: 10px;
+}
+.bar{
+    list-style: none;
+    margin-top: 25px;
+}
+.bar li{
+    display: inline-block;
+    padding-right: 15px;
+    text-align: center;
+}
+.bar li a{
+    color: black;
+}
+#header button{
+    margin-top: 25px;
+}
+.banner{
+    background: url('../image/post-3.jpg') no-repeat 0 0;
+    margin-top: 30px;
+    border-bottom:  solid black; 
+}
+.empty{
+   background-color: brown;
+   margin-top: 70px;
+   color: white;
+}
+.empty input{
+    display: block;
+    margin: 20px auto;
+    
+}.section{
+    padding-top: 40px;
+    background-color:azure;
+}
+.section img{
+    border-radius: 40%
+}
+.section hr{
+    margin: 20px 0;
+    background-color: gray;
+    
+}
+.game{
+    padding: 40px 0;
+    text-align: center;
+}
+.design{
+    background-color: gray;
+    text-align: center;
+    padding-bottom: 40px;
+
+}
+.footer{
+    margin: 30px 0;
+    text-align: center;
+}
+.footer button{
+    background-color: green;
+}
+.footer button a{
+    color: white;
+}
+.footer h5{
+    margin-bottom: 30px;
+}
+@media (max-width: 768px){
+    .logo{
+        text-align: center;
+    }
+    .icon{
+        text-align: center;
+    }
+    .bar{
+        text-align: center;
+    }
+    
+    h1, h2, h3, h4, h5{
+        text-align: center;
+    }
+    .banner{
+        text-align: center;
+    }
+    .section{
+        text-align: center;
+    }
+    .footer{
+        text-align: center;
+    }
+}

@@ -1,0 +1,98 @@
+.header-slide{
+    background-color: orangered;
+    color: white;
+    text-align: right;
+    padding: 5px 0;
+}
+.header-slide em{
+    background-color: orange;
+    color: black
+}
+.header{
+    background-color: gray;
+    color: white;
+    padding: 5px 0;
+    display: flex;
+}
+.left{
+    font-size: 3rem;
+    color: orangered;
+    margin: 0 30px;
+    width: 50%;
+}
+.right{
+    text-align: right;
+    width: 50%;
+}
+.bar{
+    list-style: none;
+    margin: 20px 0;
+}
+.bar li{
+    display: inline-block;
+    padding-right: 15px;
+}
+.bar a{
+    color: white;
+}
+.main{
+    background-color: pink;
+    padding: 70px 0;
+    text-align: center;
+}
+.main hr{
+    margin: 10px 0;
+    height: 5px;
+}
+.main button{
+    background-color: black;
+    border: black;
+    padding: 8px 30px;
+
+}
+.main a{
+    color: pink;
+}
+.section{
+    padding: 30px 0;
+    text-align: center;
+    background-color: darkgray;
+}
+.section i{
+    font-size: 2rem;
+    background-color: black;
+    color: white;
+}
+.late{
+    margin: 20px 0;
+}
+.section-slide{
+    background-color: rgb(251, 217, 164);
+    padding: 30px 0;
+    text-align: center;
+}
+.section-slide hr{
+    margin: 20px 0;
+}
+.latest{
+    margin: 10px 0;
+}
+.footer-slide{
+    background-color: gray;
+    text-align: center;
+    padding: 20px 0;
+}
+.footer-slide a{
+    color: black;
+}
+.footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+@media(max-width: 768px){
+    .header-slide{
+        text-align: center;
+    }
+}

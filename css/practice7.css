@@ -1,0 +1,100 @@
+.header{
+    background-color: black ;
+    color: white;
+}
+.logo{
+    padding-top: 10px;
+}
+.bar{
+    list-style: none;
+}
+.bar li{
+    text-align: center;
+    padding-right: 10px;
+    display: inline-block;
+    padding-top: 30px;
+}
+.bar li a{
+    color: white;
+}
+.search-bar{
+    padding-top: 30px;
+    text-align: right;
+}
+.main{
+    background-color: gray;
+    color: white;
+}
+.game{
+    padding: 40px 0;
+}
+.game button{
+    background-color: orangered;
+    
+}
+.game button a{
+    color: white;
+}
+.section{
+    text-align: center;
+    padding: 25px 0;
+    background-color: gray;
+    color: white;
+}
+.kite{
+    background-color: orangered;
+    text-align: center;
+    color: white;
+    padding: 25px 0;
+}
+.kite img{
+    padding-top: 20px;
+}
+
+.foot{
+    padding: 25px 0;
+    font-size: 5rem;
+}
+.foot i{
+    color: orangered;
+}
+.footer{
+    text-align: center;
+    background-color: gray;
+    color: white;
+    
+}
+.footer ul{
+    list-style: none;
+}
+@media (max-width: 768px){
+    .logo{
+        text-align: center;
+    }
+    .header{
+        text-align: center;
+    }
+    .search-bar{
+        text-align: center;
+    }
+    h1, h2, h3{
+        text-align: center;
+    }
+    .bar{
+        text-align: center;
+    }
+    .search-bar{
+        text-align: center;
+    }
+    .game{
+        text-align: center;
+    }
+    .kite{
+        text-align: center;
+    }
+    .section{
+        text-align: center;
+    }
+}
+
+
