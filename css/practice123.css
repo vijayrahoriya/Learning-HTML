@@ -391,6 +391,15 @@ html{
     margin-right: 5px;
 }
 
+
+@media(max-width: 1000px){
+    .banner{
+        text-align: center;
+    }
+    .banner .box{
+        width: 100%;
+    }
+}
 @media(max-width: 768px){
     .header-slide{
         text-align: center;
