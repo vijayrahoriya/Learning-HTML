@@ -301,7 +301,7 @@
                         </div>
                     </div>
                     <div class="col-md-12 bat">
-                        <a href="#">Check all works<i class="fa fa-caret-right"></i></a>
+                        <a href="#" id="check">Check all works<i class="fa fa-caret-right"></i></a><p class="check">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus quisquam unde, nobis rerum tempora culpa odit voluptate alias dolor animi, nesciunt minima vitae voluptates cumque error laudantium aspernatur, porro iure!</p>
                     </div>
                 </div>
             </div>
@@ -424,6 +424,21 @@
                 })
                 $('.footer .links:first p').mouseleave(function(){
                     $(this).css('color', 'white')
+                })
+                $('button').click(function(){
+                    alert('for consultaion please visit our site')
+                })
+                $(window).scroll(function(){
+                    if(this.scrollY > 20){
+                        $('.up').show(1000)
+                    }
+                    else{
+                        $('.up').hide()
+                    }
+                })
+                $('.check').hide();
+                $('#check').click(function(){
+                    $('.check').toggle()
                 })
                 
             })
