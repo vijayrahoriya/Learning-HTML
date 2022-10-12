@@ -414,7 +414,8 @@
                 <div class="col-md-12">
                     <h3>Let's make something great together</h3>
                     <p><b>Get in touch with us and send some basic info for a quick quatoe </b></p>
-                    <button><a href="#"><b>Start a Project</b></a></button>
+                    <button id="project"><a href="#"><b>Start a Project</b></a></button>
+                    
                 </div>
             </div>
         </div>
@@ -509,6 +510,20 @@
             });
 
         });
+    </script>
+    <script>
+        $(document).ready(function(){
+            $('.header-slide p').on({mouseover : function(){
+                $(this).css('color','orange')
+            },
+            mouseleave : function(){
+                $(this).css('color','white')
+            }
+        })
+        $('#project').click(function(){
+            $('form').toggle(1000)
+        })
+        })
     </script>
 </body>
 
