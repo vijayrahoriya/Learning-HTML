@@ -415,7 +415,11 @@
                     <h3>Let's make something great together</h3>
                     <p><b>Get in touch with us and send some basic info for a quick quatoe </b></p>
                     <button id="project"><a href="#"><b>Start a Project</b></a></button>
-                    
+                    <form action="">
+                        <input type="text" placeholder="Name">
+                        <input type="email" placeholder="Email">
+                        <button>Submit</button>
+                    </form>
                 </div>
             </div>
         </div>
@@ -428,11 +432,11 @@
                     <h5>Intrested Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur fugit nihil
                         repellendus earum at nulla blanditiis totam soluta non ex?</h5>
                     <p><b>Social</b></p>
-                    <a href="#">
-                        <i class="fa fa-twitter twitter"></i>
-                        <i class="fa fa-camera cam"></i>
-                        <i class="fa fa-linkedin link"></i>
-                        <i class="fa fa-diamond die"></i>
+                    
+                       <a href="https://twitter.com" target="_blank" ><i class="fa fa-twitter twitter"></i></a>
+                        <a href="https://google.com"  target="_blank"><i class="fa fa-camera cam"></i></a>
+                        <a href="https://linkedin.com" target="_blank" ><i class="fa fa-linkedin link"></i></a>
+                        <a href="https://github.com"  target="_blank" ><i class="fa fa-diamond die"></i></a>
                     </a>
                 </div>
                 <div class="col-md-5 bold">
@@ -444,15 +448,15 @@
                             <img src="image/vinod y.jpg" class="img-fluid">
                     </div>
                 </div>
-                <div class="col-md-2">
+                <div class="col-md-2 ">
                     <p ><b>Telephone</b></p>
-                    <p>02349828562</p>
+                    <p class="link2">02349828562</p>
                     <p class="pa"><b>Address</b></p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, iste.</p>
+                    <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, iste.</p>
                 </div>
                 <div class="col-md-2">
                     <p><b>Email</b></p>
-                    <p>hello@mahesddf.com</p>
+                    <p class="link2">hello@mahesddf.com</p>
                 </div>
             </div>
         </div>
@@ -521,7 +525,14 @@
             }
         })
         $('#project').click(function(){
+            $('form').css('visibility','unset')
             $('form').toggle(1000)
+        })
+        $('footer .link2').mouseover(function(){
+            $(this).css('color','orange')
+        })
+        $('footer .link2').mouseleave(function(){
+            $(this).css('color','white')
         })
         })
     </script>
