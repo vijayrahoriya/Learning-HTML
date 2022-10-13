@@ -33,6 +33,7 @@
     background: url('../image/banner.jpg') no-repeat 0 0;
     background-position: center;
     background-size: cover;
+    background-attachment: fixed;;
     padding: 200px 0;
     color: #fff;
     position: relative;
@@ -73,6 +74,7 @@
     background: rgb(26, 148, 196);
     padding: 10px;
     width: 90%; 
+    cursor: pointer;
 }
 .info a{
     color: #fff;

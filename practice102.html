@@ -189,7 +189,7 @@
                             </div>
                             <textarea rows="3" placeholder="message"></textarea>
                             <div class="buttons">
-                                10 + 2 <input type="text">
+                                10 + 2 <input type="text" id="calc">
                                 <button><a href="#"><b>Submit</b></a></button>
                             </div>
                         </div>
@@ -296,6 +296,20 @@
     <script src="js/jquery-3.2.1.slim.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.big button').click(function(){
+                alert("your form has been submited")
+            })
+            $('input').focus(function(){
+                $(this).css('background','orangered')
+            })
+            $('input').blur(function(){
+                $(this).css('background',"")
+            })
+        })
+
+    </script>
 </body>
 
 </html>
